@@ -25121,12 +25121,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 87QL82XC78;
+				DEVELOPMENT_TEAM = YDN8C2F795;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Libraries",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Target Support Files/Store/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Hera;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -25134,7 +25135,7 @@
 				);
 				MARKETING_VERSION = 5.5.1;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D PRODUCTION -D DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = com.algorandllc.algorand;
+				PRODUCT_BUNDLE_IDENTIFIER = network.voi.hera;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -25147,15 +25148,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = algorand.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 87QL82XC78;
+				DEVELOPMENT_TEAM = YDN8C2F795;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Libraries",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Target Support Files/Store/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Hera;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -25163,9 +25165,9 @@
 				);
 				MARKETING_VERSION = 5.5.1;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D PRODUCTION";
-				PRODUCT_BUNDLE_IDENTIFIER = com.algorandllc.algorand;
+				PRODUCT_BUNDLE_IDENTIFIER = network.voi.hera;
 				PRODUCT_NAME = "${TARGET_NAME}";
-				PROVISIONING_PROFILE_SPECIFIER = "Profile appstore com.algorandllc.algorand";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -25303,15 +25305,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = algorand.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 87QL82XC78;
+				DEVELOPMENT_TEAM = YDN8C2F795;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Libraries",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Target Support Files/Store/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Hera;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -25319,9 +25322,9 @@
 				);
 				MARKETING_VERSION = 5.5.1;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D PRODUCTION";
-				PRODUCT_BUNDLE_IDENTIFIER = com.algorandllc.algorand;
+				PRODUCT_BUNDLE_IDENTIFIER = network.voi.hera;
 				PRODUCT_NAME = "${TARGET_NAME}";
-				PROVISIONING_PROFILE_SPECIFIER = "Profile appstore com.algorandllc.algorand";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
