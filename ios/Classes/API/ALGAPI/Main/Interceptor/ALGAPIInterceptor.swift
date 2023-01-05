@@ -65,13 +65,13 @@ extension ALGAPIInterceptor {
 
     private func setAlgodHeaders(_ endpoint: EndpointOperatable) {
         if let token = apiBase.algodToken {
-            endpoint.setAdditionalHeader(CustomHeader(key: "X-Algo-API-Token", value: token), policy: .alwaysOverride)
+            endpoint.setAdditionalHeader(CustomHeader(key: "x-api-key", value: token), policy: .alwaysOverride)
         }
     }
 
     private func setIndexerHeaders(_ endpoint: EndpointOperatable) {
         if let token = apiBase.indexerToken {
-            endpoint.setAdditionalHeader(CustomHeader(key: "X-Indexer-API-Token", value: token), policy: .alwaysOverride)
+            endpoint.setAdditionalHeader(CustomHeader(key: "x-api-key", value: token), policy: .alwaysOverride)
         }
     }
 
