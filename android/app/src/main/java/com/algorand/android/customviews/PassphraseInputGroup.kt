@@ -16,7 +16,7 @@ import android.content.Context
 import android.util.AttributeSet
 import androidx.annotation.StringRes
 import androidx.core.view.children
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.AnnotatedString
 import com.algorand.android.utils.splitMnemonic
 import com.google.android.flexbox.FlexDirection

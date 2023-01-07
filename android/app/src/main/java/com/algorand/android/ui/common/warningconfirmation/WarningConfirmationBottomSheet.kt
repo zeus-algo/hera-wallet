@@ -15,9 +15,9 @@ package com.algorand.android.ui.common.warningconfirmation
 import android.os.Bundle
 import android.view.View
 import androidx.navigation.fragment.navArgs
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseBottomSheet
-import com.algorand.android.databinding.BottomSheetWarningConfirmationBinding
+import network.voi.hera.databinding.BottomSheetWarningConfirmationBinding
 import com.algorand.android.utils.setNavigationResult
 import com.algorand.android.utils.viewbinding.viewBinding
 

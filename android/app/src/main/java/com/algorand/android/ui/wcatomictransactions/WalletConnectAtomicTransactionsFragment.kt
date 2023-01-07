@@ -17,9 +17,9 @@ import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.navArgs
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.DaggerBaseFragment
-import com.algorand.android.databinding.FragmentWalletConnectAtomicTransactionsBinding
+import network.voi.hera.databinding.FragmentWalletConnectAtomicTransactionsBinding
 import com.algorand.android.models.BaseWalletConnectTransaction
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.models.ToolbarConfiguration

@@ -12,7 +12,7 @@
 
 package com.algorand.android.modules.webexport.accountconfirmation.ui.usecase
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.customviews.accountasseticonnameitem.mapper.AccountAssetIconNameConfigurationMapper
 import com.algorand.android.models.AccountDetail
 import com.algorand.android.modules.webexport.accountconfirmation.domain.model.ExportBackupResponseDTO

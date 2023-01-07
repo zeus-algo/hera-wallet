@@ -24,8 +24,8 @@ import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.res.use
 import androidx.core.view.updatePadding
 import androidx.core.widget.addTextChangedListener
-import com.algorand.android.R
-import com.algorand.android.databinding.CustomInputLayoutBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.CustomInputLayoutBinding
 import com.algorand.android.models.CustomInputSavedState
 import com.algorand.android.utils.addByteLimiter
 import com.algorand.android.utils.extensions.setTextAndVisibility

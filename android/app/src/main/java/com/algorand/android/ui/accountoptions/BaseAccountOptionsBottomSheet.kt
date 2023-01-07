@@ -15,9 +15,9 @@ package com.algorand.android.ui.accountoptions
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.viewModels
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.DaggerBaseBottomSheet
-import com.algorand.android.databinding.BottomSheetAccountsOptionsBinding
+import network.voi.hera.databinding.BottomSheetAccountsOptionsBinding
 import com.algorand.android.models.Account
 import com.algorand.android.utils.extensions.show
 import com.algorand.android.utils.viewbinding.viewBinding

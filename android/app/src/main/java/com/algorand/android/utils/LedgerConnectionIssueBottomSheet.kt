@@ -12,7 +12,7 @@
 
 package com.algorand.android.utils
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.AnnotatedString
 
 class LedgerConnectionIssueBottomSheet : BaseSingleButtonBottomSheet() {

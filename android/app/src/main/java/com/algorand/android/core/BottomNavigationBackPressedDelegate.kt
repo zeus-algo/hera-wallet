@@ -15,7 +15,7 @@ package com.algorand.android.core
 import androidx.lifecycle.LifecycleOwner
 import androidx.navigation.NavController
 import com.algorand.android.CoreMainActivity
-import com.algorand.android.R
+import network.voi.hera.R
 
 class BottomNavigationBackPressedDelegate : BackPressedControllerComponent {
 

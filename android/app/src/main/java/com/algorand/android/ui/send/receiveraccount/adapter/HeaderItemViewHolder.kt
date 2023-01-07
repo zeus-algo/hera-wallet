@@ -16,7 +16,7 @@ package com.algorand.android.ui.send.receiveraccount.adapter
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.algorand.android.databinding.ItemReceiverAccountHeaderBinding
+import network.voi.hera.databinding.ItemReceiverAccountHeaderBinding
 import com.algorand.android.models.BaseAccountSelectionListItem
 
 class HeaderItemViewHolder(

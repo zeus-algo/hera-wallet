@@ -16,12 +16,12 @@ import android.os.Bundle
 import android.view.View
 import androidx.core.view.isVisible
 import androidx.fragment.app.viewModels
-import com.algorand.android.HomeNavigationDirections
-import com.algorand.android.R
+import network.voi.hera.HomeNavigationDirections
+import network.voi.hera.R
 import com.algorand.android.core.BaseFragment
 import com.algorand.android.customviews.LedgerLoadingDialog
 import com.algorand.android.customviews.SwapAssetInputView
-import com.algorand.android.databinding.FragmentConfirmSwapBinding
+import network.voi.hera.databinding.FragmentConfirmSwapBinding
 import com.algorand.android.models.AccountIconResource
 import com.algorand.android.models.AnnotatedString
 import com.algorand.android.models.FragmentConfiguration

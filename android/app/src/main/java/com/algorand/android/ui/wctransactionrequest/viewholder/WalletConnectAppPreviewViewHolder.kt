@@ -14,7 +14,7 @@ package com.algorand.android.ui.wctransactionrequest.viewholder
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import com.algorand.android.databinding.ItemWalletConnectDappPreviewBinding
+import network.voi.hera.databinding.ItemWalletConnectDappPreviewBinding
 import com.algorand.android.ui.common.walletconnect.WalletConnectAppPreviewCardView.OnShowMoreClickListener
 import com.algorand.android.ui.wctransactionrequest.WalletConnectTransactionListItem
 

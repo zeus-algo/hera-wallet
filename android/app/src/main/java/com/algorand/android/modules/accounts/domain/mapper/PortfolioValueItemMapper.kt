@@ -12,7 +12,7 @@
 
 package com.algorand.android.modules.accounts.domain.mapper
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.modules.accounts.domain.model.BasePortfolioValueItem
 import javax.inject.Inject
 

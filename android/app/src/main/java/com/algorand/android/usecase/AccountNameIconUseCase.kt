@@ -13,7 +13,7 @@
 package com.algorand.android.usecase
 
 import com.algorand.android.models.AccountIconResource
-import com.algorand.android.repository.ContactRepository
+import network.voi.hera.Repository.ContactRepository
 import com.algorand.android.utils.toShortenedAddress
 import javax.inject.Inject
 

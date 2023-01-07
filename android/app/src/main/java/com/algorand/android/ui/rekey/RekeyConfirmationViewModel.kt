@@ -20,7 +20,7 @@ import com.algorand.android.core.BaseViewModel
 import com.algorand.android.models.Account
 import com.algorand.android.models.AccountCacheData
 import com.algorand.android.models.SignedTransactionDetail
-import com.algorand.android.repository.TransactionsRepository
+import network.voi.hera.Repository.TransactionsRepository
 import com.algorand.android.utils.AccountCacheManager
 import com.algorand.android.utils.Event
 import com.algorand.android.utils.MIN_FEE

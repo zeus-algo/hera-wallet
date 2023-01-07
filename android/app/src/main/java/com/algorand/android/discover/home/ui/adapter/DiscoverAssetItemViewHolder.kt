@@ -14,10 +14,10 @@ package com.algorand.android.discover.home.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.assetsearch.ui.model.VerificationTierConfiguration
 import com.algorand.android.assetsearch.ui.model.VerificationTierConfiguration.Companion.DEFAULT_TEXT_COLOR_RES_ID
-import com.algorand.android.databinding.ItemSearchAssetBinding
+import network.voi.hera.databinding.ItemSearchAssetBinding
 import com.algorand.android.discover.home.ui.model.DiscoverAssetItem
 import com.algorand.android.models.BaseViewHolder
 import com.algorand.android.utils.AssetName

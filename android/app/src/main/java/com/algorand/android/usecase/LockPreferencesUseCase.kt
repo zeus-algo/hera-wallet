@@ -13,7 +13,7 @@
 
 package com.algorand.android.usecase
 
-import com.algorand.android.repository.SecurityRepository
+import network.voi.hera.Repository.SecurityRepository
 import javax.inject.Inject
 
 class LockPreferencesUseCase @Inject constructor(

@@ -15,7 +15,7 @@ package com.algorand.android.modules.accountdetail.ui
 
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.modules.accountdetail.assets.ui.AccountAssetsFragment
 import com.algorand.android.modules.accountdetail.collectibles.ui.AccountCollectiblesFragment
 import com.algorand.android.modules.accountdetail.history.ui.AccountHistoryFragment

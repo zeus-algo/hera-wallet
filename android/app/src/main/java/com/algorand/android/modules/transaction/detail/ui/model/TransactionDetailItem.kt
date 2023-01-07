@@ -15,7 +15,7 @@ package com.algorand.android.modules.transaction.detail.ui.model
 import android.net.Uri
 import androidx.annotation.PluralsRes
 import androidx.annotation.StringRes
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.AccountIconResource
 import com.algorand.android.models.RecyclerListItem
 import com.algorand.android.modules.transaction.detail.domain.model.BaseTransactionDetail

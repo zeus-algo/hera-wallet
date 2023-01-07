@@ -22,11 +22,11 @@ import androidx.activity.OnBackPressedCallback
 import androidx.core.view.isVisible
 import androidx.fragment.app.viewModels
 import com.algorand.android.MainActivity
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.DaggerBaseFragment
 import com.algorand.android.customviews.DialPadView
 import com.algorand.android.customviews.SixDigitPasswordView
-import com.algorand.android.databinding.FragmentLockBinding
+import network.voi.hera.databinding.FragmentLockBinding
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.models.StatusBarConfiguration
 import com.algorand.android.models.WarningConfirmation

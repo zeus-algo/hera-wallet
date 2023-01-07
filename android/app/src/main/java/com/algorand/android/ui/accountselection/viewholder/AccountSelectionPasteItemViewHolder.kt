@@ -15,7 +15,7 @@ package com.algorand.android.ui.accountselection.viewholder
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.algorand.android.databinding.ItemPasteAddressBinding
+import network.voi.hera.databinding.ItemPasteAddressBinding
 import com.algorand.android.models.BaseAccountSelectionListItem
 
 class AccountSelectionPasteItemViewHolder(

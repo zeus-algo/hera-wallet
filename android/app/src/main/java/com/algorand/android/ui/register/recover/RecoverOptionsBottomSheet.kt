@@ -14,9 +14,9 @@ package com.algorand.android.ui.register.recover
 
 import android.os.Bundle
 import android.view.View
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.DaggerBaseBottomSheet
-import com.algorand.android.databinding.BottomSheetRecoverOptionsBinding
+import network.voi.hera.databinding.BottomSheetRecoverOptionsBinding
 import com.algorand.android.utils.browser.RECOVER_INFO_URL
 import com.algorand.android.utils.browser.openUrl
 import com.algorand.android.utils.setNavigationResult

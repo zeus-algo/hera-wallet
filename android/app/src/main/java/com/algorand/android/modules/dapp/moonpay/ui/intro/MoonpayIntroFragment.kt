@@ -16,9 +16,9 @@ import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.navArgs
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseFragment
-import com.algorand.android.databinding.FragmentMoonpayIntroBinding
+import network.voi.hera.databinding.FragmentMoonpayIntroBinding
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.models.StatusBarConfiguration
 import com.algorand.android.models.ToolbarConfiguration

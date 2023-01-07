@@ -12,7 +12,7 @@
 
 package com.algorand.android.modules.collectibles.profile.ui.usecase
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.mapper.AssetActionMapper
 import com.algorand.android.models.AssetAction
 import com.algorand.android.models.BaseAccountAddress

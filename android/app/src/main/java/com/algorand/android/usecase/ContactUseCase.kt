@@ -13,7 +13,7 @@
 package com.algorand.android.usecase
 
 import com.algorand.android.models.User
-import com.algorand.android.repository.ContactRepository
+import network.voi.hera.Repository.ContactRepository
 import javax.inject.Inject
 
 class ContactUseCase @Inject constructor(

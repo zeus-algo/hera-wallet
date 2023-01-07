@@ -19,7 +19,7 @@ import com.algorand.android.models.SignedTransactionDetail.Send
 import com.algorand.android.models.TrackTransactionRequest
 import com.algorand.android.modules.transaction.confirmation.domain.usecase.TransactionConfirmationUseCase
 import com.algorand.android.network.AlgodInterceptor
-import com.algorand.android.repository.TransactionsRepository
+import network.voi.hera.Repository.TransactionsRepository
 import com.algorand.android.utils.DataResource
 import com.algorand.android.utils.MAINNET_NETWORK_SLUG
 import com.algorand.android.utils.analytics.logTransactionEvent

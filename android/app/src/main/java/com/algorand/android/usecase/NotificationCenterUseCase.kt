@@ -13,14 +13,14 @@
 package com.algorand.android.usecase
 
 import androidx.annotation.StringRes
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.mapper.NotificationCenterPreviewMapper
 import com.algorand.android.models.BaseAccountAssetData
 import com.algorand.android.models.NotificationCenterPreview
 import com.algorand.android.models.NotificationGroupType
 import com.algorand.android.models.NotificationListItem
 import com.algorand.android.nft.domain.usecase.SimpleCollectibleUseCase
-import com.algorand.android.repository.NotificationRepository
+import network.voi.hera.Repository.NotificationRepository
 import com.algorand.android.utils.Event
 import com.algorand.android.utils.orNow
 import com.algorand.android.utils.parseFormattedDate

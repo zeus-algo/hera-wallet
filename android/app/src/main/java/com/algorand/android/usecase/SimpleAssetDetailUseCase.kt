@@ -15,7 +15,7 @@ package com.algorand.android.usecase
 import com.algorand.android.core.BaseUseCase
 import com.algorand.android.mapper.AssetDetailMapper
 import com.algorand.android.models.AssetDetail
-import com.algorand.android.repository.AssetRepository
+import network.voi.hera.Repository.AssetRepository
 import com.algorand.android.usecase.AssetFetchAndCacheUseCase.Companion.MAX_ASSET_FETCH_COUNT
 import com.algorand.android.utils.CacheResult
 import com.algorand.android.utils.DataResource

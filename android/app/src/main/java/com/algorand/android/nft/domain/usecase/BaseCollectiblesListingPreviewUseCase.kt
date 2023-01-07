@@ -13,7 +13,7 @@
 package com.algorand.android.nft.domain.usecase
 
 import androidx.annotation.StringRes
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.AccountDetail
 import com.algorand.android.models.BaseAccountAssetData
 import com.algorand.android.models.BaseAccountAssetData.BaseOwnedAssetData.BaseOwnedCollectibleData

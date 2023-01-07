@@ -21,8 +21,8 @@ import androidx.annotation.StyleRes
 import androidx.core.content.ContextCompat
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView
-import com.algorand.android.R
-import com.algorand.android.databinding.ItemVerifiableLedgerAddressBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.ItemVerifiableLedgerAddressBinding
 import com.algorand.android.ui.register.ledger.verify.VerifiableLedgerAddressItemStatus.APPROVED
 import com.algorand.android.ui.register.ledger.verify.VerifiableLedgerAddressItemStatus.AWAITING_VERIFICATION
 import com.algorand.android.ui.register.ledger.verify.VerifiableLedgerAddressItemStatus.PENDING

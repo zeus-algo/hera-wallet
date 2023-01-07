@@ -14,7 +14,7 @@ package com.algorand.android.modules.transaction.detail.domain.model
 
 import androidx.annotation.ColorRes
 import androidx.annotation.StringRes
-import com.algorand.android.R
+import network.voi.hera.R
 
 enum class TransactionSign(@ColorRes val color: Int, @StringRes val signTextRes: Int?) {
     POSITIVE(color = R.color.positive, signTextRes = R.string.plus),

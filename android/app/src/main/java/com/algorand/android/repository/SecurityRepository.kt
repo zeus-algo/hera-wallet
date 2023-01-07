@@ -11,7 +11,7 @@
  *
  */
 
-package com.algorand.android.repository
+package network.voi.hera.Repository
 
 import com.algorand.android.sharedpref.BiometricRegistrationLocalSource
 import com.algorand.android.sharedpref.BiometricRegistrationLocalSource.Companion.defaultBiometricRegistrationPreference

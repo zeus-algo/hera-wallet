@@ -12,7 +12,7 @@
 
 package com.algorand.android.modules.registration.watchaccount.ui.usecase
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.Account
 import com.algorand.android.models.AccountCreation
 import com.algorand.android.modules.nftdomain.domain.usecase.GetNftDomainSearchResultUseCase

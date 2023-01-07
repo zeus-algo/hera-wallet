@@ -17,8 +17,8 @@ import android.text.style.ForegroundColorSpan
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
-import com.algorand.android.R
-import com.algorand.android.databinding.ItemAccountAddressBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.ItemAccountAddressBinding
 import com.algorand.android.models.BaseViewHolder
 import com.algorand.android.modules.registration.watchaccount.ui.model.BasePasteableWatchAccountItem
 import com.algorand.android.utils.getXmlStyledString

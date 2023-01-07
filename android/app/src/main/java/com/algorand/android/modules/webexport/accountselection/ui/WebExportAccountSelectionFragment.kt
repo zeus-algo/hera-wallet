@@ -5,11 +5,11 @@ import android.view.View
 import androidx.activity.OnBackPressedCallback
 import androidx.core.view.isVisible
 import androidx.fragment.app.viewModels
-import com.algorand.android.R
-import com.algorand.android.WebExportNavigationDirections
+import network.voi.hera.R
+import network.voi.hera.WebExportNavigationDirections
 import com.algorand.android.core.BaseFragment
 import com.algorand.android.customviews.TriStatesCheckBox
-import com.algorand.android.databinding.FragmentWebExportAccountSelectionBinding
+import network.voi.hera.databinding.FragmentWebExportAccountSelectionBinding
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.models.ToolbarConfiguration
 import com.algorand.android.modules.webexport.accountselection.ui.adapter.WebExportAccountSelectionAdapter

@@ -16,7 +16,7 @@ import android.content.Context
 import android.graphics.drawable.Drawable
 import android.widget.ImageView
 import androidx.appcompat.content.res.AppCompatResources
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.utils.ALGO_FULL_NAME
 import com.algorand.android.utils.AssetName
 import kotlinx.parcelize.Parcelize

@@ -22,11 +22,11 @@ import androidx.paging.CombinedLoadStates
 import androidx.paging.LoadState
 import androidx.paging.PagingData
 import com.algorand.android.CoreMainActivity
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BackPressedControllerComponent
 import com.algorand.android.core.BaseActivity
 import com.algorand.android.core.BottomNavigationBackPressedDelegate
-import com.algorand.android.databinding.FragmentDiscoverHomeBinding
+import network.voi.hera.databinding.FragmentDiscoverHomeBinding
 import com.algorand.android.discover.common.ui.BaseDiscoverFragment
 import com.algorand.android.discover.common.ui.model.PeraWebViewClient
 import com.algorand.android.discover.common.ui.model.WebViewError

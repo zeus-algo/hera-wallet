@@ -17,9 +17,9 @@ import android.os.Bundle
 import android.view.View
 import androidx.core.view.isVisible
 import androidx.fragment.app.viewModels
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.TransactionBaseFragment
-import com.algorand.android.databinding.FragmentSenderAccountSelectionBinding
+import network.voi.hera.databinding.FragmentSenderAccountSelectionBinding
 import com.algorand.android.models.AccountInformation
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.models.SenderAccountSelectionPreview

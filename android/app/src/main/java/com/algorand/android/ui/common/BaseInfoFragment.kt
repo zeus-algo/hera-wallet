@@ -17,10 +17,10 @@ import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.DaggerBaseFragment
 import com.algorand.android.customviews.WarningTextView
-import com.algorand.android.databinding.FragmentBaseInfoBinding
+import network.voi.hera.databinding.FragmentBaseInfoBinding
 import com.algorand.android.utils.viewbinding.viewBinding
 import com.google.android.material.button.MaterialButton
 

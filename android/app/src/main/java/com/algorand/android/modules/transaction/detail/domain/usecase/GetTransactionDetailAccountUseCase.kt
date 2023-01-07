@@ -14,12 +14,12 @@ package com.algorand.android.modules.transaction.detail.domain.usecase
 
 import androidx.annotation.StringRes
 import androidx.core.net.toUri
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.AccountManager
 import com.algorand.android.modules.transaction.detail.ui.mapper.TransactionDetailItemMapper
 import com.algorand.android.models.AccountIconResource
 import com.algorand.android.modules.transaction.detail.ui.model.TransactionDetailItem
-import com.algorand.android.repository.ContactRepository
+import network.voi.hera.Repository.ContactRepository
 import com.algorand.android.utils.toShortenedAddress
 import javax.inject.Inject
 

@@ -13,7 +13,7 @@
 package com.algorand.android.nft.domain.usecase
 
 import com.algorand.android.nft.domain.mapper.AssetSupportRequestMapper
-import com.algorand.android.repository.AssetRepository
+import network.voi.hera.Repository.AssetRepository
 import com.algorand.android.utils.DataResource
 import javax.inject.Inject
 import kotlinx.coroutines.flow.flow

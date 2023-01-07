@@ -15,7 +15,7 @@ package com.algorand.android.nft.ui.nftlisting.viewholder
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.view.isVisible
-import com.algorand.android.databinding.ItemNftVerticalLinearListBinding
+import network.voi.hera.databinding.ItemNftVerticalLinearListBinding
 import com.algorand.android.models.BaseViewHolder
 import com.algorand.android.nft.ui.model.BaseCollectibleListItem
 

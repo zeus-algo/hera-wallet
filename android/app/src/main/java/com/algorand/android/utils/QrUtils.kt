@@ -14,8 +14,8 @@ package com.algorand.android.utils
 
 import android.graphics.Bitmap
 import android.net.Uri
-import com.algorand.android.BuildConfig
-import com.algorand.android.R
+import network.voi.hera.BuildConfig
+import network.voi.hera.R
 import com.algorand.android.models.DecodedQrCode
 import com.algorand.android.utils.walletconnect.WALLET_CONNECT_URL_PREFIX
 import com.google.zxing.BarcodeFormat

@@ -18,7 +18,7 @@ import android.widget.TextView
 import androidx.fragment.app.viewModels
 import androidx.navigation.NavDirections
 import com.algorand.android.MainActivity
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.AnnotatedString
 import com.algorand.android.models.AssetAction
 import com.algorand.android.models.FragmentConfiguration

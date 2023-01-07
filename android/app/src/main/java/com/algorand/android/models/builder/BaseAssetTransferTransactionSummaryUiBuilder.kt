@@ -13,7 +13,7 @@
 
 package com.algorand.android.models.builder
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.AnnotatedString
 import com.algorand.android.models.BaseAssetTransferTransaction
 import com.algorand.android.models.WalletConnectTransactionSummary

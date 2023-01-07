@@ -5,8 +5,8 @@ import android.util.AttributeSet
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.res.getResourceIdOrThrow
 import androidx.core.content.res.use
-import com.algorand.android.R
-import com.algorand.android.databinding.CustomRegisterTypeSelectionBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.CustomRegisterTypeSelectionBinding
 import com.algorand.android.utils.viewbinding.viewBinding
 
 class RegisterTypeSelectionItem @JvmOverloads constructor(

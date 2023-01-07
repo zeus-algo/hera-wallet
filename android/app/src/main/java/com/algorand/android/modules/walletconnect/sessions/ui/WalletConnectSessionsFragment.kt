@@ -16,9 +16,9 @@ import android.os.Bundle
 import android.view.View
 import androidx.core.view.isVisible
 import androidx.fragment.app.viewModels
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.DaggerBaseFragment
-import com.algorand.android.databinding.FragmentWalletConnectSessionsBinding
+import network.voi.hera.databinding.FragmentWalletConnectSessionsBinding
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.models.IconButton
 import com.algorand.android.models.ToolbarConfiguration

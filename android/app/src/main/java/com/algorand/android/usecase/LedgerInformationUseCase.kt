@@ -13,7 +13,7 @@
 
 package com.algorand.android.usecase
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseUseCase
 import com.algorand.android.mapper.LedgerInformationAccountItemMapper
 import com.algorand.android.mapper.LedgerInformationAssetItemMapper

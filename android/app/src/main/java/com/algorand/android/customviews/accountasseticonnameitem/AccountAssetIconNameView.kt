@@ -23,9 +23,9 @@ import androidx.appcompat.widget.AppCompatImageView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
 import androidx.core.view.isVisible
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.customviews.accountasseticonnameitem.model.AccountAssetIconNameConfiguration
-import com.algorand.android.databinding.ItemAccountAssetIconNameBinding
+import network.voi.hera.databinding.ItemAccountAssetIconNameBinding
 import com.algorand.android.models.AccountIconResource
 import com.algorand.android.utils.AccountIconDrawable
 import com.algorand.android.utils.setDrawable

@@ -12,7 +12,7 @@
 
 package com.algorand.android.modules.accountdetail.assets.ui.domain
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.Account
 import com.algorand.android.models.BaseAccountAssetData
 import com.algorand.android.models.BaseAccountAssetData.BaseOwnedAssetData.BaseOwnedCollectibleData

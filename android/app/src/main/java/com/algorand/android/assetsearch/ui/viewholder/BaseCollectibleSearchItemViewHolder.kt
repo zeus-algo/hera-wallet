@@ -14,9 +14,9 @@ package com.algorand.android.assetsearch.ui.viewholder
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.assetsearch.ui.model.BaseAssetSearchListItem
-import com.algorand.android.databinding.ItemSearchCollectibleBinding
+import network.voi.hera.databinding.ItemSearchCollectibleBinding
 import com.algorand.android.models.BaseViewHolder
 import com.algorand.android.models.ui.AccountAssetItemButtonState
 import com.algorand.android.utils.assetdrawable.BaseAssetDrawableProvider

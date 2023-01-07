@@ -13,7 +13,7 @@
 
 package com.algorand.android.utils.validator
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.AccountManager
 import com.algorand.android.models.AccountCacheData
 import com.algorand.android.models.AccountInformation

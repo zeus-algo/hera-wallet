@@ -18,8 +18,8 @@ import android.view.View
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.view.isVisible
 import androidx.viewpager2.widget.MarginPageTransformer
-import com.algorand.android.R
-import com.algorand.android.databinding.CustomCollectibleMediaPagerBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.CustomCollectibleMediaPagerBinding
 import com.algorand.android.modules.collectibles.detail.base.ui.model.BaseCollectibleMediaItem
 import com.algorand.android.modules.collectibles.detail.base.ui.viewpager.CollectibleMediaAdapter
 import com.algorand.android.utils.viewbinding.viewBinding

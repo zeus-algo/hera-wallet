@@ -13,7 +13,7 @@
 package com.algorand.android.ui.send.assetselection.adapter
 
 import android.view.ViewGroup
-import com.algorand.android.databinding.ItemSelectCollectibleBinding
+import network.voi.hera.databinding.ItemSelectCollectibleBinding
 
 class SelectCollectibleVideoItemViewHolder(
     binding: ItemSelectCollectibleBinding,

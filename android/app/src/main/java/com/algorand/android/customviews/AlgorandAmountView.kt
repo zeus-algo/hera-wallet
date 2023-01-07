@@ -19,7 +19,7 @@ import androidx.annotation.ColorRes
 import androidx.appcompat.widget.AppCompatTextView
 import androidx.core.content.ContextCompat
 import androidx.core.content.res.use
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.AssetInformation
 import com.algorand.android.models.TransactionSymbol
 import com.algorand.android.utils.ALGO_DECIMALS

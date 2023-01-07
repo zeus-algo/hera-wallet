@@ -16,9 +16,9 @@ import android.os.Bundle
 import android.view.View
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.navigation.fragment.navArgs
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.DaggerBaseFragment
-import com.algorand.android.databinding.FragmentShowQrBinding
+import network.voi.hera.databinding.FragmentShowQrBinding
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.models.ToolbarConfiguration
 import com.algorand.android.utils.analytics.logTapShowQrCopy

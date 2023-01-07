@@ -14,7 +14,7 @@ package com.algorand.android.modules.assets.profile.about.ui.viewholder
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import com.algorand.android.databinding.ItemAssetAboutAssetDescriptionBinding
+import network.voi.hera.databinding.ItemAssetAboutAssetDescriptionBinding
 import com.algorand.android.modules.assets.profile.about.ui.model.BaseAssetAboutListItem
 
 class AssetAboutAssetDescriptionViewHolder(

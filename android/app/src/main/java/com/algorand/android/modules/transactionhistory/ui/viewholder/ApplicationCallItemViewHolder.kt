@@ -16,8 +16,8 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView
-import com.algorand.android.R
-import com.algorand.android.databinding.ItemApplicationCallTransactionBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.ItemApplicationCallTransactionBinding
 import com.algorand.android.modules.transactionhistory.ui.model.BaseTransactionItem
 
 // TODO: extend this from base view holder

@@ -15,8 +15,8 @@ package com.algorand.android.usecase
 
 import com.algorand.android.core.AccountManager
 import com.algorand.android.core.BaseUseCase
-import com.algorand.android.repository.AccountRepository
-import com.algorand.android.repository.NotificationRepository
+import network.voi.hera.Repository.AccountRepository
+import network.voi.hera.Repository.NotificationRepository
 import com.algorand.android.utils.AccountCacheManager
 import com.algorand.android.utils.walletconnect.WalletConnectManager
 import javax.inject.Inject

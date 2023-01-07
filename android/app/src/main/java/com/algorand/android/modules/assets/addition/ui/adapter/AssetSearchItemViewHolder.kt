@@ -15,11 +15,11 @@ package com.algorand.android.modules.assets.addition.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.assetsearch.ui.model.BaseAssetSearchListItem
 import com.algorand.android.assetsearch.ui.model.VerificationTierConfiguration
 import com.algorand.android.assetsearch.ui.model.VerificationTierConfiguration.Companion.DEFAULT_TEXT_COLOR_RES_ID
-import com.algorand.android.databinding.ItemSearchAssetBinding
+import network.voi.hera.databinding.ItemSearchAssetBinding
 import com.algorand.android.models.BaseViewHolder
 import com.algorand.android.models.ui.AccountAssetItemButtonState
 import com.algorand.android.utils.assetdrawable.BaseAssetDrawableProvider

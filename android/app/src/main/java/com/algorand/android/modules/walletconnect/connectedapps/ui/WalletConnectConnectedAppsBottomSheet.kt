@@ -15,9 +15,9 @@ package com.algorand.android.modules.walletconnect.connectedapps.ui
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.viewModels
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseBottomSheet
-import com.algorand.android.databinding.BottomSheetWalletConnectConnectedAppsBinding
+import network.voi.hera.databinding.BottomSheetWalletConnectConnectedAppsBinding
 import com.algorand.android.modules.walletconnect.sessions.ui.adapter.WalletConnectSessionAdapter
 import com.algorand.android.modules.walletconnect.sessions.ui.model.WalletConnectSessionItem
 import com.algorand.android.utils.Event

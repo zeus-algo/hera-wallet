@@ -15,7 +15,7 @@ package com.algorand.android.modules.webexport.pinentry.ui
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.viewModels
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.ui.password.BasePasswordFragment
 import com.algorand.android.ui.password.model.PasswordScreenType
 import com.algorand.android.utils.Event

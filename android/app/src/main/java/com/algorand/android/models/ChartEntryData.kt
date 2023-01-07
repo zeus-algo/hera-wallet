@@ -12,7 +12,7 @@
 
 package com.algorand.android.models
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.utils.formatAsTwoDecimals
 import com.algorand.android.utils.isGreaterThan
 import com.algorand.android.utils.isLesserThan

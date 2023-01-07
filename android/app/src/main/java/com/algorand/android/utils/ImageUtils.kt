@@ -18,7 +18,7 @@ import android.net.Uri
 import android.widget.ImageView
 import androidx.annotation.DrawableRes
 import androidx.appcompat.content.res.AppCompatResources
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.utils.walletconnect.getRandomPeerMetaIconResId
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.DataSource

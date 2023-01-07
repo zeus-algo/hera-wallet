@@ -16,9 +16,9 @@ import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.DaggerBaseBottomSheet
-import com.algorand.android.databinding.BottomSheetDateFilterListBinding
+import network.voi.hera.databinding.BottomSheetDateFilterListBinding
 import com.algorand.android.models.DateFilter
 import com.algorand.android.models.ToolbarConfiguration
 import com.algorand.android.utils.setNavigationResult

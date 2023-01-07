@@ -15,10 +15,10 @@ package com.algorand.android.modules.assets.remove.ui
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.viewModels
-import com.algorand.android.HomeNavigationDirections
-import com.algorand.android.R
+import network.voi.hera.HomeNavigationDirections
+import network.voi.hera.R
 import com.algorand.android.core.BaseFragment
-import com.algorand.android.databinding.FragmentRemoveAssetsBinding
+import network.voi.hera.databinding.FragmentRemoveAssetsBinding
 import com.algorand.android.models.AssetAction
 import com.algorand.android.models.AssetActionResult
 import com.algorand.android.models.AssetInformation

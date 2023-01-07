@@ -12,7 +12,7 @@
 
 package com.algorand.android.ui.notificationfilter
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.models.ToolbarConfiguration
 import dagger.hilt.android.AndroidEntryPoint

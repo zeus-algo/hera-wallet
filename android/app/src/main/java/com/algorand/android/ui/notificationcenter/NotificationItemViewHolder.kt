@@ -16,8 +16,8 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.view.isInvisible
 import androidx.recyclerview.widget.RecyclerView
-import com.algorand.android.R
-import com.algorand.android.databinding.ItemNotificationBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.ItemNotificationBinding
 import com.algorand.android.models.NotificationListItem
 import com.algorand.android.utils.assetdrawable.BaseAssetDrawableProvider
 import com.algorand.android.utils.getRelativeTimeDifference

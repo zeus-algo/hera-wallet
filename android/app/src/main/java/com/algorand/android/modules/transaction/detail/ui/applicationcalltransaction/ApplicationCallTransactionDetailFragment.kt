@@ -13,7 +13,7 @@
 package com.algorand.android.modules.transaction.detail.ui.applicationcalltransaction
 
 import androidx.fragment.app.viewModels
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.models.TextButton
 import com.algorand.android.models.ToolbarConfiguration

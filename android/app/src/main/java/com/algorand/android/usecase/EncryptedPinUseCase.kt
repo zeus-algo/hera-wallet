@@ -12,7 +12,7 @@
 
 package com.algorand.android.usecase
 
-import com.algorand.android.repository.EncryptedPinRepository
+import network.voi.hera.Repository.EncryptedPinRepository
 import javax.inject.Inject
 
 class EncryptedPinUseCase @Inject constructor(private val encryptedPinRepository: EncryptedPinRepository) {

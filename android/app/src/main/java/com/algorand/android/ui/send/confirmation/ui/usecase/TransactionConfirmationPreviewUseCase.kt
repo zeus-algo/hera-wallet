@@ -12,7 +12,7 @@
 
 package com.algorand.android.ui.send.confirmation.ui.usecase
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.ui.send.confirmation.ui.mapper.TransactionStatusPreviewMapper
 import com.algorand.android.ui.send.confirmation.ui.model.TransactionStatusPreview
 import javax.inject.Inject

@@ -14,7 +14,7 @@ package com.algorand.android.utils
 
 import android.content.Context
 import androidx.appcompat.app.AlertDialog
-import com.algorand.android.R
+import network.voi.hera.R
 
 inline fun Context.alertDialog(dialogConfig: AlertDialog.Builder.() -> Unit): AlertDialog {
     return AlertDialog.Builder(this)

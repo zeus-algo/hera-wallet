@@ -13,12 +13,12 @@
 
 package com.algorand.android.usecase
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseUseCase
 import com.algorand.android.mapper.WarningConfirmationMapper
 import com.algorand.android.models.Account
 import com.algorand.android.models.WarningConfirmation
-import com.algorand.android.repository.AccountRepository
+import network.voi.hera.Repository.AccountRepository
 import javax.inject.Inject
 
 class AccountOptionsUseCase @Inject constructor(

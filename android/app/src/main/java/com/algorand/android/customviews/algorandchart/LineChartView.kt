@@ -17,7 +17,7 @@ import android.util.AttributeSet
 import android.view.KeyEvent
 import android.view.MotionEvent
 import androidx.core.content.ContextCompat
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.LineChartTheme
 import com.algorand.android.utils.dpToPX
 import com.github.mikephil.charting.charts.LineChart

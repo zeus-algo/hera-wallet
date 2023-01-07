@@ -19,11 +19,11 @@ import android.view.ViewGroup
 import androidx.core.view.doOnPreDraw
 import androidx.core.view.isVisible
 import androidx.core.view.updatePadding
-import com.algorand.android.BuildConfig
-import com.algorand.android.R
+import network.voi.hera.BuildConfig
+import network.voi.hera.R
 import com.algorand.android.core.BaseFragment
 import com.algorand.android.customviews.CollectibleMediaPager
-import com.algorand.android.databinding.FragmentCollectibleDetailBinding
+import network.voi.hera.databinding.FragmentCollectibleDetailBinding
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.models.IconButton
 import com.algorand.android.models.ToolbarConfiguration

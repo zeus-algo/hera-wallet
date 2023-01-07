@@ -13,7 +13,7 @@
 package com.algorand.android.dependencyinjection
 
 import android.content.Context
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.BaseWalletConnectErrorProvider
 import com.algorand.android.network.AlgodInterceptor
 import com.algorand.android.utils.walletconnect.WCWalletConnectClient

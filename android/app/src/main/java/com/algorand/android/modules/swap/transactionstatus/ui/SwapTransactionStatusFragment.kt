@@ -21,9 +21,9 @@ import androidx.core.view.isVisible
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseFragment
-import com.algorand.android.databinding.FragmentSwapTransactionStatusBinding
+import network.voi.hera.databinding.FragmentSwapTransactionStatusBinding
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.modules.swap.transactionstatus.ui.model.SwapTransactionStatusPreview
 import com.algorand.android.utils.browser.openGroupTransactionInAlgoExplorer

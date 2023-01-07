@@ -17,7 +17,7 @@ import android.content.Context
 import android.util.AttributeSet
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.view.isVisible
-import com.algorand.android.databinding.CustomWalletConnectAppPreviewViewBinding
+import network.voi.hera.databinding.CustomWalletConnectAppPreviewViewBinding
 import com.algorand.android.models.WalletConnectPeerMeta
 import com.algorand.android.utils.loadPeerMetaIcon
 import com.algorand.android.utils.viewbinding.viewBinding

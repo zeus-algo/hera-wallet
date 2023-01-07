@@ -13,7 +13,7 @@
 package com.algorand.android.network
 
 import android.os.Build
-import com.algorand.android.BuildConfig
+import network.voi.hera.BuildConfig
 import com.algorand.android.models.Node
 import java.util.Locale
 import javax.inject.Singleton

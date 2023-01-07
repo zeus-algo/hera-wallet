@@ -14,7 +14,7 @@ package com.algorand.android.models
 
 import androidx.annotation.ColorRes
 import androidx.annotation.DrawableRes
-import com.algorand.android.R
+import network.voi.hera.R
 
 sealed class AlertMetadata(
     @DrawableRes open val iconRes: Int? = null,

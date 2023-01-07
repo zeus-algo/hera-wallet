@@ -16,9 +16,9 @@ import android.os.Bundle
 import android.view.View
 import androidx.core.view.isVisible
 import androidx.fragment.app.viewModels
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.DaggerBaseBottomSheet
-import com.algorand.android.databinding.BottomSheetManageAssetsBinding
+import network.voi.hera.databinding.BottomSheetManageAssetsBinding
 import com.algorand.android.models.ToolbarConfiguration
 import com.algorand.android.utils.viewbinding.viewBinding
 import dagger.hilt.android.AndroidEntryPoint

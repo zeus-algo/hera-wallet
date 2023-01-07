@@ -13,7 +13,7 @@
 package com.algorand.android.utils.walletconnect
 
 import android.util.Base64
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.BaseWalletConnectTransaction
 import com.algorand.android.models.WCAlgoTransactionRequest
 import com.algorand.android.models.WalletConnectTransaction

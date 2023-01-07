@@ -22,7 +22,7 @@ import com.algorand.android.models.AccountIconResource
 import com.algorand.android.modules.accounts.domain.usecase.GetAccountValueUseCase
 import com.algorand.android.modules.sorting.accountsorting.domain.usecase.AccountSortPreferenceUseCase
 import com.algorand.android.modules.sorting.accountsorting.domain.usecase.GetSortedAccountsByPreferenceUseCase
-import com.algorand.android.repository.NotificationRepository
+import network.voi.hera.Repository.NotificationRepository
 import com.algorand.android.utils.Resource
 import com.algorand.android.utils.preference.isNotificationActivated
 import com.algorand.android.utils.preference.setNotificationPreference

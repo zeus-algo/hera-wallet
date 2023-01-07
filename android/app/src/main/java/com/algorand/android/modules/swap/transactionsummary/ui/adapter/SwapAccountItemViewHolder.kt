@@ -14,8 +14,8 @@ package com.algorand.android.modules.swap.transactionsummary.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import com.algorand.android.R
-import com.algorand.android.databinding.ItemSwapAccountBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.ItemSwapAccountBinding
 import com.algorand.android.models.BaseViewHolder
 import com.algorand.android.modules.swap.transactionsummary.ui.model.BaseSwapTransactionSummaryItem
 import com.algorand.android.utils.AccountIconDrawable

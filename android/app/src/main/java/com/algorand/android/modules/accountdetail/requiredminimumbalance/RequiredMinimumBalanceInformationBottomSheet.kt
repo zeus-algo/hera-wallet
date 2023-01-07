@@ -1,6 +1,6 @@
 package com.algorand.android.modules.accountdetail.requiredminimumbalance
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.modules.informationbottomsheet.ui.BaseInformationBottomSheet
 
 class RequiredMinimumBalanceInformationBottomSheet : BaseInformationBottomSheet() {

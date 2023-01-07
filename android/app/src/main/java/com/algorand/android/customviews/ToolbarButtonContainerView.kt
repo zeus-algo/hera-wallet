@@ -22,7 +22,7 @@ import androidx.core.view.children
 import androidx.core.view.marginBottom
 import androidx.core.view.marginStart
 import androidx.core.view.marginTop
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.BaseToolbarButton
 
 class ToolbarButtonContainerView(context: Context, attrs: AttributeSet? = null) : LinearLayout(context, attrs) {

@@ -15,7 +15,7 @@ package com.algorand.android.ui.register.ledger.verify
 import android.view.ViewGroup
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.algorand.android.R
+import network.voi.hera.R
 
 class VerifiableLedgerAddressesAdapter : ListAdapter<VerifyLedgerAddressListItem, RecyclerView.ViewHolder>(
     VerifyLedgerAddressListItemDiffUtil()

@@ -20,8 +20,8 @@ import com.algorand.android.models.AssetDetailResponse
 import com.algorand.android.models.SimpleCollectibleDetail
 import com.algorand.android.nft.data.repository.SimpleCollectibleRepository
 import com.algorand.android.nft.domain.mapper.SimpleCollectibleDetailMapper
-import com.algorand.android.repository.AssetRepository
-import com.algorand.android.repository.FailedAssetRepository
+import network.voi.hera.Repository.AssetRepository
+import network.voi.hera.Repository.FailedAssetRepository
 import com.algorand.android.utils.CacheResult
 import javax.inject.Inject
 import kotlinx.coroutines.CoroutineScope

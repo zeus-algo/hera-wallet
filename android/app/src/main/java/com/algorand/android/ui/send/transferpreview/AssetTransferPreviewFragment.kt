@@ -20,10 +20,10 @@ import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
 import androidx.core.view.updateLayoutParams
 import androidx.fragment.app.viewModels
-import com.algorand.android.HomeNavigationDirections
-import com.algorand.android.R
+import network.voi.hera.HomeNavigationDirections
+import network.voi.hera.R
 import com.algorand.android.core.TransactionBaseFragment
-import com.algorand.android.databinding.FragmentTransferAssetPreviewBinding
+import network.voi.hera.databinding.FragmentTransferAssetPreviewBinding
 import com.algorand.android.models.AccountCacheData
 import com.algorand.android.models.AssetInformation
 import com.algorand.android.models.AssetTransferPreview

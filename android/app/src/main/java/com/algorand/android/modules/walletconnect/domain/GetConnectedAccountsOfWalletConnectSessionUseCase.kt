@@ -14,7 +14,7 @@ package com.algorand.android.modules.walletconnect.domain
 
 import com.algorand.android.models.WalletConnectSessionAccountEntity
 import com.algorand.android.models.WalletConnectSessionEntity
-import com.algorand.android.repository.WalletConnectRepository
+import network.voi.hera.Repository.WalletConnectRepository
 import javax.inject.Inject
 
 class GetConnectedAccountsOfWalletConnectSessionUseCase @Inject constructor(

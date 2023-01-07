@@ -18,9 +18,9 @@ import android.content.Context
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.viewModels
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseFragment
-import com.algorand.android.databinding.FragmentAccountAssetsBinding
+import network.voi.hera.databinding.FragmentAccountAssetsBinding
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.modules.accountdetail.assets.ui.adapter.AccountAssetsAdapter
 import com.algorand.android.modules.accountdetail.assets.ui.domain.AccountAssetsPreviewUseCase.Companion.QUICK_ACTIONS_INDEX

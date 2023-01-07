@@ -16,8 +16,8 @@ package com.algorand.android.customviews
 import android.content.Context
 import android.util.AttributeSet
 import androidx.constraintlayout.widget.ConstraintLayout
-import com.algorand.android.R
-import com.algorand.android.databinding.CustomWalletConnectTransactionShortDetailViewBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.CustomWalletConnectTransactionShortDetailViewBinding
 import com.algorand.android.models.WalletConnectTransactionShortDetail
 import com.algorand.android.utils.ALGO_DECIMALS
 import com.algorand.android.utils.ALGO_SHORT_NAME

@@ -13,7 +13,7 @@
 
 package com.algorand.android.models
 
-import com.algorand.android.R
+import network.voi.hera.R
 
 sealed class ScreenState(
     open val icon: Int,

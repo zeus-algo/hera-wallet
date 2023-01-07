@@ -18,8 +18,8 @@ import android.util.AttributeSet
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.res.use
 import androidx.core.view.isVisible
-import com.algorand.android.R
-import com.algorand.android.databinding.CustomListMenuItemViewBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.CustomListMenuItemViewBinding
 import com.algorand.android.utils.extensions.setImageResAndVisibility
 import com.algorand.android.utils.extensions.setTextAndVisibility
 import com.algorand.android.utils.viewbinding.viewBinding

@@ -15,7 +15,7 @@ package com.algorand.android.models
 import android.os.Parcelable
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.utils.getBeginningOfDay
 import com.algorand.android.utils.getLastMonthRange
 import com.algorand.android.utils.getLastWeekRange

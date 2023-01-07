@@ -27,8 +27,8 @@ import androidx.core.view.doOnLayout
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.LifecycleOwner
-import com.algorand.android.R
-import com.algorand.android.databinding.CustomTooltipBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.CustomTooltipBinding
 import com.algorand.android.models.TooltipConfig
 import com.algorand.android.utils.getDisplaySize
 import com.algorand.android.utils.viewbinding.viewBinding

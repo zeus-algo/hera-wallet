@@ -16,7 +16,7 @@ import android.content.Context
 import android.graphics.Paint
 import android.graphics.drawable.Drawable
 import androidx.core.content.ContextCompat
-import com.algorand.android.R
+import network.voi.hera.R
 
 object TestnetBadgeDrawable {
 

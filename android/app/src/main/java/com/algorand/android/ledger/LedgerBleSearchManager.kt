@@ -19,7 +19,7 @@ import android.bluetooth.le.ScanSettings
 import android.content.Context
 import android.os.Handler
 import android.os.ParcelUuid
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.ledger.LedgerBleConnectionManager.Companion.SERVICE_UUID
 import com.algorand.android.utils.areBluetoothPermissionsGranted
 import com.algorand.android.utils.sendErrorLog

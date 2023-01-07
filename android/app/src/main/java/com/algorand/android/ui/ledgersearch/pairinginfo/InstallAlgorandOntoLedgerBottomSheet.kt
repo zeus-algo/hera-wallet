@@ -13,7 +13,7 @@
 
 package com.algorand.android.ui.ledgersearch.pairinginfo
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.ToolbarConfiguration
 
 class InstallAlgorandOntoLedgerBottomSheet : BaseLedgerPairInfoBottomSheet() {

@@ -12,7 +12,7 @@
 
 package com.algorand.android.modules.swap.assetselection.toasset.ui.usecase
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.mapper.ScreenStateMapper
 import com.algorand.android.models.AssetAction
 import com.algorand.android.models.AssetInformation.Companion.ALGO_ID

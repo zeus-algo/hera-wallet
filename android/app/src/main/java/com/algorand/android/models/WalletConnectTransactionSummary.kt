@@ -15,7 +15,7 @@ package com.algorand.android.models
 
 import android.os.Parcelable
 import androidx.annotation.StringRes
-import com.algorand.android.R
+import network.voi.hera.R
 import java.math.BigInteger
 import kotlinx.parcelize.Parcelize
 

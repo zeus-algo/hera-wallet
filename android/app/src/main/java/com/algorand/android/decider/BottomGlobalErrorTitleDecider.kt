@@ -12,7 +12,7 @@
 
 package com.algorand.android.decider
 
-import com.algorand.android.R
+import network.voi.hera.R
 import java.net.HttpURLConnection
 import javax.inject.Inject
 

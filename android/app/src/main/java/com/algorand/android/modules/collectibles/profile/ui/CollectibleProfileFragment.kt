@@ -18,7 +18,7 @@ import androidx.annotation.StringRes
 import androidx.core.view.isVisible
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.FragmentNavigatorExtras
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.AccountIconResource
 import com.algorand.android.modules.assets.profile.asaprofile.ui.model.AsaStatusPreview
 import com.algorand.android.modules.collectibles.detail.base.ui.BaseCollectibleDetailFragment

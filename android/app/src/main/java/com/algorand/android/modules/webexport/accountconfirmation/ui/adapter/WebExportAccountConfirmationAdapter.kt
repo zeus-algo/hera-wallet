@@ -15,7 +15,7 @@ package com.algorand.android.modules.webexport.accountconfirmation.ui.adapter
 import android.view.ViewGroup
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.BaseDiffUtil
 import com.algorand.android.modules.webexport.accountconfirmation.ui.model.BaseAccountConfirmationListItem
 import com.algorand.android.modules.webexport.accountconfirmation.ui.viewholder.AccountConfirmationItemViewHolder

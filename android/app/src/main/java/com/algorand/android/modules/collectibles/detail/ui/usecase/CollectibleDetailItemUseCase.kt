@@ -12,7 +12,7 @@
 
 package com.algorand.android.modules.collectibles.detail.ui.usecase
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.Account
 import com.algorand.android.models.BaseAccountAddress
 import com.algorand.android.models.Result

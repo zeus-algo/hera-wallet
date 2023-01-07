@@ -14,9 +14,9 @@ package com.algorand.android.modules.informationbottomsheet.ui
 
 import android.os.Bundle
 import android.view.View
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseBottomSheet
-import com.algorand.android.databinding.BottomSheetBaseInformationBinding
+import network.voi.hera.databinding.BottomSheetBaseInformationBinding
 import com.algorand.android.utils.viewbinding.viewBinding
 
 abstract class BaseInformationBottomSheet : BaseBottomSheet(R.layout.bottom_sheet_base_information) {

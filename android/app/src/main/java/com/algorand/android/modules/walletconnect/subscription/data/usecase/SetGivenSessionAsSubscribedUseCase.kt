@@ -12,7 +12,7 @@
 
 package com.algorand.android.modules.walletconnect.subscription.data.usecase
 
-import com.algorand.android.repository.WalletConnectRepository
+import network.voi.hera.Repository.WalletConnectRepository
 import javax.inject.Inject
 
 class SetGivenSessionAsSubscribedUseCase @Inject constructor(

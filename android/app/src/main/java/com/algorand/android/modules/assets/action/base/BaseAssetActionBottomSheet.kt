@@ -19,10 +19,10 @@ import android.widget.TextView
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.core.text.buildSpannedString
 import androidx.lifecycle.Observer
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseBottomSheet
 import com.algorand.android.customviews.CustomToolbar
-import com.algorand.android.databinding.BottomSheetAssetActionBinding
+import network.voi.hera.databinding.BottomSheetAssetActionBinding
 import com.algorand.android.models.AssetInformation
 import com.algorand.android.utils.Resource
 import com.algorand.android.utils.addUnnamedAssetName

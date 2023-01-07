@@ -21,7 +21,7 @@ import androidx.activity.result.ActivityResultLauncher
 import androidx.core.app.ShareCompat
 import androidx.core.content.FileProvider
 import androidx.fragment.app.Fragment
-import com.algorand.android.BuildConfig
+import network.voi.hera.BuildConfig
 import java.io.File
 import java.io.FileOutputStream
 

@@ -21,7 +21,7 @@ import android.view.ViewGroup
 import android.webkit.WebSettings
 import androidx.annotation.LayoutRes
 import androidx.core.content.ContextCompat
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.customviews.PeraWebView
 import com.algorand.android.discover.common.ui.model.WebViewTheme
 import com.algorand.android.discover.utils.getJavascriptThemeChangeFunctionForTheme

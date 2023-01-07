@@ -15,9 +15,9 @@ package com.algorand.android.modules.webexport.domainnameconfirmation.ui
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.viewModels
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseFragment
-import com.algorand.android.databinding.FragmentWebExportDomainNameConfirmationBinding
+import network.voi.hera.databinding.FragmentWebExportDomainNameConfirmationBinding
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.models.ToolbarConfiguration
 import com.algorand.android.modules.webexport.pinentry.ui.WebExportPasswordFragment.Companion.WEB_EXPORT_PASSWORD_RESULT_KEY

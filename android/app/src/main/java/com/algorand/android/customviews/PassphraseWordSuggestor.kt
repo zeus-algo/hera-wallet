@@ -17,8 +17,8 @@ import android.util.AttributeSet
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.core.content.ContextCompat
-import com.algorand.android.R
-import com.algorand.android.databinding.CustomPassphraseWordSuggestorBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.CustomPassphraseWordSuggestorBinding
 import com.algorand.android.utils.viewbinding.viewBinding
 
 class PassphraseWordSuggestor @JvmOverloads constructor(

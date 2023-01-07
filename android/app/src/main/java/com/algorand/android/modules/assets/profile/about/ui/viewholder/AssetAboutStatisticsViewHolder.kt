@@ -18,7 +18,7 @@ import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.constraintlayout.widget.ConstraintLayout.LayoutParams.PARENT_ID
 import androidx.core.view.isVisible
 import androidx.core.view.updateLayoutParams
-import com.algorand.android.databinding.ItemAssetAboutStatisticsBinding
+import network.voi.hera.databinding.ItemAssetAboutStatisticsBinding
 import com.algorand.android.models.BaseViewHolder
 import com.algorand.android.modules.assets.profile.about.ui.model.BaseAssetAboutListItem
 

@@ -14,7 +14,7 @@ package com.algorand.android.models
 
 import androidx.annotation.ColorRes
 import androidx.annotation.DrawableRes
-import com.algorand.android.R
+import network.voi.hera.R
 
 enum class AccountIconResource(
     @DrawableRes val iconResId: Int,

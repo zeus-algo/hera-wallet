@@ -12,7 +12,7 @@
 
 package com.algorand.android.ui.settings
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.ui.password.BasePasswordFragment
 import com.algorand.android.ui.password.model.PasswordScreenType
 import com.algorand.android.ui.password.model.PasswordScreenType.ReEnterScreenType

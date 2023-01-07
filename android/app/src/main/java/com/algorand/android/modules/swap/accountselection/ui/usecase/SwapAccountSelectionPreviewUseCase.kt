@@ -13,7 +13,7 @@
 package com.algorand.android.modules.swap.accountselection.ui.usecase
 
 import androidx.navigation.NavDirections
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.mapper.AssetActionMapper
 import com.algorand.android.models.AnnotatedString
 import com.algorand.android.modules.swap.accountselection.ui.SwapAccountSelectionFragmentDirections

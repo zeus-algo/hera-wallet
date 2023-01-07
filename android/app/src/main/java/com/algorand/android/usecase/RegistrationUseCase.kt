@@ -12,7 +12,7 @@
 
 package com.algorand.android.usecase
 
-import com.algorand.android.repository.RegistrationRepository
+import network.voi.hera.Repository.RegistrationRepository
 import javax.inject.Inject
 
 class RegistrationUseCase @Inject constructor(

@@ -15,7 +15,7 @@ package com.algorand.android.modules.swap.assetselection.base
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.algorand.android.databinding.ItemSwapAssetSelectionBinding
+import network.voi.hera.databinding.ItemSwapAssetSelectionBinding
 import com.algorand.android.modules.swap.assetselection.base.ui.model.SwapAssetSelectionItem
 
 class SwapAssetSelectionViewHolder(

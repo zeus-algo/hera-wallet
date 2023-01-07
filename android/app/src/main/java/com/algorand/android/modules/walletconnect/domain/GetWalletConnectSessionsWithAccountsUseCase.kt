@@ -14,7 +14,7 @@ package com.algorand.android.modules.walletconnect.domain
 
 import com.algorand.android.mapper.WalletConnectSessionEntityMapper
 import com.algorand.android.models.WalletConnectSession
-import com.algorand.android.repository.WalletConnectRepository
+import network.voi.hera.Repository.WalletConnectRepository
 import com.algorand.android.usecase.AccountDetailUseCase
 import javax.inject.Inject
 import kotlinx.coroutines.flow.Flow

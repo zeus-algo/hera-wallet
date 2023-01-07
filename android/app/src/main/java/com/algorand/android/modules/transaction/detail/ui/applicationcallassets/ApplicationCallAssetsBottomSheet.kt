@@ -15,9 +15,9 @@ package com.algorand.android.modules.transaction.detail.ui.applicationcallassets
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.viewModels
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.DaggerBaseBottomSheet
-import com.algorand.android.databinding.BottomSheetApplicationCallAssetsBinding
+import network.voi.hera.databinding.BottomSheetApplicationCallAssetsBinding
 import com.algorand.android.models.ToolbarConfiguration
 import com.algorand.android.modules.transaction.detail.domain.model.ApplicationCallAssetInformationPreview
 import com.algorand.android.modules.transaction.detail.ui.adapter.ApplicationCallAssetInformationAdapter

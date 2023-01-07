@@ -15,8 +15,8 @@ package com.algorand.android.ui.ledgeraccountselection
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.algorand.android.R
-import com.algorand.android.databinding.ItemLedgerSelectionInstructionBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.ItemLedgerSelectionInstructionBinding
 import com.algorand.android.models.AccountSelectionListItem
 
 class LedgerSelectionInstructionViewHolder(

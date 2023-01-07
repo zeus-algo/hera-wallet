@@ -15,8 +15,8 @@ package com.algorand.android.usecase
 import com.algorand.android.mapper.AccountInformationMapper
 import com.algorand.android.models.AccountInformation
 import com.algorand.android.models.Result
-import com.algorand.android.repository.AccountRepository
-import com.algorand.android.repository.AccountRepository.Companion.ACCOUNT_NOT_FOUND_ERROR_CODE
+import network.voi.hera.Repository.AccountRepository
+import network.voi.hera.Repository.AccountRepository.Companion.ACCOUNT_NOT_FOUND_ERROR_CODE
 import com.algorand.android.utils.DataResource
 import javax.inject.Inject
 import kotlinx.coroutines.CoroutineScope

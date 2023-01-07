@@ -13,7 +13,7 @@
 package com.algorand.android.modules.webexport.accountselection.ui.usecase
 
 import androidx.annotation.DimenRes
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.customviews.TriStatesCheckBox
 import com.algorand.android.customviews.TriStatesCheckBox.CheckBoxState.CHECKED
 import com.algorand.android.customviews.TriStatesCheckBox.CheckBoxState.PARTIAL_CHECKED

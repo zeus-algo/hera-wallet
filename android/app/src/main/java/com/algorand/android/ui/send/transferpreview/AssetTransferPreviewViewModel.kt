@@ -17,7 +17,7 @@ import javax.inject.Inject
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.AnnotatedString
 import com.algorand.android.models.AssetTransferPreview
 import com.algorand.android.models.SignedTransactionDetail

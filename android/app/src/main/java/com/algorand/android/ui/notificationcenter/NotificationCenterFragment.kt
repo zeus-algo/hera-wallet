@@ -22,10 +22,10 @@ import androidx.lifecycle.Observer
 import androidx.paging.CombinedLoadStates
 import androidx.paging.LoadState
 import androidx.paging.PagingData
-import com.algorand.android.HomeNavigationDirections
-import com.algorand.android.R
+import network.voi.hera.HomeNavigationDirections
+import network.voi.hera.R
 import com.algorand.android.core.DaggerBaseFragment
-import com.algorand.android.databinding.FragmentNotificationCenterBinding
+import network.voi.hera.databinding.FragmentNotificationCenterBinding
 import com.algorand.android.models.AccountDetailTab
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.models.IconButton

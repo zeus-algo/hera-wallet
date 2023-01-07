@@ -15,8 +15,8 @@ package com.algorand.android.ui.wctransactionrequest.viewholder
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.view.isVisible
-import com.algorand.android.R
-import com.algorand.android.databinding.ItemWalletConnectMultipleRequestBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.ItemWalletConnectMultipleRequestBinding
 import com.algorand.android.models.BaseWalletConnectTransaction
 import com.algorand.android.ui.wctransactionrequest.WalletConnectTransactionListItem
 import com.algorand.android.utils.getXmlStyledString

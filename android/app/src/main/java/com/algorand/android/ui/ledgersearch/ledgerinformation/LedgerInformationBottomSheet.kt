@@ -17,9 +17,9 @@ import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.navArgs
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseBottomSheet
-import com.algorand.android.databinding.BottomSheetLedgerInformationBinding
+import network.voi.hera.databinding.BottomSheetLedgerInformationBinding
 import com.algorand.android.models.Account
 import com.algorand.android.models.LedgerInformationListItem
 import com.algorand.android.models.ToolbarConfiguration

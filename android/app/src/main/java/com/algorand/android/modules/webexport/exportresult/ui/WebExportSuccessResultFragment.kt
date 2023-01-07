@@ -14,8 +14,8 @@ package com.algorand.android.modules.webexport.exportresult.ui
 
 import android.widget.ImageView
 import android.widget.TextView
-import com.algorand.android.R
-import com.algorand.android.WebExportNavigationDirections
+import network.voi.hera.R
+import network.voi.hera.WebExportNavigationDirections
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.ui.common.BaseInfoFragment
 import com.google.android.material.button.MaterialButton

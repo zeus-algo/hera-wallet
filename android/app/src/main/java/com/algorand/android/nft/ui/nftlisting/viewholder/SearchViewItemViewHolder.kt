@@ -16,7 +16,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.view.doOnLayout
 import com.algorand.android.customviews.PeraHorizontalSwitchView
-import com.algorand.android.databinding.ItemBaseCollectiblesSearchViewBinding
+import network.voi.hera.databinding.ItemBaseCollectiblesSearchViewBinding
 import com.algorand.android.models.BaseViewHolder
 import com.algorand.android.nft.ui.model.BaseCollectibleListItem
 

@@ -26,9 +26,9 @@ import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.res.use
 import androidx.core.view.isVisible
 import androidx.core.widget.addTextChangedListener
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.assetsearch.ui.model.VerificationTierConfiguration
-import com.algorand.android.databinding.CustomSwapAssetInputBinding
+import network.voi.hera.databinding.CustomSwapAssetInputBinding
 import com.algorand.android.models.CustomInputSavedState
 import com.algorand.android.utils.AssetName
 import com.algorand.android.utils.extensions.hide

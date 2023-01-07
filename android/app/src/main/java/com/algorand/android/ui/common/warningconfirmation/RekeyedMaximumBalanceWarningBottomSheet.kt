@@ -14,7 +14,7 @@ package com.algorand.android.ui.common.warningconfirmation
 
 import android.widget.TextView
 import androidx.navigation.fragment.navArgs
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.utils.formatAsAlgoString
 import com.algorand.android.utils.getXmlStyledString
 import dagger.hilt.android.AndroidEntryPoint

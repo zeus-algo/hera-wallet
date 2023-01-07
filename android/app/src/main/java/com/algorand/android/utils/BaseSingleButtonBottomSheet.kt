@@ -15,9 +15,9 @@ package com.algorand.android.utils
 import android.os.Bundle
 import android.view.View
 import androidx.core.content.ContextCompat
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseBottomSheet
-import com.algorand.android.databinding.BottomSheetSingleButtonBinding
+import network.voi.hera.databinding.BottomSheetSingleButtonBinding
 import com.algorand.android.models.AnnotatedString
 import com.algorand.android.utils.extensions.hide
 import com.algorand.android.utils.extensions.show

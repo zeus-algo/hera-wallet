@@ -20,8 +20,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.FragmentManager
-import com.algorand.android.R
-import com.algorand.android.databinding.DialogFragmentLoadingBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.DialogFragmentLoadingBinding
 import com.algorand.android.utils.showWithStateCheck
 import com.algorand.android.utils.viewbinding.viewBinding
 

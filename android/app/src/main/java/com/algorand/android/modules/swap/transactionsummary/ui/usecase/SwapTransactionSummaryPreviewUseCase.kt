@@ -13,7 +13,7 @@
 package com.algorand.android.modules.swap.transactionsummary.ui.usecase
 
 import android.content.res.Resources
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.Account
 import com.algorand.android.models.AccountIconResource
 import com.algorand.android.modules.currency.domain.model.Currency

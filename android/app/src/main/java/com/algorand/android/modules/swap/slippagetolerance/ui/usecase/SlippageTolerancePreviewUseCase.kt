@@ -13,7 +13,7 @@
 package com.algorand.android.modules.swap.slippagetolerance.ui.usecase
 
 import android.content.res.Resources
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.customviews.PeraChipGroup
 import com.algorand.android.mapper.PeraChipItemMapper
 import com.algorand.android.models.PeraFloatChipItem

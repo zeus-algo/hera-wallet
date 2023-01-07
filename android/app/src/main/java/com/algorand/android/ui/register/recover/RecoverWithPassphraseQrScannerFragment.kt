@@ -13,7 +13,7 @@
 package com.algorand.android.ui.register.recover
 
 import androidx.fragment.app.viewModels
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.modules.qrscanning.BaseQrScannerFragment
 import com.algorand.android.utils.setNavigationResult
 import dagger.hilt.android.AndroidEntryPoint

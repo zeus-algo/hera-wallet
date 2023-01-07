@@ -18,7 +18,7 @@ import androidx.core.content.res.ResourcesCompat
 import androidx.core.text.buildSpannedString
 import androidx.core.text.color
 import androidx.core.text.inSpans
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.AssetNotificationDescription
 import java.util.Locale
 

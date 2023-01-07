@@ -15,8 +15,8 @@ package com.algorand.android.ui.notificationfilter
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.algorand.android.R
-import com.algorand.android.databinding.ItemAccountNotificationFilterBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.ItemAccountNotificationFilterBinding
 import com.algorand.android.utils.extensions.setAccountIconDrawable
 
 class AccountNotificationFilterViewHolder(

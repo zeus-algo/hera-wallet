@@ -12,7 +12,7 @@
 
 package com.algorand.android.utils.walletconnect
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.Account.Type.WATCH
 import com.algorand.android.models.AssetInformation.Companion.ALGO_ID
 import com.algorand.android.utils.AccountCacheManager

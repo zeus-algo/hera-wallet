@@ -24,8 +24,8 @@ import androidx.core.view.marginBottom
 import androidx.core.view.marginLeft
 import androidx.core.view.marginRight
 import androidx.core.view.marginTop
-import com.algorand.android.R
-import com.algorand.android.databinding.CustomDialpadBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.CustomDialpadBinding
 import com.algorand.android.utils.viewbinding.viewBinding
 import com.google.android.material.button.MaterialButton
 

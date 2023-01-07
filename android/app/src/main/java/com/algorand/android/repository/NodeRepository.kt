@@ -11,7 +11,7 @@
  *
  */
 
-package com.algorand.android.repository
+package network.voi.hera.Repository
 
 import com.algorand.android.database.NodeDao
 import com.algorand.android.models.Node

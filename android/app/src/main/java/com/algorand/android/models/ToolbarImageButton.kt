@@ -16,7 +16,7 @@ package com.algorand.android.models
 import android.graphics.drawable.Drawable
 import android.view.View
 import android.widget.ImageButton
-import com.algorand.android.R
+import network.voi.hera.R
 
 data class ToolbarImageButton(
     private val drawable: Drawable,

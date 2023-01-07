@@ -13,7 +13,7 @@
 package com.algorand.android.modules.swap.confirmswap.ui.usecase
 
 import androidx.lifecycle.Lifecycle
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.AnnotatedString
 import com.algorand.android.modules.accounts.domain.usecase.AccountDetailSummaryUseCase
 import com.algorand.android.modules.currency.domain.model.Currency.ALGO

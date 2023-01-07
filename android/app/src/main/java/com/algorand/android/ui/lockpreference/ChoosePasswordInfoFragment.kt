@@ -21,7 +21,7 @@ import androidx.activity.OnBackPressedCallback
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.navArgs
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.models.TextButton
 import com.algorand.android.models.ToolbarConfiguration

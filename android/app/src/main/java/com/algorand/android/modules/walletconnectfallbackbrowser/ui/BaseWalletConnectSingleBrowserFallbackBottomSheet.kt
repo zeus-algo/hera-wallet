@@ -14,7 +14,7 @@ package com.algorand.android.modules.walletconnectfallbackbrowser.ui
 
 import android.widget.ImageView
 import androidx.core.content.ContextCompat
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.modules.walletconnectfallbackbrowser.ui.model.FallbackBrowserListItem
 import com.algorand.android.utils.BaseDoubleButtonBottomSheet
 import com.algorand.android.utils.getXmlStyledString

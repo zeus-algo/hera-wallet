@@ -13,7 +13,7 @@
 package com.algorand.android.modules.swap.balancepercentage.ui.usecase
 
 import android.content.res.Resources
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.mapper.PeraChipItemMapper
 import com.algorand.android.models.PeraFloatChipItem
 import com.algorand.android.modules.swap.balancepercentage.ui.mapper.BalancePercentagePreviewMapper

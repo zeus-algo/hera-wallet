@@ -18,9 +18,9 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.ConcatAdapter
 import androidx.recyclerview.widget.ItemTouchHelper
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseFragment
-import com.algorand.android.databinding.FragmentAccountSortBinding
+import network.voi.hera.databinding.FragmentAccountSortBinding
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.models.TextButton
 import com.algorand.android.models.ToolbarConfiguration

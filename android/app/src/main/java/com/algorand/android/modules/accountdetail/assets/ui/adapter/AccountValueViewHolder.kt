@@ -15,8 +15,8 @@ package com.algorand.android.modules.accountdetail.assets.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import com.algorand.android.R
-import com.algorand.android.databinding.ItemAccountValueBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.ItemAccountValueBinding
 import com.algorand.android.modules.accountdetail.assets.ui.model.AccountDetailAssetsItem
 import com.algorand.android.models.BaseViewHolder
 

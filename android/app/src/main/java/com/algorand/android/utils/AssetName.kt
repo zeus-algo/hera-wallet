@@ -14,7 +14,7 @@ package com.algorand.android.utils
 
 import android.content.res.Resources
 import android.os.Parcelable
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.utils.extensions.formatAsAvatarTextOrThrow
 import java.util.Locale
 import kotlinx.parcelize.Parcelize

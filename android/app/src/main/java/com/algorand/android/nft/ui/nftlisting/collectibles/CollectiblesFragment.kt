@@ -18,7 +18,7 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.Lifecycle
 import androidx.recyclerview.widget.RecyclerView
 import com.algorand.android.CoreMainActivity
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BackPressedControllerComponent
 import com.algorand.android.core.BottomNavigationBackPressedDelegate
 import com.algorand.android.models.FragmentConfiguration

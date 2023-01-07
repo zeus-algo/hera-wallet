@@ -15,7 +15,7 @@ package com.algorand.android.ui.settings.selection
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.algorand.android.databinding.ItemSelectionBinding
+import network.voi.hera.databinding.ItemSelectionBinding
 
 class SelectionItemViewHolder(
     private val binding: ItemSelectionBinding

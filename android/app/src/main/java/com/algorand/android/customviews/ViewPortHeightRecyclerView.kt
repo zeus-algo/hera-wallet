@@ -16,7 +16,7 @@ import android.content.Context
 import android.util.AttributeSet
 import androidx.core.content.res.use
 import androidx.recyclerview.widget.RecyclerView
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.utils.getDisplaySize
 
 class ViewPortHeightRecyclerView @JvmOverloads constructor(

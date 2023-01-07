@@ -14,9 +14,9 @@ package com.algorand.android.ui.notificationfilter
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.viewModels
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.DaggerBaseFragment
-import com.algorand.android.databinding.FragmentNotificationFilterBinding
+import network.voi.hera.databinding.FragmentNotificationFilterBinding
 import com.algorand.android.utils.Resource
 import com.algorand.android.utils.extensions.collectLatestOnLifecycle
 import com.algorand.android.utils.viewbinding.viewBinding

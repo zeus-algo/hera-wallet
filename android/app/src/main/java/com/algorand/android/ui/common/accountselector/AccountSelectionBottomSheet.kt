@@ -16,9 +16,9 @@ import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.navArgs
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.DaggerBaseBottomSheet
-import com.algorand.android.databinding.BottomSheetAccountSelectionBinding
+import network.voi.hera.databinding.BottomSheetAccountSelectionBinding
 import com.algorand.android.models.AccountSelection
 import com.algorand.android.models.ToolbarConfiguration
 import com.algorand.android.utils.extensions.collectLatestOnLifecycle

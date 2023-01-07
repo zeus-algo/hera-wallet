@@ -18,7 +18,7 @@ import android.view.Gravity
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.appcompat.widget.AppCompatTextView
 import androidx.core.content.res.use
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.utils.setDrawable
 import kotlin.properties.Delegates
 

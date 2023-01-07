@@ -21,8 +21,8 @@ import androidx.core.content.ContextCompat.getDrawable
 import androidx.core.content.res.use
 import androidx.core.view.isVisible
 import androidx.core.widget.doOnTextChanged
-import com.algorand.android.R
-import com.algorand.android.databinding.CustomSearchBarBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.CustomSearchBarBinding
 import com.algorand.android.utils.extensions.setIconAndVisibility
 import com.algorand.android.utils.requestFocusAndShowKeyboard
 import com.algorand.android.utils.setDrawable

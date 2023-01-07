@@ -16,7 +16,7 @@ import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.mapper.WalletConnectMapper
 import com.algorand.android.models.AccountCacheStatus
 import com.algorand.android.models.AnnotatedString
@@ -29,7 +29,7 @@ import com.algorand.android.modules.walletconnect.domain.DeleteWalletConnectAcco
 import com.algorand.android.modules.walletconnect.domain.GetWalletConnectSessionsByAccountAddressUseCase
 import com.algorand.android.modules.walletconnect.domain.GetWalletConnectSessionsWithAccountsUseCase
 import com.algorand.android.modules.walletconnect.subscription.domain.SubscribeGivenWalletConnectSessionUseCase
-import com.algorand.android.repository.WalletConnectRepository
+import network.voi.hera.Repository.WalletConnectRepository
 import com.algorand.android.usecase.AccountCacheStatusUseCase
 import com.algorand.android.usecase.GetActiveNodeChainIdUseCase
 import com.algorand.android.utils.Event

@@ -17,7 +17,7 @@ import androidx.appcompat.content.res.AppCompatResources
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.algorand.android.R
+import network.voi.hera.R
 import kotlin.properties.Delegates
 
 // TODO remove addDivider and use addCustomDivider in refactor

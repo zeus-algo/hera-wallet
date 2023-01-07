@@ -13,7 +13,7 @@
 package com.algorand.android.nft.ui.model
 
 import androidx.annotation.StringRes
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.RecyclerListItem
 import com.algorand.android.modules.sorting.core.SortableItemPriority
 import com.algorand.android.modules.sorting.nftsorting.ui.model.CollectibleSortableItem

@@ -12,7 +12,7 @@
 
 package com.algorand.android.modules.assets.profile.asaprofile.ui.usecase
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.assetsearch.domain.model.VerificationTier
 import com.algorand.android.decider.AssetDrawableProviderDecider
 import com.algorand.android.mapper.AssetActionMapper

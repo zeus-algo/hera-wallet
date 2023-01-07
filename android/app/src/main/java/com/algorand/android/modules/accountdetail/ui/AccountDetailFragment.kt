@@ -33,10 +33,10 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.NavDirections
 import androidx.navigation.fragment.navArgs
 import androidx.viewpager2.widget.ViewPager2.OnPageChangeCallback
-import com.algorand.android.HomeNavigationDirections
-import com.algorand.android.R
+import network.voi.hera.HomeNavigationDirections
+import network.voi.hera.R
 import com.algorand.android.core.BaseFragment
-import com.algorand.android.databinding.FragmentAccountDetailBinding
+import network.voi.hera.databinding.FragmentAccountDetailBinding
 import com.algorand.android.models.AccountDetailSummary
 import com.algorand.android.models.AssetTransaction
 import com.algorand.android.models.DateFilter

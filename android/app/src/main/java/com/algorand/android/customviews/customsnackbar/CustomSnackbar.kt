@@ -16,7 +16,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import com.algorand.android.databinding.CustomSnackbarViewBinding
+import network.voi.hera.databinding.CustomSnackbarViewBinding
 import com.algorand.android.utils.createSnackbar
 import com.algorand.android.utils.extensions.invisible
 import com.algorand.android.utils.extensions.show
@@ -80,7 +80,7 @@ class CustomSnackbar private constructor() {
         return createSnackbar(INITIAL_TEXT, rootView).apply {
             with(view as? Snackbar.SnackbarLayout ?: return@apply) {
                 setPadding(0, 0, 0, 0)
-                findViewById<android.widget.TextView>(com.algorand.android.R.id.snackbar_text).invisible()
+                findViewById<android.widget.TextView>(network.voi.hera.R.id.snackbar_text).invisible()
                 CustomSnackbarViewBinding.inflate(LayoutInflater.from(rootView.context), rootView, false).apply {
                     applyParams(this)
                 }.also {

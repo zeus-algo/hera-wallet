@@ -17,9 +17,9 @@ import android.view.View
 import android.view.ViewTreeObserver
 import androidx.fragment.app.viewModels
 import com.algorand.algosdk.mobile.Mobile
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseBottomSheet
-import com.algorand.android.databinding.DialogViewPassphraseBinding
+import network.voi.hera.databinding.DialogViewPassphraseBinding
 import com.algorand.android.models.ToolbarConfiguration
 import com.algorand.android.utils.disableScreenCapture
 import com.algorand.android.utils.enableScreenCapture

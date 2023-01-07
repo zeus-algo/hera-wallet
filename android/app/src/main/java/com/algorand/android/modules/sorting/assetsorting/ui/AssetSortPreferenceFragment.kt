@@ -15,9 +15,9 @@ package com.algorand.android.modules.sorting.assetsorting.ui
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.viewModels
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseFragment
-import com.algorand.android.databinding.FragmentAssetSortPreferenceBinding
+import network.voi.hera.databinding.FragmentAssetSortPreferenceBinding
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.models.TextButton
 import com.algorand.android.models.ToolbarConfiguration

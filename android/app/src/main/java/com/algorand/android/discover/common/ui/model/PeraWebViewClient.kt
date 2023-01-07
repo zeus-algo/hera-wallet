@@ -17,7 +17,7 @@ import android.webkit.WebResourceRequest
 import android.webkit.WebResourceResponse
 import android.webkit.WebView
 import android.webkit.WebViewClient
-import com.algorand.android.BuildConfig
+import network.voi.hera.BuildConfig
 import com.algorand.android.utils.EMAIL_APPS_URI_SCHEME
 import com.algorand.android.utils.walletconnect.isValidWalletConnectUrl
 import java.net.HttpURLConnection

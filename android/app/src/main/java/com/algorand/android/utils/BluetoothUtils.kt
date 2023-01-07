@@ -20,7 +20,7 @@ import android.os.Build
 import androidx.activity.result.ActivityResultLauncher
 import androidx.core.location.LocationManagerCompat
 import androidx.fragment.app.Fragment
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseFragment
 import com.algorand.android.core.TransactionBaseFragment
 import com.algorand.android.ui.common.BaseLedgerSearchFragment

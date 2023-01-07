@@ -22,8 +22,8 @@ import android.widget.LinearLayout
 import androidx.core.animation.doOnCancel
 import androidx.core.animation.doOnEnd
 import androidx.core.animation.doOnStart
-import com.algorand.android.R
-import com.algorand.android.databinding.CustomSixDigitPasswordBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.CustomSixDigitPasswordBinding
 import com.algorand.android.utils.viewbinding.viewBinding
 
 class SixDigitPasswordView @JvmOverloads constructor(

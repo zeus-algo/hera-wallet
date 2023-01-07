@@ -15,9 +15,9 @@ package com.algorand.android.modules.swap.ledger.signwithledger.ui
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.viewModels
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseBottomSheet
-import com.algorand.android.databinding.BottomSheetSignWithLedgerBinding
+import network.voi.hera.databinding.BottomSheetSignWithLedgerBinding
 import com.algorand.android.utils.getXmlStyledString
 import com.algorand.android.utils.setFragmentNavigationResult
 import com.algorand.android.utils.viewbinding.viewBinding

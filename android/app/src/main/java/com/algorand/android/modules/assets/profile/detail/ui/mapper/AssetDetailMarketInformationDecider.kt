@@ -12,7 +12,7 @@
 
 package com.algorand.android.modules.assets.profile.detail.ui.mapper
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.utils.isNegative
 import com.algorand.android.utils.isPositive
 import com.algorand.android.utils.isZero

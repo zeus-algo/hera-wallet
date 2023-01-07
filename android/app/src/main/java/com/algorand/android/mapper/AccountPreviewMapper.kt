@@ -12,7 +12,7 @@
 
 package com.algorand.android.mapper
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.modules.accounts.domain.model.AccountPreview
 import com.algorand.android.modules.accounts.domain.model.BaseAccountListItem
 import com.algorand.android.modules.accounts.domain.model.BasePortfolioValueItem

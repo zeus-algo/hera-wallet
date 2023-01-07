@@ -15,9 +15,9 @@ package com.algorand.android.modules.accountdetail.nftfilter.ui
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.viewModels
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseFragment
-import com.algorand.android.databinding.FragmentAccountNftFilterBinding
+import network.voi.hera.databinding.FragmentAccountNftFilterBinding
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.models.TextButton
 import com.algorand.android.models.ToolbarConfiguration

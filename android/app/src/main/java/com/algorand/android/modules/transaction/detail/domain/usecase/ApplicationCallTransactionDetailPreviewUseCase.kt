@@ -12,7 +12,7 @@
 
 package com.algorand.android.modules.transaction.detail.domain.usecase
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.modules.transaction.common.domain.model.OnCompletionDTO
 import com.algorand.android.modules.transaction.common.domain.model.OnCompletionDTO.CLEAR_STATE
 import com.algorand.android.modules.transaction.common.domain.model.OnCompletionDTO.CLOSE_OUT

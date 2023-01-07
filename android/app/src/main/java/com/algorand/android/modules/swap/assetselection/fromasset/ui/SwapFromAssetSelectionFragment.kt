@@ -13,7 +13,7 @@
 package com.algorand.android.modules.swap.assetselection.fromasset.ui
 
 import androidx.fragment.app.viewModels
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.customviews.CustomToolbar
 import com.algorand.android.modules.swap.assetselection.base.BaseSwapAssetSelectionFragment
 import com.algorand.android.modules.swap.assetselection.base.BaseSwapAssetSelectionViewModel

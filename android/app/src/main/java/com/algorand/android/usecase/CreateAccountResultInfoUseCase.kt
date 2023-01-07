@@ -12,7 +12,7 @@
 
 package com.algorand.android.usecase
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.AccountManager
 import com.algorand.android.mapper.BaseAccountAdditionResultInfoPreviewMapper
 import com.algorand.android.models.BaseAccountAdditionResultInfoPreview.CreateAccountResultInfoPreview

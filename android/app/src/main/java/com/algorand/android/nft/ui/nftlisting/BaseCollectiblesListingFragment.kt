@@ -17,9 +17,9 @@ import android.view.View
 import androidx.core.view.isVisible
 import androidx.core.view.updatePadding
 import androidx.recyclerview.widget.RecyclerView
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.DaggerBaseFragment
-import com.algorand.android.databinding.FragmentBaseCollectiblesListingBinding
+import network.voi.hera.databinding.FragmentBaseCollectiblesListingBinding
 import com.algorand.android.modules.collectibles.listingviewtype.domain.model.NFTListingViewType
 import com.algorand.android.nft.ui.base.BaseCollectibleListingViewModel
 import com.algorand.android.nft.ui.model.BaseCollectibleListItem

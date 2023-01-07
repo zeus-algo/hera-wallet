@@ -17,7 +17,7 @@ import android.bluetooth.BluetoothAdapter
 import android.bluetooth.BluetoothDevice
 import androidx.lifecycle.Lifecycle
 import com.algorand.algosdk.mobile.Mobile
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.ledger.operations.AccountFetchAllOperation
 import com.algorand.android.ledger.operations.BaseOperation
 import com.algorand.android.ledger.operations.BaseTransactionOperation

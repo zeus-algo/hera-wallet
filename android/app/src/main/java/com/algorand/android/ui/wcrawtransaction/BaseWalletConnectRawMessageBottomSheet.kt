@@ -17,9 +17,9 @@ import android.content.Context
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.DaggerBaseBottomSheet
-import com.algorand.android.databinding.BottomSheetWalletConnectRawMessageBinding
+import network.voi.hera.databinding.BottomSheetWalletConnectRawMessageBinding
 import com.algorand.android.models.TransactionRequestAction
 import com.algorand.android.utils.copyToClipboard
 import com.algorand.android.utils.viewbinding.viewBinding

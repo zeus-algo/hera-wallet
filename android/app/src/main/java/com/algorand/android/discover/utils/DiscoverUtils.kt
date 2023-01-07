@@ -13,7 +13,7 @@
 package com.algorand.android.discover.utils
 
 import android.util.Base64
-import com.algorand.android.BuildConfig
+import network.voi.hera.BuildConfig
 import com.algorand.android.discover.common.ui.model.WebViewTheme
 
 private const val WEBVIEW_AUTH_USERNAME = BuildConfig.DISCOVER_WEBVIEW_USERNAME

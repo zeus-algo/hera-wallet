@@ -15,7 +15,7 @@ package com.algorand.android.utils
 
 import android.content.res.Resources
 import android.text.format.DateUtils
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.DateRange
 import java.time.DayOfWeek
 import java.time.Instant

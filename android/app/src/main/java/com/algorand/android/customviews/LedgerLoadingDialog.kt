@@ -14,9 +14,9 @@ package com.algorand.android.customviews
 
 import android.os.Bundle
 import android.view.View
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseBottomSheet
-import com.algorand.android.databinding.DialogLedgerLoadingBinding
+import network.voi.hera.databinding.DialogLedgerLoadingBinding
 import com.algorand.android.utils.extensions.show
 import com.algorand.android.utils.extensions.wrapWithBrackets
 import com.algorand.android.utils.getXmlStyledString

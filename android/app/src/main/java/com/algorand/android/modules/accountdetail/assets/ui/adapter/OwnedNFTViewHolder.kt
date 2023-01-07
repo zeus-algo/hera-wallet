@@ -19,9 +19,9 @@ import android.view.ViewGroup
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.view.isVisible
 import androidx.core.view.updateLayoutParams
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.customviews.collectibleimageview.BaseCollectibleImageView.Companion.DECREASED_OPACITY
-import com.algorand.android.databinding.ItemNftVerticalLinearListBinding
+import network.voi.hera.databinding.ItemNftVerticalLinearListBinding
 import com.algorand.android.models.BaseViewHolder
 import com.algorand.android.modules.accountdetail.assets.ui.model.AccountDetailAssetsItem
 

@@ -15,8 +15,8 @@ package com.algorand.android.customviews
 import android.content.Context
 import android.util.AttributeSet
 import androidx.constraintlayout.motion.widget.MotionLayout
-import com.algorand.android.R
-import com.algorand.android.databinding.CustomCoreActionsTabBarBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.CustomCoreActionsTabBarBinding
 import com.algorand.android.utils.viewbinding.viewBinding
 
 class CoreActionsTabBarView @JvmOverloads constructor(

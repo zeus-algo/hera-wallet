@@ -14,7 +14,7 @@ package com.algorand.android.customviews.collectibleimageview
 
 import android.content.Context
 import android.util.AttributeSet
-import com.algorand.android.R
+import network.voi.hera.R
 import com.google.android.material.imageview.ShapeableImageView
 
 class ZoomableCollectibleImageView(

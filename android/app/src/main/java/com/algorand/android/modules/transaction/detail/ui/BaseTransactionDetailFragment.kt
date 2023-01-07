@@ -15,9 +15,9 @@ package com.algorand.android.modules.transaction.detail.ui
 import android.os.Bundle
 import android.view.View
 import androidx.core.view.isVisible
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.DaggerBaseFragment
-import com.algorand.android.databinding.FragmentTransactionDetailBinding
+import network.voi.hera.databinding.FragmentTransactionDetailBinding
 import com.algorand.android.models.ToolbarConfiguration
 import com.algorand.android.modules.transaction.detail.domain.model.TransactionDetailPreview
 import com.algorand.android.modules.transaction.detail.ui.adapter.TransactionDetailAdapter

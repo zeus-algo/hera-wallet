@@ -19,7 +19,7 @@ import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatTextView
 import androidx.core.content.ContextCompat
 import androidx.core.view.doOnLayout
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.AmountInput
 import com.algorand.android.models.CustomInputSavedState
 import com.algorand.android.utils.AmountInputFormatter

@@ -26,8 +26,8 @@ import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.core.view.GestureDetectorCompat
 import androidx.core.view.isVisible
-import com.algorand.android.R
-import com.algorand.android.databinding.CustomTopToastBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.CustomTopToastBinding
 import com.algorand.android.utils.FlingDetector
 import com.algorand.android.utils.viewbinding.viewBinding
 

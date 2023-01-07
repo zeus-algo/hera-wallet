@@ -15,9 +15,9 @@ package com.algorand.android.modules.walletconnectfallbackbrowser.ui
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.viewModels
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseBottomSheet
-import com.algorand.android.databinding.BottomSheetFallbackBrowserSelectionBinding
+import network.voi.hera.databinding.BottomSheetFallbackBrowserSelectionBinding
 import com.algorand.android.modules.walletconnectfallbackbrowser.ui.adapter.FallbackBrowserItemAdapter
 import com.algorand.android.modules.walletconnectfallbackbrowser.ui.model.FallbackBrowserListItem
 import com.algorand.android.modules.walletconnectfallbackbrowser.ui.model.FallbackBrowserSelectionPreview

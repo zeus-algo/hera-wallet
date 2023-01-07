@@ -14,8 +14,8 @@ package com.algorand.android.modules.sorting.accountsorting.ui.viewholder
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import com.algorand.android.R
-import com.algorand.android.databinding.ItemAccountSortBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.ItemAccountSortBinding
 import com.algorand.android.models.AccountIconResource
 import com.algorand.android.models.AccountIconResource.Companion.DEFAULT_ACCOUNT_ICON_RESOURCE
 import com.algorand.android.models.BaseViewHolder

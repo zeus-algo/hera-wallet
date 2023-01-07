@@ -18,7 +18,7 @@ import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.core.content.res.ResourcesCompat
 import androidx.core.text.buildSpannedString
-import com.algorand.android.R
+import network.voi.hera.R
 
 private const val MAX_PASSPHRASE_ON_COLUMN = 13
 private const val PASSPHRASE_WORD_COUNT = 25

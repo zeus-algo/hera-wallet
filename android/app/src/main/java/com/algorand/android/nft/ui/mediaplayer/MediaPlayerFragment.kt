@@ -17,9 +17,9 @@ import android.os.Bundle
 import android.view.View
 import android.view.WindowManager
 import com.algorand.android.MainActivity
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseFragment
-import com.algorand.android.databinding.FragmentMediaPlayerBinding
+import network.voi.hera.databinding.FragmentMediaPlayerBinding
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.utils.setScreenOrientationFullSensor
 import com.algorand.android.utils.setScreenOrientationPortrait

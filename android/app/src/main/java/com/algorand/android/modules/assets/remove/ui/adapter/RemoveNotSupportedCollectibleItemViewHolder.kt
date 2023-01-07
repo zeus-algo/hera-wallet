@@ -13,7 +13,7 @@
 package com.algorand.android.modules.assets.remove.ui.adapter
 
 import android.view.ViewGroup
-import com.algorand.android.databinding.ItemRemoveCollectibleBinding
+import network.voi.hera.databinding.ItemRemoveCollectibleBinding
 
 class RemoveNotSupportedCollectibleItemViewHolder(
     binding: ItemRemoveCollectibleBinding,

@@ -12,7 +12,7 @@
 
 package com.algorand.android.modules.walletconnectfallbackbrowser.domain.model
 
-import com.algorand.android.BuildConfig
+import network.voi.hera.BuildConfig
 import com.algorand.android.modules.walletconnectfallbackbrowser.domain.model.WalletConnectFallbackBrowserGroup.BLACKBERRY_GROUP
 import com.algorand.android.modules.walletconnectfallbackbrowser.domain.model.WalletConnectFallbackBrowserGroup.BRAVE_GROUP
 import com.algorand.android.modules.walletconnectfallbackbrowser.domain.model.WalletConnectFallbackBrowserGroup.CHROME_GROUP

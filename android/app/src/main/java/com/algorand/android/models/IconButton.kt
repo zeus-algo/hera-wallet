@@ -16,7 +16,7 @@ package com.algorand.android.models
 import android.view.View
 import android.widget.ImageButton
 import androidx.annotation.DrawableRes
-import com.algorand.android.R
+import network.voi.hera.R
 
 data class IconButton(
     @DrawableRes private val iconResId: Int,

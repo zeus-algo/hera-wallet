@@ -10,7 +10,7 @@
  * limitations under the License
  */
 
-package com.algorand.android.repository
+package network.voi.hera.Repository
 
 import com.algorand.android.models.NextBlockResponse
 import com.algorand.android.models.Result

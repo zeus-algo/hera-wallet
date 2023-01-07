@@ -12,7 +12,7 @@
 
 package com.algorand.android.models
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.utils.Resource
 import java.io.IOException
 

@@ -17,9 +17,9 @@ import android.view.View
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
 import com.algorand.android.MainActivity
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.DaggerBaseFragment
-import com.algorand.android.databinding.FragmentNodeSettingsBinding
+import network.voi.hera.databinding.FragmentNodeSettingsBinding
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.models.Node
 import com.algorand.android.models.ToolbarConfiguration

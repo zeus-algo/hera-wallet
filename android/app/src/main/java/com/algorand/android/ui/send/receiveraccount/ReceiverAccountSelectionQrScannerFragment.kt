@@ -12,7 +12,7 @@
 
 package com.algorand.android.ui.send.receiveraccount
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.modules.deeplink.domain.model.BaseDeepLink
 import com.algorand.android.modules.qrscanning.BaseQrScannerFragment
 import com.algorand.android.utils.setNavigationResult

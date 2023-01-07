@@ -16,7 +16,7 @@ package com.algorand.android.ui.send
 import android.os.Bundle
 import android.view.View
 import androidx.navigation.fragment.navArgs
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseFragment
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.utils.isEqualTo

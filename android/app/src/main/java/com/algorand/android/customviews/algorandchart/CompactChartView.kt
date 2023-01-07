@@ -19,8 +19,8 @@ import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.res.use
 import androidx.core.view.doOnLayout
 import androidx.core.view.isVisible
-import com.algorand.android.R
-import com.algorand.android.databinding.CustomCompactChartBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.CustomCompactChartBinding
 import com.algorand.android.models.ChartTimeFrame
 import com.algorand.android.models.LineChartTheme
 import com.algorand.android.models.ValuePosition

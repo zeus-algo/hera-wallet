@@ -13,7 +13,7 @@
 package com.algorand.android.assetsearch.ui.viewholder
 
 import android.view.ViewGroup
-import com.algorand.android.databinding.ItemSearchCollectibleBinding
+import network.voi.hera.databinding.ItemSearchCollectibleBinding
 
 class CollectibleSearchImageItemViewHolder(
     binding: ItemSearchCollectibleBinding,

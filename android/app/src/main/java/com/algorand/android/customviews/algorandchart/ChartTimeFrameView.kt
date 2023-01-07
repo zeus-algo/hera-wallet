@@ -15,7 +15,7 @@ package com.algorand.android.customviews.algorandchart
 import android.content.Context
 import android.util.AttributeSet
 import androidx.constraintlayout.widget.ConstraintLayout
-import com.algorand.android.databinding.CustomChartTimeFrameBinding
+import network.voi.hera.databinding.CustomChartTimeFrameBinding
 import com.algorand.android.models.ChartTimeFrame
 import com.algorand.android.models.ChartTimeFrame.AllTimeFrame
 import com.algorand.android.models.ChartTimeFrame.DayTimeFrame

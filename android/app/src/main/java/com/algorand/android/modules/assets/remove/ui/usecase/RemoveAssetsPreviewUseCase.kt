@@ -12,7 +12,7 @@
 
 package com.algorand.android.modules.assets.remove.ui.usecase
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.mapper.RemoveAssetItemMapper
 import com.algorand.android.models.BaseAccountAssetData.BaseOwnedAssetData.BaseOwnedCollectibleData
 import com.algorand.android.models.BaseAccountAssetData.BaseOwnedAssetData.BaseOwnedCollectibleData.OwnedCollectibleImageData

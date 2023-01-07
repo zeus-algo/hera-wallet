@@ -13,7 +13,7 @@
 package com.algorand.android.models
 
 import androidx.annotation.ColorRes
-import com.algorand.android.R
+import network.voi.hera.R
 
 data class StatusBarConfiguration(
     @ColorRes

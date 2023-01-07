@@ -12,7 +12,7 @@
 
 package com.algorand.android.usecase
 
-import com.algorand.android.repository.BlockRepository
+import network.voi.hera.Repository.BlockRepository
 import com.algorand.android.utils.CacheResult
 import com.algorand.android.utils.DataResource
 import javax.inject.Inject

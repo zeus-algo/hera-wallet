@@ -13,7 +13,7 @@
 package com.algorand.android.models
 
 import android.os.Parcelable
-import com.algorand.android.R
+import network.voi.hera.R
 import kotlinx.parcelize.Parcelize
 
 sealed class ChartTimeFrame : Parcelable {

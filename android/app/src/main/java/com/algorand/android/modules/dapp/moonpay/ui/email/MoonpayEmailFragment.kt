@@ -14,9 +14,9 @@ package com.algorand.android.modules.dapp.moonpay.ui.email
 
 import android.os.Bundle
 import android.view.View
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.DaggerBaseFragment
-import com.algorand.android.databinding.FragmentMoonpayEmailBinding
+import network.voi.hera.databinding.FragmentMoonpayEmailBinding
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.models.ToolbarConfiguration
 import com.algorand.android.utils.hideKeyboard

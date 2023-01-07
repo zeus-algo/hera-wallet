@@ -17,7 +17,7 @@ import android.util.AttributeSet
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import androidx.appcompat.widget.AppCompatCheckBox
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.customviews.TriStatesCheckBox.CheckBoxState.CHECKED
 import com.algorand.android.customviews.TriStatesCheckBox.CheckBoxState.UNCHECKED
 import kotlin.properties.Delegates

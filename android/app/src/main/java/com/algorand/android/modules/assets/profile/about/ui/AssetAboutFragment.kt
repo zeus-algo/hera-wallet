@@ -20,9 +20,9 @@ import androidx.core.view.isVisible
 import androidx.core.view.updatePadding
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseFragment
-import com.algorand.android.databinding.FragmentAssetAboutBinding
+import network.voi.hera.databinding.FragmentAssetAboutBinding
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.modules.assets.profile.about.ui.adapter.AssetAboutAdapter
 import com.algorand.android.modules.assets.profile.about.ui.model.AssetAboutPreview

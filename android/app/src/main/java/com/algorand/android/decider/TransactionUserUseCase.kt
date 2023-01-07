@@ -16,7 +16,7 @@ package com.algorand.android.decider
 import com.algorand.android.core.AccountManager
 import com.algorand.android.mapper.TransactionTargetUserMapper
 import com.algorand.android.models.TransactionTargetUser
-import com.algorand.android.repository.ContactRepository
+import network.voi.hera.Repository.ContactRepository
 import com.algorand.android.utils.toShortenedAddress
 import javax.inject.Inject
 

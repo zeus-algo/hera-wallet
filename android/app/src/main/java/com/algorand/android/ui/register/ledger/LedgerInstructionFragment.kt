@@ -14,10 +14,10 @@ package com.algorand.android.ui.register.ledger
 
 import android.os.Bundle
 import android.view.View
-import com.algorand.android.MainNavigationDirections
-import com.algorand.android.R
+import network.voi.hera.MainNavigationDirections
+import network.voi.hera.R
 import com.algorand.android.core.DaggerBaseFragment
-import com.algorand.android.databinding.FragmentLedgerInstructionBinding
+import network.voi.hera.databinding.FragmentLedgerInstructionBinding
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.models.IconButton
 import com.algorand.android.models.ToolbarConfiguration

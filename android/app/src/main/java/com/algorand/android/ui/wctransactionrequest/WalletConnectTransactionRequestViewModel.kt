@@ -18,7 +18,7 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.viewModelScope
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseViewModel
 import com.algorand.android.models.Account.Type.LEDGER
 import com.algorand.android.models.Account.Type.REKEYED

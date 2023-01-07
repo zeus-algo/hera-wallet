@@ -66,6 +66,8 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
+import network.voi.hera.HomeNavigationDirections
+import network.voi.hera.R
 
 @Suppress("LongParameterList")
 @HiltViewModel

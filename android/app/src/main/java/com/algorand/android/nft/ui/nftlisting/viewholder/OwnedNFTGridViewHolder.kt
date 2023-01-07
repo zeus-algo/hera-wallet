@@ -15,9 +15,9 @@ package com.algorand.android.nft.ui.nftlisting.viewholder
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.view.isVisible
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.customviews.collectibleimageview.BaseCollectibleImageView.Companion.DECREASED_OPACITY
-import com.algorand.android.databinding.ItemBaseCollectibleListBinding
+import network.voi.hera.databinding.ItemBaseCollectibleListBinding
 import com.algorand.android.models.BaseViewHolder
 import com.algorand.android.nft.ui.model.BaseCollectibleListItem
 import com.algorand.android.nft.utils.NFTItemClickListener

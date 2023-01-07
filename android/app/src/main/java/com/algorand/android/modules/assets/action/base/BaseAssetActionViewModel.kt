@@ -14,7 +14,7 @@ package com.algorand.android.modules.assets.action.base
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.assetsearch.domain.model.VerificationTier
 import com.algorand.android.assetsearch.ui.model.VerificationTierConfiguration
 import com.algorand.android.core.BaseViewModel

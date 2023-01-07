@@ -16,9 +16,9 @@ import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseFragment
-import com.algorand.android.databinding.FragmentSwapTransactionSummaryBinding
+import network.voi.hera.databinding.FragmentSwapTransactionSummaryBinding
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.models.ToolbarConfiguration
 import com.algorand.android.modules.swap.transactionsummary.ui.adapter.SwapTransactionSummaryAdapter

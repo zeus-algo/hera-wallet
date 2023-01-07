@@ -16,7 +16,7 @@ package com.algorand.android.customviews
 import android.content.Context
 import android.util.AttributeSet
 import androidx.core.content.res.use
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.utils.extensions.changeTabTextAppearance
 import com.google.android.material.tabs.TabLayout
 

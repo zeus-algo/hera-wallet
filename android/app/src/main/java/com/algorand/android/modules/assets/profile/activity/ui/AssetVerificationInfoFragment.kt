@@ -14,9 +14,9 @@ package com.algorand.android.modules.assets.profile.activity.ui
 
 import android.os.Bundle
 import android.view.View
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseFragment
-import com.algorand.android.databinding.FragmentAssetVerificationInfoBinding
+import network.voi.hera.databinding.FragmentAssetVerificationInfoBinding
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.utils.browser.openASAVerificationUrl
 import com.algorand.android.utils.setXmlStyledString

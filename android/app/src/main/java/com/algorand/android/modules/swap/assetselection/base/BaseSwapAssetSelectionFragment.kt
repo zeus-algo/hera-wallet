@@ -15,10 +15,10 @@ package com.algorand.android.modules.swap.assetselection.base
 import android.os.Bundle
 import android.view.View
 import androidx.core.view.isVisible
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseFragment
 import com.algorand.android.customviews.CustomToolbar
-import com.algorand.android.databinding.FragmentSwapAssetSelectionBinding
+import network.voi.hera.databinding.FragmentSwapAssetSelectionBinding
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.models.ScreenState
 import com.algorand.android.models.ToolbarConfiguration

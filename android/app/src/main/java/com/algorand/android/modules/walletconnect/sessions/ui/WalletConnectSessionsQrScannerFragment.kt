@@ -12,7 +12,7 @@
 
 package com.algorand.android.modules.walletconnect.sessions.ui
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.modules.qrscanning.BaseQrScannerFragment
 
 class WalletConnectSessionsQrScannerFragment : BaseQrScannerFragment(R.id.walletConnectSessionsQrScannerFragment) {

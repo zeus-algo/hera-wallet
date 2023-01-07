@@ -14,8 +14,8 @@ package com.algorand.android.modules.assets.profile.asaprofile.ui
 
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.viewModels
-import com.algorand.android.HomeNavigationDirections
-import com.algorand.android.R
+import network.voi.hera.HomeNavigationDirections
+import network.voi.hera.R
 import com.algorand.android.discover.home.domain.model.TokenDetailInfo
 import com.algorand.android.models.AnnotatedString
 import com.algorand.android.models.AssetActionResult

@@ -18,8 +18,8 @@ import android.util.AttributeSet
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.view.isVisible
 import androidx.core.view.setPadding
-import com.algorand.android.R
-import com.algorand.android.databinding.CustomWalletConnectTransactionSummaryViewBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.CustomWalletConnectTransactionSummaryViewBinding
 import com.algorand.android.models.AccountIconResource
 import com.algorand.android.models.AnnotatedString
 import com.algorand.android.models.BaseWalletConnectTransaction

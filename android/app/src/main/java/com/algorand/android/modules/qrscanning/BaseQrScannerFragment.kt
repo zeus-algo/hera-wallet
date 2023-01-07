@@ -18,10 +18,10 @@ import android.view.ViewTreeObserver
 import androidx.annotation.StringRes
 import androidx.core.view.isVisible
 import androidx.fragment.app.activityViewModels
-import com.algorand.android.HomeNavigationDirections
-import com.algorand.android.R
+import network.voi.hera.HomeNavigationDirections
+import network.voi.hera.R
 import com.algorand.android.core.BaseFragment
-import com.algorand.android.databinding.FragmentQrCodeScannerBinding
+import network.voi.hera.databinding.FragmentQrCodeScannerBinding
 import com.algorand.android.models.AssetAction
 import com.algorand.android.models.AssetTransaction
 import com.algorand.android.models.FragmentConfiguration

@@ -17,9 +17,9 @@ import android.view.View
 import androidx.annotation.StringRes
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.navArgs
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.DaggerBaseFragment
-import com.algorand.android.databinding.FragmentRekeyInstructionBinding
+import network.voi.hera.databinding.FragmentRekeyInstructionBinding
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.models.ToolbarConfiguration
 import com.algorand.android.ui.rekey.RekeyInstructionFragmentDirections.Companion.actionRekeyInstructionFragmentToRekeyLedgerSearchFragment

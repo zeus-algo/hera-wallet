@@ -12,7 +12,7 @@
 
 package com.algorand.android.modules.swap.confirmswap.ui
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.modules.informationbottomsheet.ui.BaseInformationBottomSheet
 
 class ExchangeFeeInfoBottomSheet : BaseInformationBottomSheet() {

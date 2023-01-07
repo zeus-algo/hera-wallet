@@ -16,9 +16,9 @@ package com.algorand.android.ui.common.walletconnect
 import android.os.Bundle
 import android.view.View
 import androidx.navigation.fragment.navArgs
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.DaggerBaseBottomSheet
-import com.algorand.android.databinding.BottomSheetWalletConnectDappMessageBinding
+import network.voi.hera.databinding.BottomSheetWalletConnectDappMessageBinding
 import com.algorand.android.utils.loadPeerMetaIcon
 import com.algorand.android.utils.viewbinding.viewBinding
 

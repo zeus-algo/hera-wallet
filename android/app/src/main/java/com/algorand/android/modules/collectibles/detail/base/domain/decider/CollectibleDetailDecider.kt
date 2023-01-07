@@ -12,7 +12,7 @@
 
 package com.algorand.android.modules.collectibles.detail.base.domain.decider
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.Account
 import javax.inject.Inject
 

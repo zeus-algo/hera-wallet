@@ -15,7 +15,7 @@ package com.algorand.android.utils.preference
 import android.content.SharedPreferences
 import androidx.annotation.StringRes
 import androidx.appcompat.app.AppCompatDelegate
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.ui.settings.selection.ThemeListItem
 
 private const val THEME_PREFERENCE_KEY = "theme_preference_key"

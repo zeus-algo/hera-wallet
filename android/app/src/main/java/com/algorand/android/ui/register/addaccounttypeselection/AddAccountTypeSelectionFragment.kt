@@ -3,10 +3,10 @@ package com.algorand.android.ui.register.addaccounttypeselection
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.viewModels
-import com.algorand.android.LoginNavigationDirections
-import com.algorand.android.R
+import network.voi.hera.LoginNavigationDirections
+import network.voi.hera.R
 import com.algorand.android.core.DaggerBaseFragment
-import com.algorand.android.databinding.FragmentAddAccountTypeSelectionBinding
+import network.voi.hera.databinding.FragmentAddAccountTypeSelectionBinding
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.models.TextButton
 import com.algorand.android.models.ToolbarConfiguration

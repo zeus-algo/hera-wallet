@@ -24,7 +24,7 @@ import androidx.core.view.marginBottom
 import androidx.core.view.marginTop
 import androidx.core.view.updateLayoutParams
 import androidx.lifecycle.LifecycleObserver
-import com.algorand.android.databinding.CustomAlertViewBinding
+import network.voi.hera.databinding.CustomAlertViewBinding
 import com.algorand.android.models.Account
 import com.algorand.android.models.AlertMetadata
 import com.algorand.android.models.NotificationMetadata

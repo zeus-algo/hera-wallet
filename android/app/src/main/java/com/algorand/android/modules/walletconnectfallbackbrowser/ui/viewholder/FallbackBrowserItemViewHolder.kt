@@ -17,7 +17,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.algorand.android.databinding.ItemFallbackBrowserBinding
+import network.voi.hera.databinding.ItemFallbackBrowserBinding
 import com.algorand.android.modules.walletconnectfallbackbrowser.ui.model.FallbackBrowserListItem
 
 class FallbackBrowserItemViewHolder(

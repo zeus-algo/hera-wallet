@@ -15,7 +15,7 @@ package com.algorand.android.ui.ledgersearch
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.algorand.android.databinding.ItemLedgerSearchLoadingBinding
+import network.voi.hera.databinding.ItemLedgerSearchLoadingBinding
 
 class LedgerLoadingItemViewHolder(binding: ItemLedgerSearchLoadingBinding) : RecyclerView.ViewHolder(binding.root) {
     companion object {

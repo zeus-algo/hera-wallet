@@ -16,8 +16,8 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.net.toUri
 import androidx.recyclerview.widget.RecyclerView
-import com.algorand.android.R
-import com.algorand.android.databinding.ItemUserBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.ItemUserBinding
 import com.algorand.android.models.User
 import com.algorand.android.utils.extensions.setContactIconDrawable
 import com.algorand.android.utils.toShortenedAddress

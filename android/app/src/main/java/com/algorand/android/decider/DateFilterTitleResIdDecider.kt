@@ -13,7 +13,7 @@
 
 package com.algorand.android.decider
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.DateFilter
 import javax.inject.Inject
 

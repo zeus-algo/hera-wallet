@@ -17,8 +17,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.navigation.fragment.navArgs
-import com.algorand.android.R
-import com.algorand.android.RekeyLedgerNavigationDirections
+import network.voi.hera.R
+import network.voi.hera.RekeyLedgerNavigationDirections
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.ui.common.BaseInfoFragment
 import com.algorand.android.utils.getXmlStyledString

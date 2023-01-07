@@ -17,8 +17,8 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView
-import com.algorand.android.R
-import com.algorand.android.databinding.ItemAccountOptionBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.ItemAccountOptionBinding
 import com.algorand.android.models.AccountSelection
 import com.algorand.android.utils.extensions.setAccountIconDrawable
 import com.algorand.android.utils.extensions.setTextAndVisibility

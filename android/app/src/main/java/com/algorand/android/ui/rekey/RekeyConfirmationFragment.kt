@@ -17,10 +17,10 @@ import android.view.View
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
 import androidx.navigation.fragment.navArgs
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.TransactionBaseFragment
 import com.algorand.android.customviews.LoadingDialogFragment
-import com.algorand.android.databinding.FragmentRekeyConfirmationBinding
+import network.voi.hera.databinding.FragmentRekeyConfirmationBinding
 import com.algorand.android.models.Account
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.models.SignedTransactionDetail

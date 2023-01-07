@@ -12,7 +12,7 @@
 
 package com.algorand.android.modules.transaction.detail.domain.usecase
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.AssetInformation.Companion.ALGO_ID
 import com.algorand.android.models.BaseAssetDetail
 import com.algorand.android.modules.transaction.detail.domain.model.BaseTransactionDetail

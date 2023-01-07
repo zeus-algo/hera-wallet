@@ -13,7 +13,7 @@
 package com.algorand.android.modules.assets.profile.about.ui.usecase
 
 import androidx.annotation.StringRes
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.assetsearch.domain.model.VerificationTier
 import com.algorand.android.assetsearch.domain.model.VerificationTier.SUSPICIOUS
 import com.algorand.android.assetsearch.domain.model.VerificationTier.TRUSTED

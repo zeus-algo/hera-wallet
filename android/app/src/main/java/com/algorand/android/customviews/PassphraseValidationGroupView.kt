@@ -5,7 +5,7 @@ import android.util.AttributeSet
 import android.widget.LinearLayout
 import androidx.core.view.updateLayoutParams
 import androidx.core.view.updateMargins
-import com.algorand.android.R
+import network.voi.hera.R
 import kotlin.random.Random
 import kotlin.random.nextInt
 

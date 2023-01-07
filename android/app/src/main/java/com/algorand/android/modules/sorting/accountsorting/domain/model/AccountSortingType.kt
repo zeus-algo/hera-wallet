@@ -12,7 +12,7 @@
 
 package com.algorand.android.modules.sorting.accountsorting.domain.model
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.Account
 import com.algorand.android.models.BaseAccountAndAssetListItem
 import com.algorand.android.modules.sorting.accountsorting.util.LOCAL_ACCOUNT_START_INDEX

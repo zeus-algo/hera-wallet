@@ -15,7 +15,7 @@ package com.algorand.android.banner.ui.viewholder
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.TextView
-import com.algorand.android.databinding.ItemGenericBannerBinding
+import network.voi.hera.databinding.ItemGenericBannerBinding
 import com.google.android.material.button.MaterialButton
 
 class GenericBannerViewHolder(

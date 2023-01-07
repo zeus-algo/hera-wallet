@@ -14,7 +14,7 @@ package com.algorand.android.ui.ledgersearch
 
 import android.bluetooth.BluetoothDevice
 import androidx.navigation.navGraphViewModels
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.AccountInformation
 import com.algorand.android.ui.common.BaseLedgerSearchFragment
 import com.algorand.android.ui.register.ledger.PairLedgerNavigationViewModel

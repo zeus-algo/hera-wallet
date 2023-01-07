@@ -16,10 +16,10 @@ import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
-import com.algorand.android.MainNavigationDirections
-import com.algorand.android.R
+import network.voi.hera.MainNavigationDirections
+import network.voi.hera.R
 import com.algorand.android.core.DaggerBaseFragment
-import com.algorand.android.databinding.FragmentLedgerAccountSelectionBinding
+import network.voi.hera.databinding.FragmentLedgerAccountSelectionBinding
 import com.algorand.android.models.Account
 import com.algorand.android.models.AccountInformation
 import com.algorand.android.models.AccountSelectionListItem

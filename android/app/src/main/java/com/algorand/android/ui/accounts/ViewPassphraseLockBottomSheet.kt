@@ -13,7 +13,7 @@
 package com.algorand.android.ui.accounts
 
 import androidx.navigation.fragment.navArgs
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.ui.lock.BasePasscodeVerificationBottomSheet
 import com.algorand.android.utils.showAlertDialog
 import dagger.hilt.android.AndroidEntryPoint

@@ -16,7 +16,7 @@ import android.content.ActivityNotFoundException
 import android.content.Context
 import android.content.Intent
 import android.net.Uri
-import com.algorand.android.R
+import network.voi.hera.R
 
 const val EMAIL_APPS_URI_SCHEME = "mailto:"
 const val PERA_VERIFICATION_MAIL_ADDRESS = "verification@perawallet.app"

@@ -18,10 +18,10 @@ import androidx.annotation.StringRes
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.core.content.ContextCompat
 import androidx.core.view.isVisible
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.assetsearch.ui.model.VerificationTierConfiguration
 import com.algorand.android.core.BaseFragment
-import com.algorand.android.databinding.FragmentAsaProfileBinding
+import network.voi.hera.databinding.FragmentAsaProfileBinding
 import com.algorand.android.models.AccountIconResource.Companion.DEFAULT_ACCOUNT_ICON_RESOURCE
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.models.ToolbarConfiguration

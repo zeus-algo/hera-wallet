@@ -13,7 +13,7 @@
 package com.algorand.android.modules.tutorialdialog.util
 
 import android.content.Context
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.modules.tutorialdialog.ui.TutorialDialogBuilder
 
 fun Context.showCopyAccountAddressTutorialDialog(onDismiss: (() -> Unit)? = null) {

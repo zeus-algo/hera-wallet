@@ -16,7 +16,7 @@ package com.algorand.android.ui.register.ledger.verify
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.algorand.android.databinding.ItemLedgerVerifyInstructionBinding
+import network.voi.hera.databinding.ItemLedgerVerifyInstructionBinding
 
 class VerifyLedgerInstructionViewHolder(
     private val binding: ItemLedgerVerifyInstructionBinding

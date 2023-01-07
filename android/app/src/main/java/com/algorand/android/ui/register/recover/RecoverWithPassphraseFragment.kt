@@ -18,14 +18,14 @@ import androidx.core.view.doOnLayout
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import com.algorand.algosdk.mobile.Mobile
-import com.algorand.android.MainNavigationDirections
-import com.algorand.android.R
+import network.voi.hera.MainNavigationDirections
+import network.voi.hera.R
 import com.algorand.android.core.DaggerBaseFragment
 import com.algorand.android.customviews.PassphraseInput
 import com.algorand.android.customviews.PassphraseInputGroup
 import com.algorand.android.customviews.PassphraseInputGroup.Companion.WORD_COUNT
 import com.algorand.android.customviews.PassphraseWordSuggestor
-import com.algorand.android.databinding.FragmentRecoverWithPassphraseBinding
+import network.voi.hera.databinding.FragmentRecoverWithPassphraseBinding
 import com.algorand.android.models.Account
 import com.algorand.android.models.AccountCreation
 import com.algorand.android.models.AnnotatedString

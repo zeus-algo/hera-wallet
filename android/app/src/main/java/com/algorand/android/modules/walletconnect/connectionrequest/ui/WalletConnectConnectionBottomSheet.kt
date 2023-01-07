@@ -17,9 +17,9 @@ import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.viewModels
 import com.algorand.android.MainActivity
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseBottomSheet
-import com.algorand.android.databinding.BottomSheetWalletConnectConnectionBinding
+import network.voi.hera.databinding.BottomSheetWalletConnectConnectionBinding
 import com.algorand.android.models.AnnotatedString
 import com.algorand.android.modules.walletconnect.connectionrequest.ui.adapter.WalletConnectConnectionAdapter
 import com.algorand.android.modules.walletconnect.connectionrequest.ui.model.BaseWalletConnectConnectionItem

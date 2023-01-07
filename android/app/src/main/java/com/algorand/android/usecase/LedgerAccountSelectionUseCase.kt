@@ -20,7 +20,7 @@ import com.algorand.android.mapper.LedgerAccountSelectionInstructionItemMapper
 import com.algorand.android.models.Account
 import com.algorand.android.models.AccountInformation
 import com.algorand.android.models.AccountSelectionListItem
-import com.algorand.android.repository.AccountRepository
+import network.voi.hera.Repository.AccountRepository
 import com.algorand.android.utils.AccountCacheManager
 import com.algorand.android.utils.Resource
 import javax.inject.Inject

@@ -13,7 +13,7 @@
 package com.algorand.android.modules.accounts.domain.usecase
 
 import androidx.navigation.NavDirections
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.banner.domain.model.BaseBanner
 import com.algorand.android.banner.domain.model.BaseBanner.GenericBanner
 import com.algorand.android.banner.domain.model.BaseBanner.GovernanceBanner

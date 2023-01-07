@@ -18,9 +18,9 @@ import android.view.View
 import android.view.ViewTreeObserver
 import android.widget.TextView
 import androidx.core.view.isVisible
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseFragment
-import com.algorand.android.databinding.FragmentBaseAccountSelectionBinding
+import network.voi.hera.databinding.FragmentBaseAccountSelectionBinding
 import com.algorand.android.models.ScreenState
 import com.algorand.android.models.ToolbarConfiguration
 import com.algorand.android.utils.extensions.hide

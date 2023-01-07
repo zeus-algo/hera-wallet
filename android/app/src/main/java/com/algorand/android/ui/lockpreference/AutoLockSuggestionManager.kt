@@ -14,7 +14,7 @@ package com.algorand.android.ui.lockpreference
 
 import android.content.SharedPreferences
 import com.algorand.android.MainActivity
-import com.algorand.android.MainNavigationDirections.Companion.actionToLockPreferenceNavigation
+import network.voi.hera.MainNavigationDirections.Companion.actionToLockPreferenceNavigation
 import com.algorand.android.core.AccountManager
 import com.algorand.android.utils.preference.DEFAULT_LOCK_PREFERENCE_COUNT
 import com.algorand.android.utils.preference.DONT_SHOW_AGAIN_COUNT

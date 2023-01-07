@@ -16,10 +16,10 @@ import android.os.Bundle
 import android.view.View
 import androidx.core.view.isVisible
 import androidx.fragment.app.viewModels
-import com.algorand.android.HomeNavigationDirections
-import com.algorand.android.R
+import network.voi.hera.HomeNavigationDirections
+import network.voi.hera.R
 import com.algorand.android.core.TransactionBaseFragment
-import com.algorand.android.databinding.FragmentCollectibleSendBinding
+import network.voi.hera.databinding.FragmentCollectibleSendBinding
 import com.algorand.android.models.AnnotatedString
 import com.algorand.android.models.CollectibleSendApproveResult
 import com.algorand.android.models.FragmentConfiguration

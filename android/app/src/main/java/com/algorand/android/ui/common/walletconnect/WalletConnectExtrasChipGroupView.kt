@@ -18,7 +18,7 @@ import android.util.AttributeSet
 import androidx.annotation.DimenRes
 import androidx.annotation.StringRes
 import androidx.core.view.setPadding
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.TransactionRequestExtrasInfo
 import com.algorand.android.models.WCAlgoTransactionRequest
 import com.algorand.android.models.WalletConnectTransactionAssetDetail

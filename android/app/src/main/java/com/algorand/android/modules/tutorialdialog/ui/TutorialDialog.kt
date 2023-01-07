@@ -21,8 +21,8 @@ import android.view.ViewGroup
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import androidx.core.view.setPadding
-import com.algorand.android.R
-import com.algorand.android.databinding.DialogTutorialBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.DialogTutorialBinding
 import com.algorand.android.utils.extensions.show
 import com.algorand.android.utils.getDisplaySize
 import com.algorand.android.utils.viewbinding.viewBinding

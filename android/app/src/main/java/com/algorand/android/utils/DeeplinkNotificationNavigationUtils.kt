@@ -14,8 +14,8 @@ package com.algorand.android.utils
 
 import android.content.Intent
 import androidx.navigation.NavController
-import com.algorand.android.HomeNavigationDirections
-import com.algorand.android.R
+import network.voi.hera.HomeNavigationDirections
+import network.voi.hera.R
 import com.algorand.android.models.Account
 import com.algorand.android.models.AssetAction
 import com.algorand.android.models.AssetInformation

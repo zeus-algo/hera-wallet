@@ -17,10 +17,10 @@ import android.os.Bundle
 import android.view.View
 import androidx.core.view.isVisible
 import androidx.fragment.app.viewModels
-import com.algorand.android.HomeNavigationDirections
-import com.algorand.android.R
+import network.voi.hera.HomeNavigationDirections
+import network.voi.hera.R
 import com.algorand.android.core.TransactionBaseFragment
-import com.algorand.android.databinding.FragmentAssetSelectionBinding
+import network.voi.hera.databinding.FragmentAssetSelectionBinding
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.models.ToolbarConfiguration
 import com.algorand.android.nft.ui.model.AssetSelectionPreview

@@ -17,8 +17,8 @@ import android.os.Bundle
 import android.view.View
 import androidx.core.view.isVisible
 import androidx.fragment.app.viewModels
-import com.algorand.android.R
-import com.algorand.android.databinding.FragmentDiscoverDappBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.FragmentDiscoverDappBinding
 import com.algorand.android.discover.common.ui.BaseDiscoverFragment
 import com.algorand.android.discover.common.ui.model.PeraWebViewClient
 import com.algorand.android.discover.common.ui.model.WebViewError

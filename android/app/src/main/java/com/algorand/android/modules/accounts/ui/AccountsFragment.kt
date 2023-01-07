@@ -21,13 +21,13 @@ import androidx.core.view.isVisible
 import androidx.fragment.app.viewModels
 import androidx.navigation.NavDirections
 import com.algorand.android.CoreMainActivity
-import com.algorand.android.HomeNavigationDirections
-import com.algorand.android.MainNavigationDirections
-import com.algorand.android.R
+import network.voi.hera.HomeNavigationDirections
+import network.voi.hera.MainNavigationDirections
+import network.voi.hera.R
 import com.algorand.android.core.BackPressedControllerComponent
 import com.algorand.android.core.BottomNavigationBackPressedDelegate
 import com.algorand.android.core.DaggerBaseFragment
-import com.algorand.android.databinding.FragmentAccountsBinding
+import network.voi.hera.databinding.FragmentAccountsBinding
 import com.algorand.android.models.AnnotatedString
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.models.ScreenState

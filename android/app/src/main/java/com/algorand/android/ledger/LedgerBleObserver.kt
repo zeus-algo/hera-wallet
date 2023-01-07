@@ -14,7 +14,7 @@ package com.algorand.android.ledger
 
 import android.bluetooth.BluetoothDevice
 import androidx.annotation.StringRes
-import com.algorand.android.R
+import network.voi.hera.R
 import no.nordicsemi.android.ble.observer.BondingObserver
 import no.nordicsemi.android.ble.observer.ConnectionObserver
 

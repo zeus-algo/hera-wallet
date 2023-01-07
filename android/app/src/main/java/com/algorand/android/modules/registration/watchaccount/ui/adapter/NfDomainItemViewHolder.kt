@@ -14,8 +14,8 @@ package com.algorand.android.modules.registration.watchaccount.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import com.algorand.android.R
-import com.algorand.android.databinding.ItemNfDomainBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.ItemNfDomainBinding
 import com.algorand.android.models.BaseViewHolder
 import com.algorand.android.modules.registration.watchaccount.ui.model.BasePasteableWatchAccountItem
 import com.algorand.android.utils.loadImage

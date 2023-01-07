@@ -12,7 +12,7 @@
 
 package com.algorand.android.modules.transactionhistory.ui.usecase
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.decider.TransactionUserUseCase
 import com.algorand.android.modules.transactionhistory.domain.usecase.PendingTransactionsUseCase
 import com.algorand.android.modules.transactionhistory.ui.mapper.TransactionItemMapper

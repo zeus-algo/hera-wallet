@@ -12,7 +12,7 @@
 
 package com.algorand.android.modules.transaction.csv.ui.model
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.utils.Event
 import com.algorand.android.utils.Resource
 import java.io.File

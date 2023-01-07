@@ -24,7 +24,7 @@ import androidx.annotation.LayoutRes
 import androidx.navigation.NavDirections
 import com.algorand.android.CoreMainActivity
 import com.algorand.android.MainActivity
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.NotificationMetadata
 import com.algorand.android.utils.copyToClipboard
 import com.algorand.android.utils.toShortenedAddress

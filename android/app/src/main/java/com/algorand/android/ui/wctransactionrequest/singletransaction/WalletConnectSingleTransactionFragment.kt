@@ -18,11 +18,11 @@ import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.navArgs
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseFragment
 import com.algorand.android.customviews.WalletConnectSingleTransactionAssetInfoView
 import com.algorand.android.customviews.WalletConnectSingleTransactionShortDetailView
-import com.algorand.android.databinding.FragmentWalletConnectSingleTransactionBinding
+import network.voi.hera.databinding.FragmentWalletConnectSingleTransactionBinding
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.models.TransactionRequestAction
 import com.algorand.android.utils.viewbinding.viewBinding

@@ -16,7 +16,7 @@ package com.algorand.android.ui.send.assetselection.adapter
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import com.algorand.android.assetsearch.ui.model.VerificationTierConfiguration
-import com.algorand.android.databinding.ItemSendAssetSelectionBinding
+import network.voi.hera.databinding.ItemSendAssetSelectionBinding
 import com.algorand.android.models.BaseSelectAssetItem
 import com.algorand.android.models.BaseViewHolder
 import com.algorand.android.utils.assetdrawable.BaseAssetDrawableProvider

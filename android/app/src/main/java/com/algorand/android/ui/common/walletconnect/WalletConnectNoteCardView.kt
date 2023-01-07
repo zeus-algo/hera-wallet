@@ -18,8 +18,8 @@ import android.util.AttributeSet
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.view.isVisible
 import androidx.core.view.setPadding
-import com.algorand.android.R
-import com.algorand.android.databinding.CustomWalletConnectNoteCardBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.CustomWalletConnectNoteCardBinding
 import com.algorand.android.models.TransactionRequestNoteInfo
 import com.algorand.android.utils.viewbinding.viewBinding
 

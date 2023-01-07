@@ -5,11 +5,11 @@ import android.text.method.LinkMovementMethod
 import android.view.View
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.viewModels
-import com.algorand.android.LoginNavigationDirections
+import network.voi.hera.LoginNavigationDirections
 import com.algorand.android.MainActivity
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.DaggerBaseFragment
-import com.algorand.android.databinding.FragmentRegisterTypeSelectionBinding
+import network.voi.hera.databinding.FragmentRegisterTypeSelectionBinding
 import com.algorand.android.models.AnnotatedString
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.models.RegisterIntroPreview

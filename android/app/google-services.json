@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "996314743999",
+    "project_id": "hera-wallet",
+    "storage_bucket": "hera-wallet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996314743999:android:bb8af7a4eeb52f4401f20a",
+        "android_client_info": {
+          "package_name": "network.voi.hera"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996314743999-ijvmm3dak51qk3qd7dlt57090j25tidg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAttELGQUYf0TFwaBX39IwUUaXHKEpiOs4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "996314743999-ijvmm3dak51qk3qd7dlt57090j25tidg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "996314743999-bbjum4ht8709o2dl9orqj8j0jdkblaki.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "network.voi.hera"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

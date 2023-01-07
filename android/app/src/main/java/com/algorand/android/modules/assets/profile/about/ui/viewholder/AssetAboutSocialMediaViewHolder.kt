@@ -15,7 +15,7 @@ package com.algorand.android.modules.assets.profile.about.ui.viewholder
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.view.isVisible
-import com.algorand.android.databinding.ItemAssetAboutSocialMediaBinding
+import network.voi.hera.databinding.ItemAssetAboutSocialMediaBinding
 import com.algorand.android.models.BaseViewHolder
 import com.algorand.android.modules.assets.profile.about.ui.model.BaseAssetAboutListItem
 

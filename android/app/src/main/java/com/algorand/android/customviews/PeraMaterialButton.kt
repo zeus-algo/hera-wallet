@@ -23,8 +23,8 @@ import androidx.annotation.StringRes
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.core.content.ContextCompat
 import androidx.core.content.res.use
-import com.algorand.android.R
-import com.algorand.android.databinding.CustomPeraMaterialButtonBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.CustomPeraMaterialButtonBinding
 import com.algorand.android.utils.extensions.hide
 import com.algorand.android.utils.extensions.show
 import com.algorand.android.utils.setDrawable

@@ -21,7 +21,7 @@ import androidx.annotation.ColorRes
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.core.content.ContextCompat
 import androidx.core.view.updateLayoutParams
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.ui.AccountAssetItemButtonState
 import com.algorand.android.utils.extensions.hide
 import com.algorand.android.utils.extensions.show

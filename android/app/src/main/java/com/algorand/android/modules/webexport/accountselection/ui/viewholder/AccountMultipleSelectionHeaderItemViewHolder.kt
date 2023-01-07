@@ -16,7 +16,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.view.updateLayoutParams
 import com.algorand.android.customviews.TriStatesCheckBox
-import com.algorand.android.databinding.ItemMultipleSelectHeaderBinding
+import network.voi.hera.databinding.ItemMultipleSelectHeaderBinding
 import com.algorand.android.models.BaseViewHolder
 import com.algorand.android.modules.webexport.accountselection.ui.model.BaseAccountMultipleSelectionListItem
 

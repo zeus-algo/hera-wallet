@@ -17,10 +17,10 @@ import android.view.View
 import androidx.core.view.isVisible
 import androidx.fragment.app.viewModels
 import androidx.navigation.NavDirections
-import com.algorand.android.HomeNavigationDirections
-import com.algorand.android.R
+import network.voi.hera.HomeNavigationDirections
+import network.voi.hera.R
 import com.algorand.android.core.BaseBottomSheet
-import com.algorand.android.databinding.BottomSheetAccountQuickActionsBinding
+import network.voi.hera.databinding.BottomSheetAccountQuickActionsBinding
 import com.algorand.android.models.AssetTransaction
 import com.algorand.android.utils.Event
 import com.algorand.android.utils.extensions.collectLatestOnLifecycle

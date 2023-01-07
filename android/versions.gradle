@@ -6,7 +6,7 @@ ext {
     ]
 
     application = [
-            applicationId: 'com.algorand.android'
+            applicationId: 'network.voi.hera'
     ]
 
     libVersions = [

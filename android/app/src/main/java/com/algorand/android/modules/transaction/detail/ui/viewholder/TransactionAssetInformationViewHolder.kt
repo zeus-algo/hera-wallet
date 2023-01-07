@@ -14,8 +14,8 @@ package com.algorand.android.modules.transaction.detail.ui.viewholder
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import com.algorand.android.R
-import com.algorand.android.databinding.ItemTransactionAssetInformationBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.ItemTransactionAssetInformationBinding
 import com.algorand.android.models.BaseViewHolder
 import com.algorand.android.modules.transaction.detail.ui.model.TransactionDetailItem
 

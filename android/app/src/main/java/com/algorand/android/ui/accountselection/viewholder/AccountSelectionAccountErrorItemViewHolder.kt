@@ -17,8 +17,8 @@ import android.view.ViewGroup
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.algorand.android.R
-import com.algorand.android.databinding.ItemAccountErrorSimpleBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.ItemAccountErrorSimpleBinding
 import com.algorand.android.models.AccountIconResource
 import com.algorand.android.models.AccountIconResource.Companion.DEFAULT_ACCOUNT_ICON_RESOURCE
 import com.algorand.android.models.BaseAccountSelectionListItem

@@ -15,7 +15,7 @@ package com.algorand.android.modules.assets.action.addition
 import android.widget.TextView
 import androidx.fragment.app.viewModels
 import com.algorand.android.MainActivity
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.customviews.CustomToolbar
 import com.algorand.android.models.AccountIconResource.Companion.DEFAULT_ACCOUNT_ICON_RESOURCE
 import com.algorand.android.models.AssetActionResult

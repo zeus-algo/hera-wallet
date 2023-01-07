@@ -21,7 +21,7 @@ import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Build
 import androidx.core.app.NotificationCompat
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.deviceregistration.domain.usecase.FirebasePushTokenUseCase
 import com.algorand.android.models.NotificationMetadata
 import com.algorand.android.models.NotificationType

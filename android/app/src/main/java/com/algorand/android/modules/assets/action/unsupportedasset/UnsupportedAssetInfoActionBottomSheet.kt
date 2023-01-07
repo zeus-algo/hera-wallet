@@ -14,7 +14,7 @@ package com.algorand.android.modules.assets.action.unsupportedasset
 
 import android.widget.TextView
 import androidx.fragment.app.viewModels
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.customviews.CustomToolbar
 import com.algorand.android.models.ToolbarConfiguration
 import com.algorand.android.modules.assets.action.base.BaseAssetActionBottomSheet

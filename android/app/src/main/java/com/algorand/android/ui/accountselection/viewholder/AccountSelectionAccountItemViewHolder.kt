@@ -15,8 +15,8 @@ package com.algorand.android.ui.accountselection.viewholder
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.algorand.android.R
-import com.algorand.android.databinding.ItemAccountSimpleBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.ItemAccountSimpleBinding
 import com.algorand.android.models.AccountIconResource
 import com.algorand.android.models.AccountIconResource.Companion.DEFAULT_ACCOUNT_ICON_RESOURCE
 import com.algorand.android.models.BaseAccountSelectionListItem

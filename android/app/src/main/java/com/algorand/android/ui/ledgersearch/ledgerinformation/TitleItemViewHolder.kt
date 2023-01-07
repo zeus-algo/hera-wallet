@@ -16,7 +16,7 @@ package com.algorand.android.ui.ledgersearch.ledgerinformation
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.algorand.android.databinding.ItemLedgerInformationTitleBinding
+import network.voi.hera.databinding.ItemLedgerInformationTitleBinding
 import com.algorand.android.models.LedgerInformationListItem
 
 class TitleItemViewHolder(

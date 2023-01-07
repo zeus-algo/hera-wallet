@@ -15,7 +15,7 @@ package com.algorand.android.ui.settings.node
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.algorand.android.databinding.ItemSelectionBinding
+import network.voi.hera.databinding.ItemSelectionBinding
 import com.algorand.android.models.Node
 
 class NodeViewHolder(val binding: ItemSelectionBinding) : RecyclerView.ViewHolder(binding.root) {

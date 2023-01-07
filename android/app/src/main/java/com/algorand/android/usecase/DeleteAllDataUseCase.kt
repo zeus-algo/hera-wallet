@@ -15,7 +15,7 @@ package com.algorand.android.usecase
 import android.app.NotificationManager
 import com.algorand.android.banner.domain.usecase.BannersUseCase
 import com.algorand.android.core.AccountManager
-import com.algorand.android.repository.ContactRepository
+import network.voi.hera.Repository.ContactRepository
 import com.algorand.android.utils.walletconnect.WalletConnectManager
 import javax.inject.Inject
 

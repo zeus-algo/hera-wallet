@@ -19,8 +19,8 @@ import android.widget.LinearLayout
 import androidx.core.content.res.getResourceIdOrThrow
 import androidx.core.content.res.use
 import androidx.core.view.isVisible
-import com.algorand.android.R
-import com.algorand.android.databinding.CustomSettingsListItemBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.CustomSettingsListItemBinding
 import com.algorand.android.utils.viewbinding.viewBinding
 
 class SettingsListItem @JvmOverloads constructor(

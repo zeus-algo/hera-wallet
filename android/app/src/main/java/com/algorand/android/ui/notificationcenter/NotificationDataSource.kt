@@ -20,7 +20,7 @@ import com.algorand.android.models.Pagination
 import com.algorand.android.models.Result
 import com.algorand.android.modules.deeplink.DeepLinkParser
 import com.algorand.android.modules.deeplink.domain.model.BaseDeepLink
-import com.algorand.android.repository.NotificationRepository
+import network.voi.hera.Repository.NotificationRepository
 import com.algorand.android.usecase.SimpleAssetDetailUseCase
 import com.algorand.android.utils.PeraPagingSource
 import com.algorand.android.utils.exceptions.MissingNotificationUserIdException

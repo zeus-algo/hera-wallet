@@ -22,7 +22,7 @@ import android.view.View
 import android.widget.TextView
 import android.widget.Toast
 import androidx.core.content.ContextCompat
-import com.algorand.android.R
+import network.voi.hera.R
 
 fun Context.copyToClipboard(textToCopy: CharSequence, label: String = "", showToast: Boolean = true) {
     val clipboard =

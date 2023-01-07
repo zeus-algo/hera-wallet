@@ -18,8 +18,8 @@ import android.bluetooth.BluetoothGattCharacteristic
 import android.bluetooth.BluetoothProfile
 import android.content.Context
 import android.util.Log
-import com.algorand.android.BuildConfig
-import com.algorand.android.R
+import network.voi.hera.BuildConfig
+import network.voi.hera.R
 import com.algorand.android.utils.getAccountIndexAsByteArray
 import com.algorand.android.utils.recordException
 import com.algorand.android.utils.removeExcessBytes

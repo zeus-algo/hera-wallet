@@ -14,8 +14,8 @@ package com.algorand.android.modules.walletconnect.connectionrequest.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import com.algorand.android.R
-import com.algorand.android.databinding.ItemWalletConnectConnectionDappInfoBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.ItemWalletConnectConnectionDappInfoBinding
 import com.algorand.android.models.AnnotatedString
 import com.algorand.android.models.BaseViewHolder
 import com.algorand.android.modules.walletconnect.connectionrequest.ui.model.BaseWalletConnectConnectionItem

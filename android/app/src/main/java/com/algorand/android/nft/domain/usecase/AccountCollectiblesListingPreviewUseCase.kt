@@ -28,7 +28,7 @@ import com.algorand.android.nft.ui.model.BaseCollectibleListData
 import com.algorand.android.nft.ui.model.BaseCollectibleListItem
 import com.algorand.android.nft.ui.model.CollectiblesListingPreview
 import com.algorand.android.nft.utils.CollectibleUtils
-import com.algorand.android.repository.FailedAssetRepository
+import network.voi.hera.Repository.FailedAssetRepository
 import com.algorand.android.usecase.AccountCollectibleDataUseCase
 import com.algorand.android.usecase.AccountDetailUseCase
 import com.algorand.android.utils.CacheResult

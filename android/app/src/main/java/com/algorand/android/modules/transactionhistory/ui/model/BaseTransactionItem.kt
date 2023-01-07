@@ -2,7 +2,7 @@ package com.algorand.android.modules.transactionhistory.ui.model
 
 import android.os.Parcelable
 import androidx.annotation.StringRes
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.RecyclerListItem
 import kotlinx.parcelize.Parcelize
 

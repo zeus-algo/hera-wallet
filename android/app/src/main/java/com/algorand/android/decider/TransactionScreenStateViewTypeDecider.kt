@@ -15,7 +15,7 @@ package com.algorand.android.decider
 
 import androidx.paging.CombinedLoadStates
 import androidx.paging.LoadState
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.ScreenState
 import java.io.IOException
 import javax.inject.Inject

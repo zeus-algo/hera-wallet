@@ -19,9 +19,9 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.navGraphViewModels
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.DaggerBaseFragment
-import com.algorand.android.databinding.FragmentVerifyLedgerAddressBinding
+import network.voi.hera.databinding.FragmentVerifyLedgerAddressBinding
 import com.algorand.android.ledger.LedgerBleOperationManager
 import com.algorand.android.ledger.operations.VerifyAddressOperation
 import com.algorand.android.models.Account

@@ -17,7 +17,7 @@ import android.graphics.drawable.Drawable
 import android.util.AttributeSet
 import android.widget.FrameLayout
 import androidx.core.view.isVisible
-import com.algorand.android.databinding.CustomCollectibleImageBinding
+import network.voi.hera.databinding.CustomCollectibleImageBinding
 import com.algorand.android.utils.exceptions.ViewNullPointerException
 import com.algorand.android.utils.extensions.show
 import com.algorand.android.utils.recordException

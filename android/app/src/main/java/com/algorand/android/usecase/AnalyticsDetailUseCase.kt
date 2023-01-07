@@ -20,7 +20,7 @@ import com.algorand.android.models.ChartInterval
 import com.algorand.android.models.Result
 import com.algorand.android.modules.currency.domain.usecase.CurrencyUseCase
 import com.algorand.android.modules.parity.domain.usecase.ParityUseCase
-import com.algorand.android.repository.PriceRepository
+import network.voi.hera.Repository.PriceRepository
 import com.algorand.android.utils.Resource
 import com.algorand.android.utils.awaitOrdered
 import com.algorand.android.utils.createChartEntryList

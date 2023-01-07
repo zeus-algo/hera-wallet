@@ -16,8 +16,8 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.view.updateLayoutParams
 import androidx.recyclerview.widget.RecyclerView
-import com.algorand.android.R
-import com.algorand.android.databinding.ItemAccountBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.ItemAccountBinding
 import com.algorand.android.models.AccountIconResource
 import com.algorand.android.modules.webexport.accountconfirmation.ui.model.BaseAccountConfirmationListItem
 import com.algorand.android.utils.AccountIconDrawable

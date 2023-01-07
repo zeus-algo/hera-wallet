@@ -14,7 +14,7 @@ package com.algorand.android.modules.accounts.ui.viewholder
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import com.algorand.android.databinding.ItemAccountHeaderBinding
+import network.voi.hera.databinding.ItemAccountHeaderBinding
 import com.algorand.android.models.BaseViewHolder
 import com.algorand.android.modules.accounts.domain.model.BaseAccountListItem
 

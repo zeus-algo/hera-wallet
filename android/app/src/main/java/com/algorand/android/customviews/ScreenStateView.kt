@@ -18,8 +18,8 @@ import android.util.AttributeSet
 import android.view.Gravity
 import android.widget.LinearLayout
 import androidx.core.content.res.use
-import com.algorand.android.R
-import com.algorand.android.databinding.CustomScreenStateViewBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.CustomScreenStateViewBinding
 import com.algorand.android.models.ScreenState
 import com.algorand.android.utils.extensions.setImageResAndVisibility
 import com.algorand.android.utils.extensions.setTextAndVisibility

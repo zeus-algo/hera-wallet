@@ -14,7 +14,7 @@ package com.algorand.android.usecase
 
 import com.algorand.android.core.AccountManager
 import com.algorand.android.models.AccountCacheStatus
-import com.algorand.android.repository.AccountRepository
+import network.voi.hera.Repository.AccountRepository
 import javax.inject.Inject
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.channelFlow

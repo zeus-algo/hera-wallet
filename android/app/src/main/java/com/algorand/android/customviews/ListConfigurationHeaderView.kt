@@ -22,8 +22,8 @@ import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.res.use
 import androidx.core.view.isVisible
 import androidx.core.view.updateLayoutParams
-import com.algorand.android.R
-import com.algorand.android.databinding.CustomListConfigurationHeaderBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.CustomListConfigurationHeaderBinding
 import com.algorand.android.utils.viewbinding.viewBinding
 
 class ListConfigurationHeaderView(context: Context, attrs: AttributeSet? = null) : ConstraintLayout(context, attrs) {

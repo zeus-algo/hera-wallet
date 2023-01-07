@@ -15,7 +15,7 @@ package com.algorand.android.models
 
 import android.view.View
 import androidx.annotation.DrawableRes
-import com.algorand.android.R
+import network.voi.hera.R
 import com.google.android.material.button.MaterialButton
 
 data class CircularButton(

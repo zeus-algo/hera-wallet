@@ -14,9 +14,9 @@ package com.algorand.android.modules.collectibles.manage
 
 import android.os.Bundle
 import android.view.View
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseBottomSheet
-import com.algorand.android.databinding.BottomSheetManageNftsBinding
+import network.voi.hera.databinding.BottomSheetManageNftsBinding
 import com.algorand.android.models.ToolbarConfiguration
 import com.algorand.android.utils.viewbinding.viewBinding
 

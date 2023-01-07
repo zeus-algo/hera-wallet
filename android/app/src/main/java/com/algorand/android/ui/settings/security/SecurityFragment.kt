@@ -18,9 +18,9 @@ import android.view.View
 import androidx.core.view.isVisible
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.DaggerBaseFragment
-import com.algorand.android.databinding.FragmentSecurityBinding
+import network.voi.hera.databinding.FragmentSecurityBinding
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.models.ToolbarConfiguration
 import com.algorand.android.ui.lock.ChangePasswordVerificationFragment.Companion.CHANGE_PASSWORD_VERIFICATION_RESULT_KEY

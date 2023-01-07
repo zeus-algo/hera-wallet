@@ -15,7 +15,7 @@ package com.algorand.android.ui.ledgersearch
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.algorand.android.databinding.ItemScannedLedgerBinding
+import network.voi.hera.databinding.ItemScannedLedgerBinding
 
 class LedgerSearchItemViewHolder(
     val binding: ItemScannedLedgerBinding

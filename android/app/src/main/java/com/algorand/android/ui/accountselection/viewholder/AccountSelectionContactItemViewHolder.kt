@@ -15,8 +15,8 @@ package com.algorand.android.ui.accountselection.viewholder
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.algorand.android.R
-import com.algorand.android.databinding.ItemContactSimpleBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.ItemContactSimpleBinding
 import com.algorand.android.models.BaseAccountSelectionListItem
 import com.algorand.android.utils.extensions.setContactIconDrawable
 

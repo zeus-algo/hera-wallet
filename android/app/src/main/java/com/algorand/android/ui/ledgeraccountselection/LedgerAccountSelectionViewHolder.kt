@@ -15,8 +15,8 @@ package com.algorand.android.ui.ledgeraccountselection
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.algorand.android.R
-import com.algorand.android.databinding.ItemAccountSelectionBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.ItemAccountSelectionBinding
 import com.algorand.android.models.AccountSelectionListItem
 import com.algorand.android.utils.extensions.setTextAndVisibility
 import com.algorand.android.utils.toShortenedAddress

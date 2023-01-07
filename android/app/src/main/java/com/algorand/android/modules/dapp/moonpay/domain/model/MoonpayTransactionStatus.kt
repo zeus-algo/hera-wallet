@@ -15,7 +15,7 @@ package com.algorand.android.modules.dapp.moonpay.domain.model
 import androidx.annotation.ColorRes
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import com.algorand.android.R
+import network.voi.hera.R
 
 enum class MoonpayTransactionStatus(
     val value: String,

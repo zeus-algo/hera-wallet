@@ -12,7 +12,7 @@
 
 package com.algorand.android.modules.swap.utils
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.AnnotatedString
 import com.algorand.android.modules.currency.domain.model.Currency
 import com.algorand.android.modules.swap.assetswap.domain.model.SwapQuote

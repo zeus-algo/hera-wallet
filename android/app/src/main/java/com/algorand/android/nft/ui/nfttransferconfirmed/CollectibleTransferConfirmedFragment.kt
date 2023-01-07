@@ -14,8 +14,8 @@ package com.algorand.android.nft.ui.nfttransferconfirmed
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.core.content.ContextCompat
-import com.algorand.android.R
-import com.algorand.android.SendCollectibleNavigationDirections
+import network.voi.hera.R
+import network.voi.hera.SendCollectibleNavigationDirections
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.ui.common.BaseInfoFragment
 import com.google.android.material.button.MaterialButton

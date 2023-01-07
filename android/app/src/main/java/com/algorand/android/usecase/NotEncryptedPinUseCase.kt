@@ -13,7 +13,7 @@
 
 package com.algorand.android.usecase
 
-import com.algorand.android.repository.NotEncryptedPinRepository
+import network.voi.hera.Repository.NotEncryptedPinRepository
 import javax.inject.Inject
 
 // Do NOT INJECT this use case to a class other than EncryptedPinMigrationManager

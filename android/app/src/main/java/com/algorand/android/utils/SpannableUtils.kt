@@ -32,7 +32,7 @@ import androidx.core.content.ContextCompat
 import androidx.core.content.res.ResourcesCompat
 import androidx.core.text.color
 import androidx.core.text.inSpans
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.customviews.CenteredImageSpan
 import com.algorand.android.models.AnnotatedString
 import com.algorand.android.models.AssetInformation

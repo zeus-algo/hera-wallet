@@ -13,7 +13,7 @@
 package com.algorand.android.modules.transaction.detail.domain.model
 
 import android.os.Parcelable
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.modules.transaction.common.domain.model.OnCompletionDTO
 import java.math.BigInteger
 import kotlinx.parcelize.Parcelize

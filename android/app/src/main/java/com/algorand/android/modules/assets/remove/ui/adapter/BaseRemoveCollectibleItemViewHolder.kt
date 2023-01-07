@@ -14,7 +14,7 @@ package com.algorand.android.modules.assets.remove.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import com.algorand.android.databinding.ItemRemoveCollectibleBinding
+import network.voi.hera.databinding.ItemRemoveCollectibleBinding
 import com.algorand.android.models.BaseRemoveAssetItem
 import com.algorand.android.models.BaseRemoveAssetItem.BaseRemovableItem.BaseRemoveCollectibleItem
 import com.algorand.android.models.BaseViewHolder

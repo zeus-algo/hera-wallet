@@ -13,7 +13,7 @@
 package com.algorand.android.modules.assets.remove.ui.adapter
 
 import android.view.ViewGroup
-import com.algorand.android.databinding.ItemRemoveCollectibleBinding
+import network.voi.hera.databinding.ItemRemoveCollectibleBinding
 
 // TODO: 16.03.2022 Create a base class as BaseRemoveAssetItemViewHolder and extend from it
 class RemoveCollectibleImageItemViewHolder(

@@ -14,7 +14,7 @@ package com.algorand.android.utils
 
 import android.view.View
 import android.view.ViewTreeObserver
-import com.algorand.android.R
+import network.voi.hera.R
 
 class KeyboardToggleListener(
     private val root: View,

@@ -15,7 +15,7 @@ package com.algorand.android.modules.webexport.accountselection.ui.viewholder
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.view.updateLayoutParams
-import com.algorand.android.databinding.ItemSimpleHeaderBinding
+import network.voi.hera.databinding.ItemSimpleHeaderBinding
 import com.algorand.android.models.BaseViewHolder
 import com.algorand.android.modules.webexport.accountselection.ui.model.BaseAccountMultipleSelectionListItem
 

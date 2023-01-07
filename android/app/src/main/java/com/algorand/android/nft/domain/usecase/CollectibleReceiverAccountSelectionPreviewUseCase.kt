@@ -12,7 +12,7 @@
 
 package com.algorand.android.nft.domain.usecase
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.mapper.ScreenStateMapper
 import com.algorand.android.models.BaseAccountSelectionListItem
 import com.algorand.android.models.ScreenState

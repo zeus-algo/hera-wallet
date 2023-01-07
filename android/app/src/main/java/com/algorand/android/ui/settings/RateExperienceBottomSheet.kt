@@ -2,9 +2,9 @@ package com.algorand.android.ui.settings
 
 import android.os.Bundle
 import android.view.View
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseBottomSheet
-import com.algorand.android.databinding.BottomSheetRateExperienceBinding
+import network.voi.hera.databinding.BottomSheetRateExperienceBinding
 import com.algorand.android.utils.browser.openApplicationPageOnStore
 import com.algorand.android.utils.viewbinding.viewBinding
 

@@ -16,7 +16,7 @@ import android.content.res.ColorStateList
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
-import com.algorand.android.databinding.ItemAssetAboutBadgeDescriptionBinding
+import network.voi.hera.databinding.ItemAssetAboutBadgeDescriptionBinding
 import com.algorand.android.models.BaseViewHolder
 import com.algorand.android.modules.assets.profile.about.ui.model.BaseAssetAboutListItem
 

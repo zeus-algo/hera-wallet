@@ -14,7 +14,7 @@ package com.algorand.android.models
 
 import android.content.Context
 import androidx.annotation.StringRes
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.WalletConnectSignResult.Error.Defined
 import com.algorand.android.utils.getXmlStyledString
 

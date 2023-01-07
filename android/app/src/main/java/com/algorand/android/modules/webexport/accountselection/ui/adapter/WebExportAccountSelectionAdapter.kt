@@ -14,7 +14,7 @@ package com.algorand.android.modules.webexport.accountselection.ui.adapter
 
 import android.view.ViewGroup
 import androidx.recyclerview.widget.ListAdapter
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.customviews.TriStatesCheckBox
 import com.algorand.android.models.BaseDiffUtil
 import com.algorand.android.models.BaseViewHolder

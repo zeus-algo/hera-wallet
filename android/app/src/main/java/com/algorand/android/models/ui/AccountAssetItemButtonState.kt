@@ -15,7 +15,7 @@ package com.algorand.android.models.ui
 import androidx.annotation.ColorRes
 import androidx.annotation.DimenRes
 import androidx.annotation.DrawableRes
-import com.algorand.android.R
+import network.voi.hera.R
 
 enum class AccountAssetItemButtonState(
     @ColorRes val backgroundColorResId: Int?,

@@ -17,9 +17,9 @@ import android.os.Bundle
 import android.view.View
 import android.view.ViewTreeObserver
 import androidx.fragment.app.viewModels
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.DaggerBaseFragment
-import com.algorand.android.databinding.FragmentRegisterWatchAccountBinding
+import network.voi.hera.databinding.FragmentRegisterWatchAccountBinding
 import com.algorand.android.models.AccountCreation
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.models.ToolbarConfiguration

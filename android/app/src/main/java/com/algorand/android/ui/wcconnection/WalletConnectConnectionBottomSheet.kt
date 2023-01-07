@@ -17,9 +17,9 @@
 //  mport android.view.View
 //  mport androidx.fragment.app.viewModels
 //  mport androidx.navigation.fragment.navArgs
-//  mport com.algorand.android.R
+//  mport network.voi.hera.R
 //  mport com.algorand.android.core.BaseBottomSheet
-//  mport com.algorand.android.databinding.BottomSheetWalletConnectConnectionBinding
+//  mport network.voi.hera.databinding.BottomSheetWalletConnectConnectionBinding
 //  mport com.algorand.android.models.AccountSelection
 //  mport com.algorand.android.models.AnnotatedString
 //  mport com.algorand.android.models.AssetInformation.Companion.ALGO_ID

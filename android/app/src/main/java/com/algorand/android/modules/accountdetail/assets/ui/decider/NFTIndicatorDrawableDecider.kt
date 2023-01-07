@@ -12,7 +12,7 @@
 
 package com.algorand.android.modules.accountdetail.assets.ui.decider
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.modules.collectibles.listingviewtype.domain.model.NFTListingViewType
 import com.algorand.android.modules.collectibles.listingviewtype.domain.model.NFTListingViewType.GRID
 import com.algorand.android.modules.collectibles.listingviewtype.domain.model.NFTListingViewType.LINEAR_VERTICAL

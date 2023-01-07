@@ -14,7 +14,7 @@ package com.algorand.android.modules.transaction.detail.ui.viewholder
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import com.algorand.android.databinding.ItemTransactionNoteBinding
+import network.voi.hera.databinding.ItemTransactionNoteBinding
 import com.algorand.android.models.BaseViewHolder
 import com.algorand.android.modules.transaction.detail.ui.model.TransactionDetailItem
 import com.algorand.android.utils.enableLongPressToCopyText

@@ -14,9 +14,9 @@ package com.algorand.android.modules.assets.profile.activity.ui
 
 import android.os.Bundle
 import android.view.View
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseBottomSheet
-import com.algorand.android.databinding.BottomSheetTotalSupplyBinding
+import network.voi.hera.databinding.BottomSheetTotalSupplyBinding
 import com.algorand.android.utils.viewbinding.viewBinding
 
 class TotalSupplyBottomSheet : BaseBottomSheet(R.layout.bottom_sheet_total_supply) {

@@ -21,8 +21,8 @@ import android.view.ViewGroup
 import androidx.annotation.LayoutRes
 import androidx.annotation.StringRes
 import androidx.lifecycle.Observer
-import com.algorand.android.HomeNavigationDirections
-import com.algorand.android.R
+import network.voi.hera.HomeNavigationDirections
+import network.voi.hera.R
 import com.algorand.android.customviews.LedgerLoadingDialog
 import com.algorand.android.models.Account
 import com.algorand.android.models.AnnotatedString

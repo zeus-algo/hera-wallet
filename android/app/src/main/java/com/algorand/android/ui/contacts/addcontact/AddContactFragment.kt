@@ -17,7 +17,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.navArgs
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.customviews.AlgorandInputLayout
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.models.OperationState

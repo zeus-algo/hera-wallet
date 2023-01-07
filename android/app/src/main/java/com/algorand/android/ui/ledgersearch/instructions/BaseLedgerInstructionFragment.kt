@@ -16,9 +16,9 @@ package com.algorand.android.ui.ledgersearch.instructions
 import android.app.Activity
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.navigation.NavDirections
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseFragment
-import com.algorand.android.databinding.LayoutLedgerInstructionsBinding
+import network.voi.hera.databinding.LayoutLedgerInstructionsBinding
 import com.algorand.android.models.ToolbarConfiguration
 import com.algorand.android.utils.extensions.setClickActionAndVisibility
 import com.algorand.android.utils.showEnableBluetoothPopup

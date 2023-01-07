@@ -12,7 +12,7 @@
 
 package com.algorand.android.modules.sorting.accountsorting.ui.usecase
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.customviews.accountandassetitem.mapper.AccountItemConfigurationMapper
 import com.algorand.android.models.AccountIconResource
 import com.algorand.android.models.ButtonConfiguration

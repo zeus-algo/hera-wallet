@@ -15,7 +15,7 @@ package com.algorand.android.modules.swap.transactionsummary.ui.adapter
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.view.isVisible
-import com.algorand.android.databinding.ItemSwapFeesBinding
+import network.voi.hera.databinding.ItemSwapFeesBinding
 import com.algorand.android.models.BaseViewHolder
 import com.algorand.android.modules.swap.transactionsummary.ui.model.BaseSwapTransactionSummaryItem
 

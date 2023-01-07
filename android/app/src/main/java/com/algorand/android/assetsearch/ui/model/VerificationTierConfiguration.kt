@@ -14,7 +14,7 @@ package com.algorand.android.assetsearch.ui.model
 
 import androidx.annotation.ColorRes
 import androidx.annotation.DrawableRes
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.assetsearch.domain.model.VerificationTier
 
 enum class VerificationTierConfiguration(

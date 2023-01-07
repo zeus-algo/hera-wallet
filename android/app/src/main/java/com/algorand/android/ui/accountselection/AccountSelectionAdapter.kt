@@ -15,7 +15,7 @@ package com.algorand.android.ui.accountselection
 import android.view.ViewGroup
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.BaseAccountSelectionListItem
 import com.algorand.android.models.BaseAccountSelectionListItem.BaseAccountItem.NftDomainAccountItem
 import com.algorand.android.models.BaseDiffUtil

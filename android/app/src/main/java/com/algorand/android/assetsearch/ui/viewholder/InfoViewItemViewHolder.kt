@@ -15,7 +15,7 @@ package com.algorand.android.assetsearch.ui.viewholder
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import com.algorand.android.assetsearch.ui.model.BaseAssetSearchListItem
-import com.algorand.android.databinding.ItemCollectibleInfoViewBinding
+import network.voi.hera.databinding.ItemCollectibleInfoViewBinding
 import com.algorand.android.models.BaseViewHolder
 
 class InfoViewItemViewHolder(

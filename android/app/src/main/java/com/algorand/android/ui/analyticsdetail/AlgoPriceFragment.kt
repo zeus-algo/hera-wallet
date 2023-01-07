@@ -18,12 +18,12 @@ import androidx.appcompat.content.res.AppCompatResources
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.viewModels
 import com.algorand.android.CoreMainActivity
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BackPressedControllerComponent
 import com.algorand.android.core.BottomNavigationBackPressedDelegate
 import com.algorand.android.core.DaggerBaseFragment
 import com.algorand.android.customviews.algorandchart.CompactChartView
-import com.algorand.android.databinding.FragmentAlgoPriceBinding
+import network.voi.hera.databinding.FragmentAlgoPriceBinding
 import com.algorand.android.models.CandleHistory
 import com.algorand.android.models.ChartEntryData
 import com.algorand.android.models.ChartTimeFrame

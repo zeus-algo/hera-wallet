@@ -21,7 +21,7 @@ import com.algorand.android.models.WalletConnectSigner
 import com.algorand.android.models.WalletConnectTransaction
 import com.algorand.android.models.WalletConnectTransactionAssetDetail
 import com.algorand.android.modules.assets.profile.about.domain.usecase.GetAssetDetailUseCase
-import com.algorand.android.repository.TransactionsRepository
+import network.voi.hera.Repository.TransactionsRepository
 import com.algorand.android.utils.AccountCacheManager
 import com.algorand.android.utils.groupWalletConnectTransactions
 import com.algorand.android.utils.walletconnect.WalletConnectTransactionResult.Error

@@ -13,7 +13,7 @@
 
 package com.algorand.android.modules.walletconnectfallbackbrowser.ui.decider
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.modules.walletconnectfallbackbrowser.domain.model.WalletConnectFallbackBrowser
 import javax.inject.Inject
 

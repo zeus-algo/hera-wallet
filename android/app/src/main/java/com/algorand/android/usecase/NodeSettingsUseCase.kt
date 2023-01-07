@@ -17,7 +17,7 @@ import com.algorand.android.models.Node
 import com.algorand.android.network.AlgodInterceptor
 import com.algorand.android.network.IndexerInterceptor
 import com.algorand.android.network.MobileHeaderInterceptor
-import com.algorand.android.repository.NodeRepository
+import network.voi.hera.Repository.NodeRepository
 import com.algorand.android.utils.TESTNET_NETWORK_SLUG
 import com.algorand.android.utils.defaultNodeList
 import javax.inject.Inject

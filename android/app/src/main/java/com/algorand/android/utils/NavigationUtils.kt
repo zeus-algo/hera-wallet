@@ -33,7 +33,7 @@ import androidx.navigation.NavOptions
 import androidx.navigation.fragment.FragmentNavigator
 import com.algorand.android.CoreMainActivity
 import com.algorand.android.MainActivity
-import com.algorand.android.R
+import network.voi.hera.R
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import kotlinx.coroutines.launch
 

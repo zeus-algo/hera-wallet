@@ -15,8 +15,8 @@ package com.algorand.android.ui.accountselection.viewholder
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.algorand.android.R
-import com.algorand.android.databinding.ItemNftDomainAccountBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.ItemNftDomainAccountBinding
 import com.algorand.android.models.BaseAccountSelectionListItem
 import com.algorand.android.utils.loadImage
 import com.algorand.android.utils.toShortenedAddress

@@ -25,8 +25,8 @@ import androidx.appcompat.widget.PopupMenu
 import androidx.core.content.ContextCompat
 import androidx.core.view.isVisible
 import androidx.core.view.updateLayoutParams
-import com.algorand.android.R
-import com.algorand.android.databinding.ItemWalletConnectSessionBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.ItemWalletConnectSessionBinding
 import com.algorand.android.models.BaseViewHolder
 import com.algorand.android.modules.walletconnect.sessions.ui.model.WalletConnectSessionItem
 import com.algorand.android.utils.extensions.changeTextAppearance

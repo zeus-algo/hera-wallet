@@ -23,11 +23,11 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.net.toUri
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.DaggerBaseFragment
 import com.algorand.android.customviews.AlgorandInputLayout
 import com.algorand.android.customviews.CustomToolbar
-import com.algorand.android.databinding.FragmentBaseAddEditContactBinding
+import network.voi.hera.databinding.FragmentBaseAddEditContactBinding
 import com.algorand.android.models.User
 import com.algorand.android.utils.extensions.setContactIconDrawable
 import com.algorand.android.utils.hideKeyboard

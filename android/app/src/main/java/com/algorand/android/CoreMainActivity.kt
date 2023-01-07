@@ -29,7 +29,7 @@ import com.algorand.android.core.AccountManager
 import com.algorand.android.core.BaseActivity
 import com.algorand.android.customviews.CustomToolbar
 import com.algorand.android.database.ContactDao
-import com.algorand.android.databinding.ActivityMainBinding
+import network.voi.hera.databinding.ActivityMainBinding
 import com.algorand.android.models.NotificationMetadata
 import com.algorand.android.models.StatusBarConfiguration
 import com.algorand.android.network.IndexerInterceptor
@@ -48,6 +48,7 @@ import com.algorand.android.utils.setupWithNavController
 import com.algorand.android.utils.showDarkStatusBarIcons
 import com.algorand.android.utils.showLightStatusBarIcons
 import com.algorand.android.utils.viewbinding.viewBinding
+import network.voi.hera.R
 import javax.inject.Inject
 import kotlin.properties.Delegates
 

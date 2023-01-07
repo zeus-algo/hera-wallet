@@ -16,7 +16,7 @@ package com.algorand.android.ui.common.listhelper.viewholders
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.algorand.android.databinding.ItemAccountBannerBinding
+import network.voi.hera.databinding.ItemAccountBannerBinding
 
 class BannerViewHolder(
     val binding: ItemAccountBannerBinding

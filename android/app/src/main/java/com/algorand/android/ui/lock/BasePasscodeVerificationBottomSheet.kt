@@ -16,11 +16,11 @@ import android.os.Bundle
 import android.os.Handler
 import android.view.View
 import androidx.fragment.app.viewModels
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseBottomSheet
 import com.algorand.android.customviews.DialPadView
 import com.algorand.android.customviews.SixDigitPasswordView
-import com.algorand.android.databinding.BottomSheetViewPassphraseLockBinding
+import network.voi.hera.databinding.BottomSheetViewPassphraseLockBinding
 import com.algorand.android.models.ToolbarConfiguration
 import com.algorand.android.ui.accounts.ViewPassphraseLockViewModel
 import com.algorand.android.utils.viewbinding.viewBinding

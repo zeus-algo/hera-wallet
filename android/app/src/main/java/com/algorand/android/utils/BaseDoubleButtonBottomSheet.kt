@@ -17,9 +17,9 @@ import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.core.view.isVisible
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseBottomSheet
-import com.algorand.android.databinding.BottomSheetDoubleButtonBinding
+import network.voi.hera.databinding.BottomSheetDoubleButtonBinding
 import com.algorand.android.utils.viewbinding.viewBinding
 import com.google.android.material.button.MaterialButton
 

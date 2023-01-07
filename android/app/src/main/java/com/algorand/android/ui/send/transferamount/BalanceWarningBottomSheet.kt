@@ -15,9 +15,9 @@ package com.algorand.android.ui.send.transferamount
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.viewModels
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseBottomSheet
-import com.algorand.android.databinding.BottomSheetBalanceWarningBinding
+import network.voi.hera.databinding.BottomSheetBalanceWarningBinding
 import com.algorand.android.utils.assetdrawable.AlgoDrawableProvider
 import com.algorand.android.utils.extensions.collectLatestOnLifecycle
 import com.algorand.android.utils.viewbinding.viewBinding

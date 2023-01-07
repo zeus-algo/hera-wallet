@@ -12,7 +12,7 @@
 
 package com.algorand.android.discover.utils
 
-import com.algorand.android.BuildConfig
+import network.voi.hera.BuildConfig
 import com.algorand.android.discover.common.ui.model.WebViewTheme
 import com.algorand.android.utils.UrlBuilder
 

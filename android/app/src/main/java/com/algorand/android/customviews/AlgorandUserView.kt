@@ -22,8 +22,8 @@ import androidx.core.net.toUri
 import androidx.core.view.isInvisible
 import androidx.core.view.isVisible
 import androidx.lifecycle.findViewTreeLifecycleOwner
-import com.algorand.android.R
-import com.algorand.android.databinding.CustomUserViewBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.CustomUserViewBinding
 import com.algorand.android.models.AccountCacheData
 import com.algorand.android.models.AccountIconResource
 import com.algorand.android.models.TooltipConfig

@@ -13,7 +13,7 @@
 
 package com.algorand.android.usecase
 
-import com.algorand.android.repository.TransactionTipsRepository
+import network.voi.hera.Repository.TransactionTipsRepository
 import javax.inject.Inject
 
 class TransactionTipsUseCase @Inject constructor(

@@ -14,7 +14,7 @@ package com.algorand.android.ui.register.ledger
 
 import androidx.navigation.fragment.navArgs
 import androidx.navigation.navGraphViewModels
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.Account
 import com.algorand.android.models.AccountInformation
 import com.algorand.android.models.AccountSelectionListItem

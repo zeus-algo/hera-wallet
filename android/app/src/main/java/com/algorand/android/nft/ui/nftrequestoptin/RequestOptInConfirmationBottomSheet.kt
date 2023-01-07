@@ -19,8 +19,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.viewModels
-import com.algorand.android.MainNavigationDirections
-import com.algorand.android.R
+import network.voi.hera.MainNavigationDirections
+import network.voi.hera.R
 import com.algorand.android.models.AnnotatedString
 import com.algorand.android.nft.ui.model.RequestOptInConfirmationPreview
 import com.algorand.android.utils.BaseDoubleButtonBottomSheet

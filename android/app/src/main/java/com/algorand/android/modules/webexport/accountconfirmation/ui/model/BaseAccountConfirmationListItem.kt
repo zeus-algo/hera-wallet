@@ -16,7 +16,7 @@ import androidx.annotation.ColorRes
 import androidx.annotation.DimenRes
 import androidx.annotation.StringRes
 import androidx.annotation.StyleRes
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.customviews.accountasseticonnameitem.model.AccountAssetIconNameConfiguration
 import com.algorand.android.models.RecyclerListItem
 

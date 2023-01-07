@@ -13,7 +13,7 @@
 
 package com.algorand.android.utils
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.Account
 
 fun isRekeyedToAnotherAccount(authAddress: String?, accountAddress: String?): Boolean {

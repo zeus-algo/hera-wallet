@@ -15,7 +15,7 @@ package com.algorand.android.ui.accountoptions
 import android.os.Bundle
 import android.view.View
 import androidx.navigation.fragment.navArgs
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.ui.common.warningconfirmation.WarningConfirmationBottomSheet
 import com.algorand.android.utils.extensions.show
 import com.algorand.android.utils.startSavedStateListener

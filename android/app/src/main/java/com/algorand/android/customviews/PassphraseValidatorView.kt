@@ -3,8 +3,8 @@ package com.algorand.android.customviews
 import android.content.Context
 import android.util.AttributeSet
 import android.widget.LinearLayout
-import com.algorand.android.R
-import com.algorand.android.databinding.CustomPassphraseValidatorBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.CustomPassphraseValidatorBinding
 import com.algorand.android.utils.getXmlStyledString
 import com.algorand.android.utils.viewbinding.viewBinding
 

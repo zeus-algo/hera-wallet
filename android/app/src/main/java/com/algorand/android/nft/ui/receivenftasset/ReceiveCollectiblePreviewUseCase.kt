@@ -15,7 +15,7 @@ package com.algorand.android.nft.ui.receivenftasset
 import androidx.paging.PagingData
 import androidx.paging.insertHeaderItem
 import androidx.paging.map
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.assetsearch.domain.mapper.AssetSearchQueryMapper
 import com.algorand.android.assetsearch.domain.model.BaseSearchedAsset
 import com.algorand.android.assetsearch.domain.pagination.AssetSearchPagerBuilder

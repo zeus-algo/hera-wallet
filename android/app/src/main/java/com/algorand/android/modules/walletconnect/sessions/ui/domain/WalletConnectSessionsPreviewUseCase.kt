@@ -12,7 +12,7 @@
 
 package com.algorand.android.modules.walletconnect.sessions.ui.domain
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.WalletConnectSession
 import com.algorand.android.modules.walletconnect.domain.ConnectToExistingSessionUseCase
 import com.algorand.android.modules.walletconnect.domain.GetWalletConnectLocalSessionsUseCase

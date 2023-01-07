@@ -16,7 +16,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.view.updateLayoutParams
 import androidx.recyclerview.widget.RecyclerView
-import com.algorand.android.databinding.ItemTextSimpleBinding
+import network.voi.hera.databinding.ItemTextSimpleBinding
 import com.algorand.android.modules.webexport.accountconfirmation.ui.model.BaseAccountConfirmationListItem
 
 class WebExportAccountConfirmationTextItemViewHolder(

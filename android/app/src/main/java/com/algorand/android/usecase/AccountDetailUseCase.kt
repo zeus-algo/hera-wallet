@@ -19,7 +19,7 @@ import com.algorand.android.models.Account
 import com.algorand.android.models.AccountDetail
 import com.algorand.android.models.AccountDetailSummary
 import com.algorand.android.models.AccountIconResource
-import com.algorand.android.repository.AccountRepository
+import network.voi.hera.Repository.AccountRepository
 import com.algorand.android.utils.CacheResult
 import com.algorand.android.utils.DataResource
 import com.algorand.android.utils.canSignTransaction

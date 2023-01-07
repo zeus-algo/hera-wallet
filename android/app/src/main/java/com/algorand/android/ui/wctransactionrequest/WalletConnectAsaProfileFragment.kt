@@ -15,8 +15,8 @@ package com.algorand.android.ui.wctransactionrequest
 import android.content.Context
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.viewModels
-import com.algorand.android.HomeNavigationDirections
-import com.algorand.android.R
+import network.voi.hera.HomeNavigationDirections
+import network.voi.hera.R
 import com.algorand.android.discover.home.domain.model.TokenDetailInfo
 import com.algorand.android.models.AnnotatedString
 import com.algorand.android.models.AssetActionResult

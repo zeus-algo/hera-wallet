@@ -13,8 +13,8 @@
 
 package com.algorand.android.usecase
 
-import com.algorand.android.R
-import com.algorand.android.SendAlgoNavigationDirections
+import network.voi.hera.R
+import network.voi.hera.SendAlgoNavigationDirections
 import com.algorand.android.core.AccountManager
 import com.algorand.android.decider.AssetDrawableProviderDecider
 import com.algorand.android.models.AccountInformation
@@ -28,8 +28,8 @@ import com.algorand.android.models.TargetUser
 import com.algorand.android.models.User
 import com.algorand.android.nft.domain.usecase.SimpleCollectibleUseCase
 import com.algorand.android.nft.ui.model.RequestOptInConfirmationArgs
-import com.algorand.android.repository.AssetRepository
-import com.algorand.android.repository.ContactRepository
+import network.voi.hera.Repository.AssetRepository
+import network.voi.hera.Repository.ContactRepository
 import com.algorand.android.ui.send.receiveraccount.ReceiverAccountSelectionFragmentDirections
 import com.algorand.android.utils.AccountCacheManager
 import com.algorand.android.utils.exceptions.GlobalException

@@ -20,10 +20,10 @@ import androidx.core.animation.doOnEnd
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
-import com.algorand.android.R
-import com.algorand.android.SendAlgoNavigationDirections
+import network.voi.hera.R
+import network.voi.hera.SendAlgoNavigationDirections
 import com.algorand.android.core.BaseFragment
-import com.algorand.android.databinding.FragmentTransactionConfirmationBinding
+import network.voi.hera.databinding.FragmentTransactionConfirmationBinding
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.ui.send.confirmation.ui.model.TransactionStatusPreview
 import com.algorand.android.utils.setFragmentNavigationResult

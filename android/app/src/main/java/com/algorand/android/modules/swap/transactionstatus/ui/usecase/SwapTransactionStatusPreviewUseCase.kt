@@ -15,7 +15,7 @@ package com.algorand.android.modules.swap.transactionstatus.ui.usecase
 import android.content.res.Resources
 import android.text.style.ForegroundColorSpan
 import androidx.core.content.res.ResourcesCompat
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.AnnotatedString
 import com.algorand.android.modules.swap.assetswap.domain.model.SwapQuote
 import com.algorand.android.modules.swap.confirmswap.domain.model.SwapQuoteTransaction

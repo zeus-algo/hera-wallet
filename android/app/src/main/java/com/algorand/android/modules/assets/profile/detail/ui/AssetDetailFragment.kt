@@ -19,10 +19,10 @@ import androidx.core.content.ContextCompat
 import androidx.core.view.isVisible
 import androidx.fragment.app.viewModels
 import androidx.navigation.NavDirections
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.assetsearch.ui.model.VerificationTierConfiguration
 import com.algorand.android.core.BaseFragment
-import com.algorand.android.databinding.FragmentAssetDetailBinding
+import network.voi.hera.databinding.FragmentAssetDetailBinding
 import com.algorand.android.discover.home.domain.model.TokenDetailInfo
 import com.algorand.android.models.AccountIconResource
 import com.algorand.android.models.AnnotatedString

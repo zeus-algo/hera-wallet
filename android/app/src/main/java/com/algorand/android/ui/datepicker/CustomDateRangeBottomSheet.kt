@@ -16,9 +16,9 @@ import android.os.Bundle
 import android.view.View
 import android.widget.DatePicker
 import androidx.fragment.app.viewModels
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseBottomSheet
-import com.algorand.android.databinding.BottomSheetCustomDateRangeBinding
+import network.voi.hera.databinding.BottomSheetCustomDateRangeBinding
 import com.algorand.android.models.TextButton
 import com.algorand.android.models.ToolbarConfiguration
 import com.algorand.android.models.ui.CustomDateRangePreview

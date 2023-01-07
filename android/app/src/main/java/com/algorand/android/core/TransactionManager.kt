@@ -17,7 +17,7 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.coroutineScope
 import com.algorand.algosdk.mobile.BytesArray
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.ledger.CustomScanCallback
 import com.algorand.android.ledger.LedgerBleOperationManager
 import com.algorand.android.ledger.LedgerBleSearchManager
@@ -34,7 +34,7 @@ import com.algorand.android.models.TransactionManagerResult
 import com.algorand.android.models.TransactionManagerResult.Error.GlobalWarningError.Defined
 import com.algorand.android.models.TransactionManagerResult.Error.GlobalWarningError.MinBalanceError
 import com.algorand.android.models.TransactionParams
-import com.algorand.android.repository.TransactionsRepository
+import network.voi.hera.Repository.TransactionsRepository
 import com.algorand.android.usecase.AccountDetailUseCase
 import com.algorand.android.utils.AccountCacheManager
 import com.algorand.android.utils.Event

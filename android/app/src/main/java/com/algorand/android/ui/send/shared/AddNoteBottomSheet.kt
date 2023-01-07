@@ -16,9 +16,9 @@ package com.algorand.android.ui.send.shared
 import android.os.Bundle
 import android.view.View
 import androidx.navigation.fragment.navArgs
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseBottomSheet
-import com.algorand.android.databinding.BottomSheetAddNoteBinding
+import network.voi.hera.databinding.BottomSheetAddNoteBinding
 import com.algorand.android.models.TextButton
 import com.algorand.android.models.ToolbarConfiguration
 import com.algorand.android.utils.setNavigationResult

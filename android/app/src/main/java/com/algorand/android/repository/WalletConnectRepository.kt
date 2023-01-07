@@ -10,7 +10,7 @@
  * limitations under the License
  */
 
-package com.algorand.android.repository
+package network.voi.hera.Repository
 
 import com.algorand.android.database.WalletConnectDao
 import com.algorand.android.deviceregistration.domain.repository.FirebasePushTokenRepository

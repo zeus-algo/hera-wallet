@@ -19,9 +19,9 @@ import android.text.style.AbsoluteSizeSpan
 import android.util.AttributeSet
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.constraintlayout.widget.ConstraintLayout
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.assetsearch.ui.model.VerificationTierConfiguration
-import com.algorand.android.databinding.CustomWalletConnectTransactionShortAmountViewBinding
+import network.voi.hera.databinding.CustomWalletConnectTransactionShortAmountViewBinding
 import com.algorand.android.models.BaseAppCallTransaction
 import com.algorand.android.models.WalletConnectTransactionAmount
 import com.algorand.android.utils.ALGO_DECIMALS

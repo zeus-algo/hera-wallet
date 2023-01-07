@@ -16,9 +16,9 @@ import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.viewModels
 import androidx.navigation.NavDirections
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseFragment
-import com.algorand.android.databinding.FragmentSwapIntroductionBinding
+import network.voi.hera.databinding.FragmentSwapIntroductionBinding
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.utils.Event
 import com.algorand.android.utils.browser.openTinymanTermsOfServiceUrl

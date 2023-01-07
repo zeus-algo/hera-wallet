@@ -17,8 +17,8 @@ import android.content.Context
 import android.util.AttributeSet
 import android.webkit.CookieManager
 import android.webkit.WebView
-import com.algorand.android.BuildConfig
-import com.algorand.android.R
+import network.voi.hera.BuildConfig
+import network.voi.hera.R
 
 class PeraWebView : WebView {
     constructor(context: Context) : super(context) {

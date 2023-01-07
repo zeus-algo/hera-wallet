@@ -18,9 +18,9 @@ import android.text.style.ForegroundColorSpan
 import android.view.View
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.viewModels
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.DaggerBaseBottomSheet
-import com.algorand.android.databinding.BottomSheetTransactionTipsBinding
+import network.voi.hera.databinding.BottomSheetTransactionTipsBinding
 import com.algorand.android.utils.getXmlStyledString
 import com.algorand.android.utils.browser.openTransactionInfoUrl
 import com.algorand.android.utils.viewbinding.viewBinding

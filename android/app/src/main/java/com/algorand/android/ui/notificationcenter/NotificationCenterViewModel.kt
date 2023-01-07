@@ -26,7 +26,7 @@ import com.algorand.android.models.NotificationListItem
 import com.algorand.android.modules.accounts.domain.usecase.NotificationStatusUseCase
 import com.algorand.android.modules.deeplink.DeepLinkParser
 import com.algorand.android.notification.PeraNotificationManager
-import com.algorand.android.repository.NotificationRepository
+import network.voi.hera.Repository.NotificationRepository
 import com.algorand.android.usecase.NotificationCenterUseCase
 import com.algorand.android.usecase.SimpleAssetDetailUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel

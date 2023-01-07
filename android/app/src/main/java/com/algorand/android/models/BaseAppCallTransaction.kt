@@ -12,7 +12,7 @@
 
 package com.algorand.android.models
 
-import com.algorand.android.R
+import network.voi.hera.R
 import kotlinx.parcelize.Parcelize
 
 sealed class BaseAppCallTransaction : BaseWalletConnectTransaction() {

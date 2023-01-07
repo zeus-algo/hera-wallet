@@ -3,7 +3,7 @@ package com.algorand.android.modules.collectibles.action.optin
 import android.widget.TextView
 import androidx.fragment.app.viewModels
 import com.algorand.android.MainActivity
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.customviews.CustomToolbar
 import com.algorand.android.models.AccountIconResource
 import com.algorand.android.models.AssetActionResult

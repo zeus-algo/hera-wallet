@@ -18,7 +18,7 @@ import android.graphics.Paint
 import android.util.AttributeSet
 import android.view.View
 import androidx.core.content.ContextCompat
-import com.algorand.android.R
+import network.voi.hera.R
 
 class QRScannerShadowView @JvmOverloads constructor(
     context: Context,

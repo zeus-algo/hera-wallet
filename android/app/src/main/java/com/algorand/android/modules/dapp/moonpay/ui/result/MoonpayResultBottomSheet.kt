@@ -16,9 +16,9 @@ import android.os.Bundle
 import android.view.View
 import androidx.core.content.ContextCompat
 import androidx.navigation.fragment.navArgs
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.DaggerBaseBottomSheet
-import com.algorand.android.databinding.BottomSheetMoonpayResultBinding
+import network.voi.hera.databinding.BottomSheetMoonpayResultBinding
 import com.algorand.android.utils.toShortenedAddress
 import com.algorand.android.utils.viewbinding.viewBinding
 import dagger.hilt.android.AndroidEntryPoint

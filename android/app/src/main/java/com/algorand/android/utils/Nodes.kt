@@ -12,7 +12,7 @@
 
 package com.algorand.android.utils
 
-import com.algorand.android.BuildConfig
+import network.voi.hera.BuildConfig
 import com.algorand.android.models.Node
 
 const val CURRENT_DEFAULT_NODE_LIST_VERSION = 26

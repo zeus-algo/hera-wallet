@@ -17,13 +17,13 @@ import android.os.Bundle
 import android.view.View
 import androidx.core.view.isVisible
 import androidx.fragment.app.viewModels
-import com.algorand.android.R
-import com.algorand.android.SendAlgoNavigationDirections
+import network.voi.hera.R
+import network.voi.hera.SendAlgoNavigationDirections
 import com.algorand.android.assetsearch.ui.model.VerificationTierConfiguration
 import com.algorand.android.core.TransactionBaseFragment
 import com.algorand.android.customviews.DialPadView
 import com.algorand.android.customviews.algorandamountinput.AlgorandAmountInputTextView
-import com.algorand.android.databinding.FragmentAssetTransferAmountBinding
+import network.voi.hera.databinding.FragmentAssetTransferAmountBinding
 import com.algorand.android.models.AmountInput
 import com.algorand.android.models.AssetTransferAmountPreview
 import com.algorand.android.models.FragmentConfiguration

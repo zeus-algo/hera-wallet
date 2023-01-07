@@ -15,7 +15,7 @@ package com.algorand.android.customviews.algorandchart
 import android.content.Context
 import android.graphics.Canvas
 import androidx.core.view.isVisible
-import com.algorand.android.databinding.LayoutChartMarkerViewBinding
+import network.voi.hera.databinding.LayoutChartMarkerViewBinding
 import com.algorand.android.utils.viewbinding.viewBinding
 import com.github.mikephil.charting.components.MarkerView
 import com.github.mikephil.charting.data.Entry

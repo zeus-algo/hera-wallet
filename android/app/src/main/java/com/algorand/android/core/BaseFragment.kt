@@ -20,7 +20,7 @@ import androidx.navigation.NavDirections
 import androidx.navigation.fragment.FragmentNavigator
 import com.algorand.android.CoreMainActivity
 import com.algorand.android.MainActivity
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.customviews.CustomToolbar
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.models.NotificationMetadata

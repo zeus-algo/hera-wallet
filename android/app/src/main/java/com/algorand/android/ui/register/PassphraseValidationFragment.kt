@@ -17,10 +17,10 @@ import android.view.View
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.navArgs
 import com.algorand.algosdk.mobile.Mobile
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.DaggerBaseFragment
 import com.algorand.android.customviews.PassphraseValidationGroupView
-import com.algorand.android.databinding.FragmentPassphraseValidationBinding
+import network.voi.hera.databinding.FragmentPassphraseValidationBinding
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.models.ToolbarConfiguration
 import com.algorand.android.utils.singleVibrate

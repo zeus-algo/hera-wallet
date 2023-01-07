@@ -14,7 +14,7 @@ package com.algorand.android.ui.send.assetselection.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import com.algorand.android.databinding.ItemSelectCollectibleBinding
+import network.voi.hera.databinding.ItemSelectCollectibleBinding
 import com.algorand.android.models.BaseSelectAssetItem
 import com.algorand.android.models.BaseViewHolder
 

@@ -16,9 +16,9 @@ import androidx.core.widget.ContentLoadingProgressBar
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.navArgs
 import androidx.recyclerview.widget.RecyclerView
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.customviews.ScreenStateView
-import com.algorand.android.databinding.FragmentAddAssetBinding
+import network.voi.hera.databinding.FragmentAddAssetBinding
 import com.algorand.android.models.AssetAction
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.models.IconButton

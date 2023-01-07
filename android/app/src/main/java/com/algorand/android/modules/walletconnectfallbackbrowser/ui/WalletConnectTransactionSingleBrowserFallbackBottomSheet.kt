@@ -14,7 +14,7 @@ package com.algorand.android.modules.walletconnectfallbackbrowser.ui
 
 import android.widget.TextView
 import androidx.navigation.fragment.navArgs
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.modules.walletconnectfallbackbrowser.ui.model.FallbackBrowserListItem
 import dagger.hilt.android.AndroidEntryPoint
 

@@ -15,7 +15,7 @@ package com.algorand.android.ui.ledgeraccountselection
 import android.view.ViewGroup
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.models.AccountSelectionListItem
 import com.algorand.android.models.BaseDiffUtil
 

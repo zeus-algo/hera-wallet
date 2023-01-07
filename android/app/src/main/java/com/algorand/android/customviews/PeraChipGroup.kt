@@ -15,7 +15,7 @@ package com.algorand.android.customviews
 import android.content.Context
 import android.util.AttributeSet
 import androidx.core.view.children
-import com.algorand.android.R
+import network.voi.hera.R
 import com.google.android.material.chip.Chip
 import com.google.android.material.chip.ChipGroup
 

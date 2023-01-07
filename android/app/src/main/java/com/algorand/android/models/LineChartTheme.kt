@@ -12,7 +12,7 @@
 
 package com.algorand.android.models
 
-import com.algorand.android.R
+import network.voi.hera.R
 
 enum class LineChartTheme(val markerDrawableResId: Int, val lineColorResId: Int) {
     GREEN(R.drawable.bg_chart_mark_green_oval, R.color.positive),

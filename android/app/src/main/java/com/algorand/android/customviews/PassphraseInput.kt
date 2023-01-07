@@ -24,9 +24,9 @@ import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
 import androidx.core.widget.doOnTextChanged
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.customviews.PassphraseInputGroup.Companion.WORD_COUNT
-import com.algorand.android.databinding.CustomPassphraseInputBinding
+import network.voi.hera.databinding.CustomPassphraseInputBinding
 import com.algorand.android.utils.addFilterNotLetters
 import com.algorand.android.utils.splitMnemonic
 import com.algorand.android.utils.getTextFromClipboard

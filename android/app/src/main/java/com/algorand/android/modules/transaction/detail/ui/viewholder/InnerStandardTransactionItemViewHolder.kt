@@ -15,8 +15,8 @@ package com.algorand.android.modules.transaction.detail.ui.viewholder
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
-import com.algorand.android.R
-import com.algorand.android.databinding.ItemInnerTransactionBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.ItemInnerTransactionBinding
 import com.algorand.android.modules.transaction.detail.ui.model.TransactionDetailItem
 
 class InnerStandardTransactionItemViewHolder(

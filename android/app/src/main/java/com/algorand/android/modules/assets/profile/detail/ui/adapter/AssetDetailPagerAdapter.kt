@@ -14,7 +14,7 @@ package com.algorand.android.modules.assets.profile.detail.ui.adapter
 
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.modules.assets.profile.about.ui.AssetAboutFragment
 import com.algorand.android.modules.assets.profile.activity.ui.AssetActivityFragment
 import com.algorand.android.modules.assets.profile.detail.ui.model.AssetDetailPagerAdapterItem

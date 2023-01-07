@@ -12,7 +12,7 @@
 
 package com.algorand.android.modules.accountdetail.assets.ui.mapper
 
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.decider.AssetDrawableProviderDecider
 import com.algorand.android.models.BaseAccountAssetData
 import com.algorand.android.models.BaseAccountAssetData.PendingAssetData

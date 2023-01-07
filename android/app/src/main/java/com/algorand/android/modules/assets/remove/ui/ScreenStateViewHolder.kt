@@ -16,8 +16,8 @@ package com.algorand.android.modules.assets.remove.ui
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.view.updateLayoutParams
-import com.algorand.android.R
-import com.algorand.android.databinding.ItemScreenStateViewBinding
+import network.voi.hera.R
+import network.voi.hera.databinding.ItemScreenStateViewBinding
 import com.algorand.android.models.BaseRemoveAssetItem
 import com.algorand.android.models.BaseViewHolder
 

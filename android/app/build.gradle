@@ -23,6 +23,9 @@ if (project.file(browsersGradlePath).exists()) {
 }
 
 android {
+    buildFeatures {
+        dataBinding true
+    }
     compileSdkVersion targets.compileSdkVersion
     defaultConfig {
         minSdkVersion targets.minSdkVersion
@@ -83,7 +86,7 @@ android {
         staging {
             dimension "server"
             versionNameSuffix " (STAGING)"
-            applicationIdSuffix ".staging"
+//            applicationIdSuffix ".staging"
             apiKeyProps.load(new FileInputStream(file('../app/src/staging/api-key.properties')))
             buildConfigField "String", "ALGORAND_BASE_URL", '"https://node-testnet.chain.perawallet.app/"'
             buildConfigField "String", "ALGORAND_API_KEY", apiKeyProps["ALGORAND_API_KEY"]
@@ -112,6 +115,14 @@ android {
             buildConfigField "String", "DISCOVER_WEBVIEW_PASSWORD", apiKeyProps["DISCOVER_WEBVIEW_PASSWORD"]
             buildConfigField "String", "DISCOVER_VERSION", "\"${discoverVersions.prod}\""
             buildConfigField "String", "DISCOVER_URL", '"https://discover-mobile.perawallet.app/"'
+        }
+
+        pera {
+            dimension "app"
+            versionCode 85
+            versionName "5.6.3"
+            buildConfigField "String", "APPLICATION_NAME", '"pera"'
+            buildConfigField "String", "DEEPLINK_PREFIX", '"algorand://"'
         }
     }
 

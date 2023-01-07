@@ -13,7 +13,7 @@
 package com.algorand.android.modules.swap.slippagetolerance.ui
 
 import androidx.fragment.app.viewModels
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.customviews.PeraChipGroup
 import com.algorand.android.models.ToolbarConfiguration
 import com.algorand.android.modules.basepercentageselection.ui.BasePercentageSelectionBottomSheet

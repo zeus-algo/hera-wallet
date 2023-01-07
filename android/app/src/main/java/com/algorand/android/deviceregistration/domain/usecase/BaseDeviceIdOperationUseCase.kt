@@ -12,7 +12,7 @@
 
 package com.algorand.android.deviceregistration.domain.usecase
 
-import com.algorand.android.BuildConfig
+import network.voi.hera.BuildConfig
 import com.algorand.android.core.AccountManager
 import java.util.Locale
 

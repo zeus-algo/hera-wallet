@@ -19,7 +19,7 @@ import com.algorand.android.core.BaseViewModel
 import com.algorand.android.database.NotificationFilterDao
 import com.algorand.android.models.Account
 import com.algorand.android.models.WarningConfirmation
-import com.algorand.android.repository.NotificationRepository
+import network.voi.hera.Repository.NotificationRepository
 import com.algorand.android.usecase.AccountDeletionUseCase
 import com.algorand.android.usecase.AccountOptionsUseCase
 import com.algorand.android.utils.Resource

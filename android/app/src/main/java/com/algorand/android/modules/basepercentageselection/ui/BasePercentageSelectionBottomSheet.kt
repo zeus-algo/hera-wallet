@@ -14,11 +14,11 @@ package com.algorand.android.modules.basepercentageselection.ui
 
 import android.os.Bundle
 import android.view.View
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseBottomSheet
 import com.algorand.android.customviews.PeraChipGroup
 import com.algorand.android.customviews.PeraChipGroup.PeraChipItem
-import com.algorand.android.databinding.BottomSheetPercentageSelectionBinding
+import network.voi.hera.databinding.BottomSheetPercentageSelectionBinding
 import com.algorand.android.models.TextButton
 import com.algorand.android.models.ToolbarConfiguration
 import com.algorand.android.utils.extensions.collectLatestOnLifecycle

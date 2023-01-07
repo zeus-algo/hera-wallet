@@ -14,7 +14,7 @@ package com.algorand.android.modules.transactionhistory.domain.repository
 
 import com.algorand.android.models.Result
 import com.algorand.android.modules.transactionhistory.domain.model.PaginatedTransactionsDTO
-import com.algorand.android.repository.TransactionsRepository
+import network.voi.hera.Repository.TransactionsRepository
 
 interface TransactionHistoryRepository {
 

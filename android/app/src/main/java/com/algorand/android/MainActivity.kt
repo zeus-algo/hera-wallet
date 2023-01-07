@@ -93,6 +93,9 @@ import kotlin.properties.Delegates
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.flow.drop
 import kotlinx.coroutines.launch
+import network.voi.hera.HomeNavigationDirections
+import network.voi.hera.MainNavigationDirections
+import network.voi.hera.R
 
 @AndroidEntryPoint
 class MainActivity :

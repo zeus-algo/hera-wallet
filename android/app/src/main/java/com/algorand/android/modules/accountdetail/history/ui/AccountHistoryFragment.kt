@@ -22,9 +22,9 @@ import androidx.fragment.app.viewModels
 import androidx.paging.CombinedLoadStates
 import androidx.paging.PagingData
 import androidx.recyclerview.widget.ConcatAdapter
-import com.algorand.android.R
+import network.voi.hera.R
 import com.algorand.android.core.BaseFragment
-import com.algorand.android.databinding.FragmentAccountHistoryBinding
+import network.voi.hera.databinding.FragmentAccountHistoryBinding
 import com.algorand.android.models.DateFilter
 import com.algorand.android.models.FragmentConfiguration
 import com.algorand.android.models.ui.DateFilterPreview

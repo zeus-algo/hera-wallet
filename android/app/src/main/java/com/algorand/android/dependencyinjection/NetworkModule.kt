@@ -12,7 +12,7 @@
 
 package com.algorand.android.dependencyinjection
 
-import com.algorand.android.BuildConfig
+import network.voi.hera.BuildConfig
 import com.algorand.android.models.Account
 import com.algorand.android.models.AccountDeserializer
 import com.algorand.android.network.AlgodApi
