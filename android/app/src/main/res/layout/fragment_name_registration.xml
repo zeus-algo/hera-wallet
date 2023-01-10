@@ -43,7 +43,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/labelTextView" />
 
-        <com.algorand.android.customviews.AlgorandInputLayout
+        <network.voi.hera.customviews.AlgorandInputLayout
             android:id="@+id/nameInputLayout"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

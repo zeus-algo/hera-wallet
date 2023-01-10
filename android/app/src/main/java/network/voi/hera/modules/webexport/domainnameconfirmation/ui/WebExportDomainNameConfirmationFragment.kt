@@ -1,0 +1,153 @@
+/*
+ *  Copyright 2022 Pera Wallet, LDA
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License
+ */
+
+package network.voi.hera.modules.webexport.domainnameconfirmation.ui
+
+import android.os.Bundle
+import android.view.View
+import androidx.fragment.app.viewModels
+import network.voi.hera.R
+import network.voi.hera.core.BaseFragment
+import network.voi.hera.databinding.FragmentWebExportDomainNameConfirmationBinding
+import network.voi.hera.models.FragmentConfiguration
+import network.voi.hera.models.ToolbarConfiguration
+import network.voi.hera.modules.webexport.pinentry.ui.WebExportPasswordFragment.Companion.WEB_EXPORT_PASSWORD_RESULT_KEY
+import network.voi.hera.utils.Event
+import network.voi.hera.utils.KeyboardToggleListener
+import network.voi.hera.utils.addKeyboardToggleListener
+import network.voi.hera.utils.extensions.collectLatestOnLifecycle
+import network.voi.hera.utils.extensions.collectOnLifecycle
+import network.voi.hera.utils.startSavedStateListener
+import network.voi.hera.utils.useSavedStateValue
+import network.voi.hera.utils.viewbinding.viewBinding
+import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.coroutines.flow.distinctUntilChanged
+import kotlinx.coroutines.flow.map
+
+@AndroidEntryPoint
+class WebExportDomainNameConfirmationFragment : BaseFragment(R.layout.fragment_web_export_domain_name_confirmation) {
+
+    val toolbarConfiguration = ToolbarConfiguration(
+        startIconResId = R.drawable.ic_left_arrow,
+        startIconClick = ::navBack
+    )
+    override val fragmentConfiguration = FragmentConfiguration(toolbarConfiguration = toolbarConfiguration)
+
+    private var keyboardToggleListener: KeyboardToggleListener? = null
+
+    private val onKeyboardToggleAction: (shown: Boolean) -> Unit = { keyboardShown ->
+        if (keyboardShown) {
+            binding.scrollView.smoothScrollTo(
+                0,
+                (binding.enterUrlInputLayout.y - resources.getDimension(R.dimen.webexport_bottom_padding)).toInt()
+            )
+        }
+    }
+
+    val binding by viewBinding(FragmentWebExportDomainNameConfirmationBinding::bind)
+
+    private val webExportDomainNameConfirmationViewModel: WebExportDomainNameConfirmationViewModel by viewModels()
+
+    private val continueButtonStateCollector: suspend (Boolean) -> Unit = { isContinueButtonEnabled ->
+        binding.continueButton.isEnabled = isContinueButtonEnabled
+    }
+
+    private val navigateToShowAuthenticationEventCollector: suspend (Event<Unit>?) -> Unit = {
+        it?.consume()?.run { navToShowAuthentication() }
+    }
+
+    private val navigateToAccountConfirmationEventCollector: suspend (Event<Unit>?) -> Unit = {
+        it?.consume()?.run { navToAccountConfirmation() }
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        initUi()
+        initObservers()
+    }
+
+    override fun onResume() {
+        super.onResume()
+        initDialogSavedStateListener()
+        keyboardToggleListener = addKeyboardToggleListener(binding.root, onKeyboardToggleAction)
+    }
+
+    private fun initDialogSavedStateListener() {
+        startSavedStateListener(R.id.webExportDomainNameConfirmationFragment) {
+            useSavedStateValue<Boolean>(WEB_EXPORT_PASSWORD_RESULT_KEY) {
+                webExportDomainNameConfirmationViewModel.handlePasswordEntryResult(isPasscodeVerified = it)
+            }
+        }
+    }
+
+    private fun initUi() {
+        with(binding) {
+            enterUrlInputLayout.setInputTypeText()
+            enterUrlInputLayout.setImeOptionsDone {
+                webExportDomainNameConfirmationViewModel.onNavigationToNextFragmentClicked()
+            }
+            enterUrlInputLayout.setOnTextChangeListener {
+                webExportDomainNameConfirmationViewModel.updatePreviewWithUrlInput(binding.enterUrlInputLayout.text)
+            }
+            continueButton.setOnClickListener {
+                webExportDomainNameConfirmationViewModel.onNavigationToNextFragmentClicked()
+            }
+        }
+    }
+
+    private fun initObservers() {
+        with(webExportDomainNameConfirmationViewModel.webExportDomainNameConfirmationPreviewFlow) {
+            viewLifecycleOwner.collectLatestOnLifecycle(
+                map { it.isContinueButtonEnabled }.distinctUntilChanged(),
+                continueButtonStateCollector
+            )
+
+            viewLifecycleOwner.collectOnLifecycle(
+                map { it.navigateToAccountConfirmationEvent }.distinctUntilChanged(),
+                navigateToAccountConfirmationEventCollector
+            )
+
+            viewLifecycleOwner.collectOnLifecycle(
+                map { it.navigateToShowAuthenticationEvent }.distinctUntilChanged(),
+                navigateToShowAuthenticationEventCollector
+            )
+        }
+    }
+
+    private fun navToAccountConfirmation() {
+        with(webExportDomainNameConfirmationViewModel.webExportDomainNameConfirmationPreviewFlow.value) {
+            nav(
+                WebExportDomainNameConfirmationFragmentDirections
+                    .actionWebExportDomainNameConfirmationFragmentToWebExportAccountConfirmationFragment(
+                        backupId = backupId,
+                        encryptionKey = encryptionKey,
+                        modificationKey = modificationKey,
+                        accountList = accountList.toTypedArray()
+                    )
+            )
+        }
+    }
+
+    private fun navToShowAuthentication() {
+        with(webExportDomainNameConfirmationViewModel.webExportDomainNameConfirmationPreviewFlow.value) {
+            nav(
+                WebExportDomainNameConfirmationFragmentDirections
+                    .actionWebExportDomainNameConfirmationFragmentToWebExportPasswordFragment(
+                        backupId = backupId,
+                        encryptionKey = encryptionKey,
+                        modificationKey = modificationKey,
+                        accountList = accountList.toTypedArray()
+                    )
+            )
+        }
+    }
+}

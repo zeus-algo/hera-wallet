@@ -1,0 +1,42 @@
+/*
+ * Copyright 2022 Pera Wallet, LDA
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License
+ */
+
+package network.voi.hera.Repository
+
+import network.voi.hera.models.Feedback
+import network.voi.hera.models.FeedbackCategory
+import network.voi.hera.models.Result
+import network.voi.hera.network.MobileAlgorandApi
+import network.voi.hera.network.requestWithHipoErrorHandler
+import network.voi.hera.network.safeApiCall
+import com.hipo.hipoexceptionsandroid.RetrofitErrorHandler
+import javax.inject.Inject
+
+class FeedbackRepository @Inject constructor(
+    private val mobileAlgorandApi: MobileAlgorandApi,
+    private val hipoApiErrorHandler: RetrofitErrorHandler
+) {
+
+    suspend fun postFeedback(feedback: Feedback): Result<Unit> =
+        safeApiCall { requestPostFeedback(feedback) }
+
+    private suspend fun requestPostFeedback(feedback: Feedback) = requestWithHipoErrorHandler(hipoApiErrorHandler) {
+        mobileAlgorandApi.postFeedback(feedback)
+    }
+
+    suspend fun getFeedbackCategories(): Result<List<FeedbackCategory>> =
+        safeApiCall { requestGetFeedbackCategories() }
+
+    private suspend fun requestGetFeedbackCategories() = requestWithHipoErrorHandler(hipoApiErrorHandler) {
+        mobileAlgorandApi.getFeedbackCategories()
+    }
+}

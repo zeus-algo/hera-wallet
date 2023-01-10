@@ -19,7 +19,7 @@
     android:paddingTop="@dimen/spacing_xxxlarge"
     android:paddingBottom="@dimen/spacing_xsmall">
 
-    <com.algorand.android.customviews.ListConfigurationHeaderView
+    <network.voi.hera.customviews.ListConfigurationHeaderView
         android:id="@+id/listConfigurationHeaderView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

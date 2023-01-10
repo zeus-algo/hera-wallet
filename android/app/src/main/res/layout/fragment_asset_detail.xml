@@ -10,7 +10,7 @@
   ~ limitations under the License
   -->
 
-<com.algorand.android.customviews.ProgressSaverMotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<network.voi.hera.customviews.ProgressSaverMotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/assetDetailMotionLayout"
@@ -19,7 +19,7 @@
     android:background="@color/hero_bg"
     app:layoutDescription="@xml/scene_fragment_asset_detail">
 
-    <com.algorand.android.customviews.CustomToolbar
+    <network.voi.hera.customviews.CustomToolbar
         android:id="@+id/toolbar"
         android:layout_width="0dp"
         android:layout_height="@dimen/default_toolbar_height"
@@ -180,7 +180,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/quickActionButtons" />
 
-    <com.algorand.android.customviews.AlgorandTabLayout
+    <network.voi.hera.customviews.AlgorandTabLayout
         android:id="@+id/algorandTabLayout"
         style="@style/TabLayout"
         android:layout_width="0dp"
@@ -202,4 +202,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/algorandTabLayout" />
 
-</com.algorand.android.customviews.ProgressSaverMotionLayout>
+</network.voi.hera.customviews.ProgressSaverMotionLayout>

@@ -10,7 +10,7 @@
   ~ limitations under the License
   -->
 
-<com.algorand.android.customviews.accountasseticonnameitem.AccountAssetIconNameView
+<network.voi.hera.customviews.accountasseticonnameitem.AccountAssetIconNameView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/accountAssetIconNameView"
     android:layout_width="wrap_content"

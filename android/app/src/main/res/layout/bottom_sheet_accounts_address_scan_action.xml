@@ -24,7 +24,7 @@
         style="@style/BottomSheetModalityLine"
         android:layout_marginVertical="@dimen/spacing_small" />
 
-    <com.algorand.android.customviews.CustomToolbar
+    <network.voi.hera.customviews.CustomToolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/default_toolbar_height" />
@@ -63,7 +63,7 @@
 
     </com.google.android.material.card.MaterialCardView>
 
-    <com.algorand.android.customviews.ListMenuItemView
+    <network.voi.hera.customviews.ListMenuItemView
         android:id="@+id/sendTransactionButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -73,7 +73,7 @@
         app:showBottomDivider="true"
         app:title="@string/send_transaction" />
 
-    <com.algorand.android.customviews.ListMenuItemView
+    <network.voi.hera.customviews.ListMenuItemView
         android:id="@+id/addWatchAccountButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -82,7 +82,7 @@
         app:showBottomDivider="true"
         app:title="@string/add_watch_account" />
 
-    <com.algorand.android.customviews.ListMenuItemView
+    <network.voi.hera.customviews.ListMenuItemView
         android:id="@+id/addNewContactButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

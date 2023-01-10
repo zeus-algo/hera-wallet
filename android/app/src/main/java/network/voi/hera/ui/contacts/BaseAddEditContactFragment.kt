@@ -1,0 +1,169 @@
+/*
+ * Copyright 2022 Pera Wallet, LDA
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ *  limitations under the License
+ *
+ */
+
+package network.voi.hera.ui.contacts
+
+import android.Manifest
+import android.app.Activity
+import android.content.Intent
+import android.os.Bundle
+import android.provider.MediaStore
+import android.view.View
+import android.widget.ImageView
+import android.widget.TextView
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.core.net.toUri
+import network.voi.hera.R
+import network.voi.hera.core.DaggerBaseFragment
+import network.voi.hera.customviews.AlgorandInputLayout
+import network.voi.hera.customviews.CustomToolbar
+import network.voi.hera.databinding.FragmentBaseAddEditContactBinding
+import network.voi.hera.models.User
+import network.voi.hera.utils.extensions.setContactIconDrawable
+import network.voi.hera.utils.hideKeyboard
+import network.voi.hera.utils.isPermissionGranted
+import network.voi.hera.utils.setNavigationResult
+import network.voi.hera.utils.viewbinding.viewBinding
+import com.google.android.material.button.MaterialButton
+import kotlin.properties.Delegates
+
+abstract class BaseAddEditContactFragment : DaggerBaseFragment(R.layout.fragment_base_add_edit_contact) {
+
+    private val binding by viewBinding(FragmentBaseAddEditContactBinding::bind)
+
+    private val startForContactImageResult =
+        registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
+            if (result.resultCode == Activity.RESULT_OK) {
+                contactImageUri = result.data?.data.toString()
+                with(binding.editProfilePhotoButton) {
+                    setIconResource(R.drawable.ic_pen_solid)
+                    setIconTintResource(R.color.primary_background)
+                }
+            }
+        }
+
+    private val requestForImagePickerPermissionLauncher =
+        registerForActivityResult(ActivityResultContracts.RequestPermission()) { isGranted ->
+            if (isGranted) {
+                startImagePicker()
+            }
+        }
+
+    protected val contactName: String
+        get() = binding.contactNameCustomInputLayout.text
+
+    protected val contactAddress: String
+        get() = binding.addressCustomInputLayout.text.trim()
+
+    open var contactImageUri: String? by Delegates.observable(null) { _, _, newValue ->
+        binding.contactImageView.setContactIconDrawable(
+            uri = newValue?.toUri(),
+            iconSize = R.dimen.account_icon_size_xlarge
+        )
+    }
+
+    abstract fun setProfileImageView(imageView: ImageView)
+    abstract fun setEditProfilePhotoButton(materialButton: MaterialButton)
+    abstract fun setContactNameInputLayout(algorandInputLayout: AlgorandInputLayout)
+    abstract fun setContactAddressInputLayout(algorandInputLayout: AlgorandInputLayout)
+    abstract fun initObservers()
+    abstract fun initDialogSavedStateListener()
+
+    open fun setToolbar(customToolbar: CustomToolbar?) {}
+    open fun setAddContactButton(materialButton: MaterialButton) {}
+    open fun setAddPhotoTextView(textView: TextView) {}
+    open fun setDeleteContactButton(materialButton: MaterialButton) {}
+
+    abstract fun openQrScannerForAlgorandAddress()
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        initUi()
+        with(binding) {
+            setToolbar(getAppToolbar())
+            setProfileImageView(contactImageView)
+            setEditProfilePhotoButton(editProfilePhotoButton)
+            setContactNameInputLayout(contactNameCustomInputLayout)
+            setContactAddressInputLayout(addressCustomInputLayout)
+            setDeleteContactButton(deleteContactButton)
+            setAddContactButton(addContactButton)
+            setAddPhotoTextView(addPhotoTextView)
+        }
+        initObservers()
+    }
+
+    open fun initUi() {
+        with(binding) {
+            addressCustomInputLayout.setOnTextChangeListener(::onAddressChangedListener)
+            contactNameCustomInputLayout.setOnTextChangeListener(::onNameChangedListener)
+        }
+    }
+
+    override fun onResume() {
+        super.onResume()
+        initDialogSavedStateListener()
+    }
+
+    protected fun onBackPressed() {
+        view?.hideKeyboard()
+        navBack()
+    }
+
+    protected fun onImageAddClick() {
+        if (context?.isPermissionGranted(Manifest.permission.READ_EXTERNAL_STORAGE) == true) {
+            startImagePicker()
+        } else {
+            requestForImagePickerPermissionLauncher.launch(Manifest.permission.READ_EXTERNAL_STORAGE)
+        }
+    }
+
+    protected fun navigateBackWithResult(selectedContact: User) {
+        setNavigationResult(CONTACT_ADDED_KEY, selectedContact)
+        navBack()
+    }
+
+    protected fun setContactAddressInputLayoutText(text: String) {
+        binding.addressCustomInputLayout.text = text
+    }
+
+    private fun removeAllInputLayoutFocuses() {
+        binding.contactNameCustomInputLayout.clearFocus()
+        binding.addressCustomInputLayout.clearFocus()
+    }
+
+    protected fun onScanQRClick() {
+        removeAllInputLayoutFocuses()
+        openQrScannerForAlgorandAddress()
+    }
+
+    private fun startImagePicker() {
+        val intent = Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI)
+        startForContactImageResult.launch(Intent.createChooser(intent, getString(R.string.pick_a_photo)))
+    }
+
+    private fun onNameChangedListener(name: String) {
+        with(binding) {
+            addContactButton.isEnabled = name.isNotEmpty() && addressCustomInputLayout.text.isNotEmpty()
+        }
+    }
+
+    private fun onAddressChangedListener(address: String) {
+        with(binding) {
+            addContactButton.isEnabled = address.isNotEmpty() && contactNameCustomInputLayout.text.isNotEmpty()
+        }
+    }
+
+    companion object {
+        private const val CONTACT_ADDED_KEY = "contact_added_key"
+    }
+}

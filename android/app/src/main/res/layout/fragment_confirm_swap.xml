@@ -26,7 +26,7 @@
             android:layout_height="wrap_content"
             android:paddingBottom="@dimen/bottom_padding_for_screen_with_floating_button">
 
-            <com.algorand.android.customviews.SwapAssetInputView
+            <network.voi.hera.customviews.SwapAssetInputView
                 android:id="@+id/fromAssetInputView"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -66,7 +66,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@id/assetDividerView" />
 
-            <com.algorand.android.customviews.SwapAssetInputView
+            <network.voi.hera.customviews.SwapAssetInputView
                 android:id="@+id/toAssetInputView"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"

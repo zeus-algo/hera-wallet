@@ -17,11 +17,11 @@
 
     <dialog
         android:id="@+id/requestOptInConfirmationBottomSheet"
-        android:name="com.algorand.android.nft.ui.nftrequestoptin.RequestOptInConfirmationBottomSheet"
+        android:name="network.voi.hera.nft.ui.nftrequestoptin.RequestOptInConfirmationBottomSheet"
         android:label="RequestOptInConfirmationBottomSheet">
         <argument
             android:name="requestOptInConfirmationArgs"
-            app:argType="com.algorand.android.nft.ui.model.RequestOptInConfirmationArgs" />
+            app:argType="network.voi.hera.nft.ui.model.RequestOptInConfirmationArgs" />
     </dialog>
 
 </navigation>

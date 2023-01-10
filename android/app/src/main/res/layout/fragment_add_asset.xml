@@ -20,7 +20,7 @@
     android:focusableInTouchMode="true"
     tools:context=".modules.assets.addition.ui.AddAssetFragment">
 
-    <com.algorand.android.customviews.AlgorandSearchView
+    <network.voi.hera.customviews.AlgorandSearchView
         android:id="@+id/searchBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -57,7 +57,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.algorand.android.customviews.ScreenStateView
+    <network.voi.hera.customviews.ScreenStateView
         android:id="@+id/screenStateView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

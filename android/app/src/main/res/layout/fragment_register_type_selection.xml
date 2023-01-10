@@ -32,7 +32,7 @@
             app:layout_constraintTop_toTopOf="parent"
             tools:text="@string/welcome_to_pera" />
 
-        <com.algorand.android.customviews.RegisterTypeSelectionItem
+        <network.voi.hera.customviews.RegisterTypeSelectionItem
             android:id="@+id/createAccountSelectionItem"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -46,7 +46,7 @@
             app:typeSelectionIcon="@drawable/ic_wallet"
             app:typeSelectionTitleText="@string/i_want_to_create" />
 
-        <com.algorand.android.customviews.RegisterTypeSelectionItem
+        <network.voi.hera.customviews.RegisterTypeSelectionItem
             android:id="@+id/recoveryAccountSelectionItem"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -58,7 +58,7 @@
             app:typeSelectionIcon="@drawable/ic_key"
             app:typeSelectionTitleText="@string/i_already_have" />
 
-        <com.algorand.android.customviews.RegisterTypeSelectionItem
+        <network.voi.hera.customviews.RegisterTypeSelectionItem
             android:id="@+id/transferSelectionItem"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

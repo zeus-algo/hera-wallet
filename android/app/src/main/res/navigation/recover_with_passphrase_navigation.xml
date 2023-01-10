@@ -20,7 +20,7 @@
 
     <fragment
         android:id="@+id/recoverWithPassphraseFragment"
-        android:name="com.algorand.android.ui.register.recover.RecoverWithPassphraseFragment"
+        android:name="network.voi.hera.ui.register.recover.RecoverWithPassphraseFragment"
         android:label="fragment_recover_from_seed"
         tools:layout="@layout/fragment_recover_with_passphrase">
         <argument
@@ -41,18 +41,18 @@
 
     <fragment
         android:id="@+id/recoverWithPassphraseQrScannerFragment"
-        android:name="com.algorand.android.ui.register.recover.RecoverWithPassphraseQrScannerFragment"
+        android:name="network.voi.hera.ui.register.recover.RecoverWithPassphraseQrScannerFragment"
         android:label="RecoverWithPassphraseQrScannerFragment"
         tools:layout="@layout/fragment_qr_code_scanner" />
 
     <fragment
         android:id="@+id/recoverAccountNameRegistrationFragment"
-        android:name="com.algorand.android.ui.register.recover.name.RecoverAccountNameRegistrationFragment"
+        android:name="network.voi.hera.ui.register.recover.name.RecoverAccountNameRegistrationFragment"
         android:label="RecoverAccountNameRegistrationFragment"
         tools:layout="@layout/fragment_name_registration">
         <argument
             android:name="accountCreation"
-            app:argType="com.algorand.android.models.AccountCreation" />
+            app:argType="network.voi.hera.models.AccountCreation" />
         <action
             android:id="@+id/action_recoverAccountNameRegistrationFragment_to_recoverAccountResultInfoFragment"
             app:destination="@id/recoverAccountResultInfoFragment"
@@ -62,7 +62,7 @@
 
     <fragment
         android:id="@+id/recoverAccountResultInfoFragment"
-        android:name="com.algorand.android.ui.register.recover.result.RecoverAccountResultInfoFragment"
+        android:name="network.voi.hera.ui.register.recover.result.RecoverAccountResultInfoFragment"
         android:label="RecoverAccountResultInfoFragment"
         tools:layout="@layout/fragment_base_info">
         <action
@@ -89,7 +89,7 @@
 
     <dialog
         android:id="@+id/recoverOptionsBottomSheet"
-        android:name="com.algorand.android.ui.register.recover.RecoverOptionsBottomSheet"
+        android:name="network.voi.hera.ui.register.recover.RecoverOptionsBottomSheet"
         android:label="RecoverOptionsBottomSheet"
         tools:layout="@layout/bottom_sheet_recover_options" />
 

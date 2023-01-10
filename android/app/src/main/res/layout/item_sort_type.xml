@@ -11,7 +11,7 @@
   ~
   -->
 
-<com.algorand.android.customviews.PeraRadioButton xmlns:android="http://schemas.android.com/apk/res/android"
+<network.voi.hera.customviews.PeraRadioButton xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/sortingTypeRadioButton"
     android:layout_width="match_parent"

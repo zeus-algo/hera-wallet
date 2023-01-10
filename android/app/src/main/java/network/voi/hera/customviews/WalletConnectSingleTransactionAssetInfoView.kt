@@ -1,0 +1,155 @@
+/*
+ * Copyright 2022 Pera Wallet, LDA
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ *  limitations under the License
+ *
+ */
+
+package network.voi.hera.customviews
+
+import android.content.Context
+import android.text.SpannableStringBuilder
+import android.text.style.AbsoluteSizeSpan
+import android.util.AttributeSet
+import androidx.appcompat.content.res.AppCompatResources
+import androidx.constraintlayout.widget.ConstraintLayout
+import network.voi.hera.R
+import network.voi.hera.assetsearch.ui.model.VerificationTierConfiguration
+import network.voi.hera.databinding.CustomWalletConnectTransactionShortAmountViewBinding
+import network.voi.hera.models.BaseAppCallTransaction
+import network.voi.hera.models.WalletConnectTransactionAmount
+import network.voi.hera.utils.ALGO_DECIMALS
+import network.voi.hera.utils.addUnnamedAssetName
+import network.voi.hera.utils.extensions.setTextAndVisibility
+import network.voi.hera.utils.extensions.show
+import network.voi.hera.utils.formatAmount
+import network.voi.hera.utils.getXmlStyledString
+import network.voi.hera.utils.setAssetNameTextColorByVerificationTier
+import network.voi.hera.utils.setDrawable
+import network.voi.hera.utils.viewbinding.viewBinding
+import java.math.BigInteger
+
+class WalletConnectSingleTransactionAssetInfoView @JvmOverloads constructor(
+    context: Context,
+    attrs: AttributeSet? = null
+) : ConstraintLayout(context, attrs) {
+
+    private val binding = viewBinding(CustomWalletConnectTransactionShortAmountViewBinding::inflate)
+
+    private var listener: WalletConnectSingleTransactionAssetInfoViewListener? = null
+
+    fun setTransactionShortAmount(walletConnectTransactionAmount: WalletConnectTransactionAmount) {
+        with(walletConnectTransactionAmount) {
+            when {
+                transactionAmount != null -> {
+                    setTransactionAmountGroup(
+                        transactionAmount = transactionAmount,
+                        assetDecimal = assetDecimal,
+                        assetShortName = assetShortName,
+                        formattedSelectedCurrencyValue = formattedSelectedCurrencyValue
+                    )
+                }
+                assetName != null -> {
+                    setAssetNameAndIdGroup(
+                        assetName = assetName,
+                        assetId = assetId,
+                        verificationTierConfiguration = verificationTierConfiguration,
+                        accountAddress = fromDisplayedAddress?.fullAddress
+                    )
+                }
+                isAssetUnnamed -> setAssetNameAsUnnamed()
+                applicationId != null -> setAppIdGroup(applicationId = applicationId)
+                appOnComplete != null -> setAppOnCompleteGroup(appOnComplete = appOnComplete)
+            }
+        }
+    }
+
+    fun setWalletConnectSingleTransactionAssetInfoViewListener(
+        listener: WalletConnectSingleTransactionAssetInfoViewListener
+    ) {
+        this.listener = listener
+    }
+
+    private fun setTransactionAmountGroup(
+        transactionAmount: BigInteger,
+        assetDecimal: Int?,
+        assetShortName: String?,
+        formattedSelectedCurrencyValue: String?
+    ) {
+        with(binding) {
+            val formattedAmount = transactionAmount.formatAmount(assetDecimal ?: ALGO_DECIMALS)
+            val assetShortNameTextSize = context.resources.getDimensionPixelSize(R.dimen.text_size_19)
+            // TODO: 13.01.2022 Find a better way to format this text 
+            assetAmountTextView.text = context?.getXmlStyledString(
+                stringResId = R.string.formatted_amount_with_asset_name_txn,
+                replacementList = listOf(
+                    "asset_amount" to formattedAmount,
+                    "asset_short_name" to assetShortName.orEmpty()
+                ),
+                customAnnotations = listOf(
+                    "text_size" to AbsoluteSizeSpan(assetShortNameTextSize)
+                )
+            )
+            assetCurrencyAmountTextView.setTextAndVisibility(formattedSelectedCurrencyValue)
+            assetAmountAndCurrencyValueGroup.show()
+        }
+    }
+
+    private fun setAssetNameAndIdGroup(
+        assetName: String?,
+        assetId: Long?,
+        verificationTierConfiguration: VerificationTierConfiguration?,
+        accountAddress: String?
+    ) {
+        with(binding) {
+            verificationTierConfiguration?.run {
+                with(assetNameTextView) {
+                    drawableResId?.run { setDrawable(start = AppCompatResources.getDrawable(context, this)) }
+                    text = assetName
+                    setAssetNameTextColorByVerificationTier(this@run)
+                }
+                setOnClickListener {
+                    listener?.onAssetItemClick(assetId = assetId, accountAddress = accountAddress)
+                }
+            }
+            if (assetId != null) assetIdTextView.apply {
+                text = assetId.toString()
+                setOnClickListener {
+                    listener?.onAssetItemClick(assetId = assetId, accountAddress = accountAddress)
+                }
+            }
+            assetNameAndIdGroup.show()
+        }
+    }
+
+    private fun setAssetNameAsUnnamed() {
+        with(binding) {
+            assetNameTextView.text = SpannableStringBuilder().apply { addUnnamedAssetName(context) }
+            assetNameAndIdGroup.show()
+        }
+    }
+
+    private fun setAppIdGroup(applicationId: Long?) {
+        with(binding) {
+            appIdTextView.text = resources.getString(R.string.id_with_hash_tag, applicationId)
+            appIdGroup.show()
+        }
+    }
+
+    private fun setAppOnCompleteGroup(appOnComplete: BaseAppCallTransaction.AppOnComplete) {
+        with(binding) {
+            appOnCompleteTextView.setText(appOnComplete.displayTextResId)
+            appOnCompleteGroup.show()
+        }
+    }
+
+    fun interface WalletConnectSingleTransactionAssetInfoViewListener {
+        fun onAssetItemClick(assetId: Long?, accountAddress: String?)
+    }
+}

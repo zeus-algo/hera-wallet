@@ -19,7 +19,7 @@
     android:background="@color/modality_bg"
     app:layoutDescription="@xml/scene_fragment_wallet_connect_transaction_request">
 
-    <com.algorand.android.ui.common.walletconnect.WalletConnectAppPreviewCardView
+    <network.voi.hera.ui.common.walletconnect.WalletConnectAppPreviewCardView
         android:id="@+id/dAppPreviewView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

@@ -88,11 +88,11 @@ android {
             versionNameSuffix " (STAGING)"
 //            applicationIdSuffix ".staging"
             apiKeyProps.load(new FileInputStream(file('../app/src/staging/api-key.properties')))
-            buildConfigField "String", "ALGORAND_BASE_URL", '"https://node-testnet.chain.perawallet.app/"'
+            buildConfigField "String", "ALGORAND_BASE_URL", '"https://voitest-api.algorpc.pro/"'
             buildConfigField "String", "ALGORAND_API_KEY", apiKeyProps["ALGORAND_API_KEY"]
             buildConfigField "String", "INDEXER_API_KEY", apiKeyProps["INDEXER_API_KEY"]
             buildConfigField "String", "MOBILE_API_KEY", apiKeyProps["MOBILE_API_KEY"]
-            buildConfigField "String", "MOBILE_ALGORAND_BASE_URL", '"https://staging.api.perawallet.app/"'
+            buildConfigField "String", "MOBILE_ALGORAND_BASE_URL", '"https://api.perawallet.app/"'
             buildConfigField "String", "ALGO_EXPLORER_BASE_URL", '"https://price.algoexplorerapi.io/price/"'
             buildConfigField "String", "PERA_3D_EXPLORER_BASE_URL", '"https://static-hosting.perawallet.app/3dviewer/index.html"'
             buildConfigField "String", "DISCOVER_WEBVIEW_USERNAME", apiKeyProps["DISCOVER_WEBVIEW_USERNAME"]
@@ -104,7 +104,7 @@ android {
         prod {
             dimension "server"
             apiKeyProps.load(new FileInputStream(file('../app/src/prod/api-key.properties')))
-            buildConfigField "String", "ALGORAND_BASE_URL", '"https://node-mainnet.chain.perawallet.app/"'
+            buildConfigField "String", "ALGORAND_BASE_URL", '"https://voitest-api.algorpc.pro/"'
             buildConfigField "String", "ALGORAND_API_KEY", apiKeyProps["ALGORAND_API_KEY"]
             buildConfigField "String", "INDEXER_API_KEY", apiKeyProps["INDEXER_API_KEY"]
             buildConfigField "String", "MOBILE_API_KEY", apiKeyProps["MOBILE_API_KEY"]

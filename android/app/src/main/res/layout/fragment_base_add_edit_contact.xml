@@ -61,7 +61,7 @@
             app:layout_constraintTop_toBottomOf="@id/contactImageView"
             tools:visibility="visible" />
 
-        <com.algorand.android.customviews.AlgorandInputLayout
+        <network.voi.hera.customviews.AlgorandInputLayout
             android:id="@+id/contactNameCustomInputLayout"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -73,7 +73,7 @@
             app:layout_constraintTop_toBottomOf="@id/addPhotoTextView"
             app:singleLine="true" />
 
-        <com.algorand.android.customviews.AlgorandInputLayout
+        <network.voi.hera.customviews.AlgorandInputLayout
             android:id="@+id/addressCustomInputLayout"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

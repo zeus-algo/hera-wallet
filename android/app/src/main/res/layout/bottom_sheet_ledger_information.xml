@@ -24,7 +24,7 @@
         android:orientation="vertical"
         android:paddingBottom="@dimen/bottom_safe_area_margin">
 
-        <com.algorand.android.customviews.CustomToolbar
+        <network.voi.hera.customviews.CustomToolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize" />

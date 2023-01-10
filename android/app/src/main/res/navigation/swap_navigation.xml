@@ -20,7 +20,7 @@
 
     <fragment
         android:id="@+id/assetSwapFragment"
-        android:name="com.algorand.android.modules.swap.assetswap.ui.AssetSwapFragment"
+        android:name="network.voi.hera.modules.swap.assetswap.ui.AssetSwapFragment"
         android:label="AssetSwapFragment"
         tools:layout="@layout/fragment_asset_swap">
         <action
@@ -42,7 +42,7 @@
 
     <fragment
         android:id="@+id/swapFromAssetSelectionFragment"
-        android:name="com.algorand.android.modules.swap.assetselection.fromasset.ui.SwapFromAssetSelectionFragment"
+        android:name="network.voi.hera.modules.swap.assetselection.fromasset.ui.SwapFromAssetSelectionFragment"
         android:label="SwapFromAssetSelectionFragment"
         tools:layout="@layout/fragment_swap_asset_selection">
         <argument
@@ -52,7 +52,7 @@
 
     <fragment
         android:id="@+id/swapToAssetSelectionFragment"
-        android:name="com.algorand.android.modules.swap.assetselection.toasset.ui.SwapToAssetSelectionFragment"
+        android:name="network.voi.hera.modules.swap.assetselection.toasset.ui.SwapToAssetSelectionFragment"
         android:label="SwapToAssetSelectionFragment"
         tools:layout="@layout/fragment_swap_asset_selection">
         <argument
@@ -68,18 +68,18 @@
 
             <argument
                 android:name="assetAction"
-                app:argType="com.algorand.android.models.AssetAction" />
+                app:argType="network.voi.hera.models.AssetAction" />
         </action>
     </fragment>
 
     <fragment
         android:id="@+id/confirmSwapFragment"
-        android:name="com.algorand.android.modules.swap.confirmswap.ui.ConfirmSwapFragment"
+        android:name="network.voi.hera.modules.swap.confirmswap.ui.ConfirmSwapFragment"
         android:label="ConfirmSwapFragment"
         tools:layout="@layout/fragment_confirm_swap">
         <argument
             android:name="swapQuote"
-            app:argType="com.algorand.android.modules.swap.assetswap.domain.model.SwapQuote" />
+            app:argType="network.voi.hera.modules.swap.assetswap.domain.model.SwapQuote" />
         <action
             android:id="@+id/action_confirmSwapFragment_to_slippageToleranceInfoBottomSheet"
             app:destination="@id/slippageToleranceInfoBottomSheet" />
@@ -107,27 +107,27 @@
 
     <fragment
         android:id="@+id/swapTransactionStatusFragment"
-        android:name="com.algorand.android.modules.swap.transactionstatus.ui.SwapTransactionStatusFragment"
+        android:name="network.voi.hera.modules.swap.transactionstatus.ui.SwapTransactionStatusFragment"
         android:label="swapTransactionStatusFragment"
         tools:layout="@layout/fragment_swap_transaction_status">
         <argument
             android:name="swapQuote"
-            app:argType="com.algorand.android.modules.swap.assetswap.domain.model.SwapQuote" />
+            app:argType="network.voi.hera.modules.swap.assetswap.domain.model.SwapQuote" />
         <argument
             android:name="swapQuoteTransaction"
-            app:argType="com.algorand.android.modules.swap.confirmswap.domain.model.SwapQuoteTransaction[]" />
+            app:argType="network.voi.hera.modules.swap.confirmswap.domain.model.SwapQuoteTransaction[]" />
         <action
             android:id="@+id/action_swapTransactionStatusFragment_to_swapTransactionSummaryFragment"
             app:destination="@id/swapTransactionSummaryFragment" />
     </fragment>
     <fragment
         android:id="@+id/swapTransactionSummaryFragment"
-        android:name="com.algorand.android.modules.swap.transactionsummary.ui.SwapTransactionSummaryFragment"
+        android:name="network.voi.hera.modules.swap.transactionsummary.ui.SwapTransactionSummaryFragment"
         android:label="SwapTransactionSummaryFragment"
         tools:layout="@layout/fragment_swap_transaction_summary">
         <argument
             android:name="swapQuote"
-            app:argType="com.algorand.android.modules.swap.assetswap.domain.model.SwapQuote" />
+            app:argType="network.voi.hera.modules.swap.assetswap.domain.model.SwapQuote" />
         <argument
             android:name="optInTransactionFees"
             app:argType="long" />
@@ -138,25 +138,25 @@
 
     <dialog
         android:id="@+id/balancePercentageBottomSheet"
-        android:name="com.algorand.android.modules.swap.balancepercentage.ui.BalancePercentageBottomSheet"
+        android:name="network.voi.hera.modules.swap.balancepercentage.ui.BalancePercentageBottomSheet"
         android:label="BalancePercentageBottomSheet"
         tools:layout="@layout/bottom_sheet_percentage_selection" />
 
     <dialog
         android:id="@+id/priceImpactInfoBottomSheet"
-        android:name="com.algorand.android.modules.swap.priceimpact.ui.PriceImpactInfoBottomSheet"
+        android:name="network.voi.hera.modules.swap.priceimpact.ui.PriceImpactInfoBottomSheet"
         android:label="PriceImpactInfoBottomSheet"
         tools:layout="@layout/bottom_sheet_base_information" />
 
     <dialog
         android:id="@+id/slippageToleranceInfoBottomSheet"
-        android:name="com.algorand.android.modules.swap.slippagetolerance.ui.SlippageToleranceInfoBottomSheet"
+        android:name="network.voi.hera.modules.swap.slippagetolerance.ui.SlippageToleranceInfoBottomSheet"
         android:label="SlippageToleranceInfoBottomSheet"
         tools:layout="@layout/bottom_sheet_base_information" />
 
     <dialog
         android:id="@+id/slippageToleranceBottomSheet"
-        android:name="com.algorand.android.modules.swap.slippagetolerance.ui.SlippageToleranceBottomSheet"
+        android:name="network.voi.hera.modules.swap.slippagetolerance.ui.SlippageToleranceBottomSheet"
         android:label="SlippageToleranceBottomSheet"
         tools:layout="@layout/bottom_sheet_percentage_selection">
         <argument
@@ -165,16 +165,16 @@
     </dialog>
     <dialog
         android:id="@+id/swapPreviewSummaryBottomSheet"
-        android:name="com.algorand.android.modules.swap.previewsummary.ui.SwapPreviewSummaryBottomSheet"
+        android:name="network.voi.hera.modules.swap.previewsummary.ui.SwapPreviewSummaryBottomSheet"
         android:label="SwapPreviewSummaryBottomSheet"
         tools:layout="@layout/bottom_sheet_swap_preview_summary">
         <argument
             android:name="swapQuote"
-            app:argType="com.algorand.android.modules.swap.assetswap.domain.model.SwapQuote" />
+            app:argType="network.voi.hera.modules.swap.assetswap.domain.model.SwapQuote" />
     </dialog>
     <dialog
         android:id="@+id/exchangeFeeInfoBottomSheet"
-        android:name="com.algorand.android.modules.swap.confirmswap.ui.ExchangeFeeInfoBottomSheet"
+        android:name="network.voi.hera.modules.swap.confirmswap.ui.ExchangeFeeInfoBottomSheet"
         android:label="ExchangeFeeInfoBottomSheet"
         tools:layout="@layout/bottom_sheet_base_information" />
 </navigation>

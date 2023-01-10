@@ -25,7 +25,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_chainStyle="spread_inside" />
 
-        <com.algorand.android.customviews.PassphraseValidationGroupView
+        <network.voi.hera.customviews.PassphraseValidationGroupView
             android:id="@+id/passphraseValidationGroupView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

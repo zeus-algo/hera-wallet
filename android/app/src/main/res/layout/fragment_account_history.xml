@@ -17,7 +17,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.algorand.android.customviews.ListConfigurationHeaderView
+    <network.voi.hera.customviews.ListConfigurationHeaderView
         android:id="@+id/transactionHistoryToolbar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -47,7 +47,7 @@
         tools:itemCount="5"
         tools:listitem="@layout/item_account_history_transaction" />
 
-    <com.algorand.android.customviews.ScreenStateView
+    <network.voi.hera.customviews.ScreenStateView
         android:id="@+id/screenStateView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

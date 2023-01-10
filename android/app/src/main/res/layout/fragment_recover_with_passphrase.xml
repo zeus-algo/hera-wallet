@@ -31,7 +31,7 @@
                 android:layout_marginBottom="@dimen/spacing_xxxlarge"
                 android:text="@string/enter_your_recovery_passphrase" />
 
-            <com.algorand.android.customviews.PassphraseInputGroup
+            <network.voi.hera.customviews.PassphraseInputGroup
                 android:id="@+id/passphraseInputGroup"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -54,7 +54,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <com.algorand.android.customviews.PassphraseWordSuggestor
+    <network.voi.hera.customviews.PassphraseWordSuggestor
         android:id="@+id/passphraseWordSuggestor"
         android:layout_width="0dp"
         android:layout_height="@dimen/passphrase_word_suggester_height"

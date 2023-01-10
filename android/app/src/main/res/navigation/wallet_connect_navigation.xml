@@ -58,13 +58,13 @@
 
     <fragment
         android:id="@+id/walletConnectTransactionRequestFragment"
-        android:name="com.algorand.android.ui.wctransactionrequest.WalletConnectTransactionRequestFragment"
+        android:name="network.voi.hera.ui.wctransactionrequest.WalletConnectTransactionRequestFragment"
         android:label="WalletConnectTransactionRequestFragment"
         tools:layout="@layout/fragment_wallet_connect_transaction_request">
 
         <argument
             android:name="transaction"
-            app:argType="com.algorand.android.models.WalletConnectTransaction" />
+            app:argType="network.voi.hera.models.WalletConnectTransaction" />
         <action
             android:id="@+id/action_walletConnectTransactionRequestFragment_to_walletConnectAtomicTransactionsFragment"
             app:destination="@id/walletConnectAtomicTransactionsFragment" />
@@ -86,7 +86,7 @@
 
     <dialog
         android:id="@+id/walletConnectDappMessageBottomSheet"
-        android:name="com.algorand.android.ui.common.walletconnect.WalletConnectDappMessageBottomSheet"
+        android:name="network.voi.hera.ui.common.walletconnect.WalletConnectDappMessageBottomSheet"
         android:label="WalletConnectDappMessageBottomSheet"
         tools:layout="@layout/bottom_sheet_wallet_connect_dapp_message">
         <argument
@@ -94,7 +94,7 @@
             app:argType="string" />
         <argument
             android:name="peerMeta"
-            app:argType="com.algorand.android.models.WalletConnectPeerMeta" />
+            app:argType="network.voi.hera.models.WalletConnectPeerMeta" />
     </dialog>
 
 </navigation>

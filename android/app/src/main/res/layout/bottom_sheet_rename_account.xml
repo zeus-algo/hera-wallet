@@ -22,13 +22,13 @@
         style="@style/BottomSheetModalityLine"
         android:layout_marginTop="@dimen/spacing_small" />
 
-    <com.algorand.android.customviews.CustomToolbar
+    <network.voi.hera.customviews.CustomToolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/default_toolbar_height"
         android:layout_marginTop="@dimen/spacing_small" />
 
-    <com.algorand.android.customviews.AlgorandInputLayout
+    <network.voi.hera.customviews.AlgorandInputLayout
         android:id="@+id/accountNameInputLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

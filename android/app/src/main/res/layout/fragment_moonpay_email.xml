@@ -32,7 +32,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <com.algorand.android.customviews.AlgorandInputLayout
+        <network.voi.hera.customviews.AlgorandInputLayout
             android:id="@+id/emailInputLayout"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

@@ -18,7 +18,7 @@
 
     <fragment
         android:id="@+id/registerWatchAccountFragment"
-        android:name="com.algorand.android.modules.registration.watchaccount.ui.RegisterWatchAccountFragment"
+        android:name="network.voi.hera.modules.registration.watchaccount.ui.RegisterWatchAccountFragment"
         android:label="RegisterWatchAccountFragment"
         tools:layout="@layout/fragment_register_watch_account">
         <action
@@ -36,18 +36,18 @@
 
     <fragment
         android:id="@+id/registerWatchAccountQrScannerFragment"
-        android:name="com.algorand.android.ui.register.watch.RegisterWatchAccountQrScannerFragment"
+        android:name="network.voi.hera.ui.register.watch.RegisterWatchAccountQrScannerFragment"
         android:label="RegisterWatchAccountQrScannerFragment"
         tools:layout="@layout/fragment_qr_code_scanner" />
 
     <fragment
         android:id="@+id/watchAccountNameRegistrationFragment"
-        android:name="com.algorand.android.ui.register.watch.name.WatchAccountNameRegistrationFragment"
+        android:name="network.voi.hera.ui.register.watch.name.WatchAccountNameRegistrationFragment"
         android:label="WatchAccountNameRegistrationFragment"
         tools:layout="@layout/fragment_name_registration">
         <argument
             android:name="accountCreation"
-            app:argType="com.algorand.android.models.AccountCreation" />
+            app:argType="network.voi.hera.models.AccountCreation" />
         <action
             android:id="@+id/action_watchAccountNameRegistrationFragment_to_watchAccountResultInfoFragment"
             app:destination="@id/watchAccountResultInfoFragment"
@@ -58,7 +58,7 @@
 
     <fragment
         android:id="@+id/watchAccountResultInfoFragment"
-        android:name="com.algorand.android.ui.register.watch.result.WatchAccountResultInfoFragment"
+        android:name="network.voi.hera.ui.register.watch.result.WatchAccountResultInfoFragment"
         android:label="WatchAccountResultInfoFragment"
         tools:layout="@layout/fragment_base_info">
         <action

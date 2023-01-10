@@ -22,7 +22,7 @@
 
     <fragment
         android:id="@+id/webExportAccountSelectionFragment"
-        android:name="com.algorand.android.modules.webexport.accountselection.ui.WebExportAccountSelectionFragment"
+        android:name="network.voi.hera.modules.webexport.accountselection.ui.WebExportAccountSelectionFragment"
         android:label="fragment_webexport_account_selection">
         <argument
             android:name="backupId"
@@ -53,7 +53,7 @@
 
     <fragment
         android:id="@+id/webExportDomainNameConfirmationFragment"
-        android:name="com.algorand.android.modules.webexport.domainnameconfirmation.ui.WebExportDomainNameConfirmationFragment"
+        android:name="network.voi.hera.modules.webexport.domainnameconfirmation.ui.WebExportDomainNameConfirmationFragment"
         android:label="fragment_webexport_domainname_confirmation">
         <argument
             android:name="backupId"
@@ -106,7 +106,7 @@
 
     <fragment
         android:id="@+id/webExportPasswordFragment"
-        android:name="com.algorand.android.modules.webexport.pinentry.ui.WebExportPasswordFragment"
+        android:name="network.voi.hera.modules.webexport.pinentry.ui.WebExportPasswordFragment"
         android:label="fragment_webexport_password">
         <argument
             android:name="backupId"
@@ -147,7 +147,7 @@
 
     <fragment
         android:id="@+id/webExportAccountConfirmationFragment"
-        android:name="com.algorand.android.modules.webexport.accountconfirmation.ui.WebExportAccountConfirmationFragment"
+        android:name="network.voi.hera.modules.webexport.accountconfirmation.ui.WebExportAccountConfirmationFragment"
         android:label="fragment_webexport_account_confirmation">
         <argument
             android:name="backupId"
@@ -168,7 +168,7 @@
 
     <fragment
         android:id="@+id/webExportSuccessResultFragment"
-        android:name="com.algorand.android.modules.webexport.exportresult.ui.WebExportSuccessResultFragment"
+        android:name="network.voi.hera.modules.webexport.exportresult.ui.WebExportSuccessResultFragment"
         android:label="WebExportSuccessResultFragment" />
 
 </navigation>

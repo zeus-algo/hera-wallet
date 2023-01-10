@@ -16,7 +16,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.algorand.android.customviews.CustomToolbar
+    <network.voi.hera.customviews.CustomToolbar
         android:id="@+id/toolbar"
         android:layout_width="0dp"
         android:layout_height="@dimen/default_toolbar_height"
@@ -24,7 +24,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.algorand.android.customviews.AlgorandTabLayout
+    <network.voi.hera.customviews.AlgorandTabLayout
         android:id="@+id/algorandTabLayout"
         style="@style/TabLayout"
         android:layout_width="0dp"

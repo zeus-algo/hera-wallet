@@ -25,20 +25,20 @@
         style="@style/BottomSheetModalityLine"
         android:layout_marginTop="@dimen/spacing_small" />
 
-    <com.algorand.android.customviews.CustomToolbar
+    <network.voi.hera.customviews.CustomToolbar
         android:id="@+id/customToolbar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/default_toolbar_height"
         android:layout_marginTop="@dimen/spacing_xsmall" />
 
-    <com.algorand.android.customviews.SixDigitPasswordView
+    <network.voi.hera.customviews.SixDigitPasswordView
         android:id="@+id/viewPassphraseLockSixDigitPasswordView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="56dp"
         android:layout_marginBottom="48dp" />
 
-    <com.algorand.android.customviews.DialPadView
+    <network.voi.hera.customviews.DialPadView
         android:id="@+id/viewPassphraseLockDialPadView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

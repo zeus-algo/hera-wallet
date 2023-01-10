@@ -39,7 +39,7 @@
             android:layout_marginBottom="@dimen/spacing_xsmall"
             android:text="@string/account" />
 
-        <com.algorand.android.customviews.SettingsListItem
+        <network.voi.hera.customviews.SettingsListItem
             android:id="@+id/securityListItem"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -47,7 +47,7 @@
             app:settingsShowArrow="true"
             app:settingsText="@string/security" />
 
-        <com.algorand.android.customviews.SettingsListItem
+        <network.voi.hera.customviews.SettingsListItem
             android:id="@+id/contactsListItem"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -55,7 +55,7 @@
             app:settingsShowArrow="true"
             app:settingsText="@string/contacts" />
 
-        <com.algorand.android.customviews.SettingsListItem
+        <network.voi.hera.customviews.SettingsListItem
             android:id="@+id/notificationListItem"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -63,7 +63,7 @@
             app:settingsShowArrow="true"
             app:settingsText="@string/notifications" />
 
-        <com.algorand.android.customviews.SettingsListItem
+        <network.voi.hera.customviews.SettingsListItem
             android:id="@+id/walletConnectListItem"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -79,7 +79,7 @@
             android:layout_marginBottom="@dimen/spacing_xsmall"
             android:text="@string/app_preferences" />
 
-        <com.algorand.android.customviews.SettingsListItem
+        <network.voi.hera.customviews.SettingsListItem
             android:id="@+id/languageListItem"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -87,7 +87,7 @@
             app:settingsShowArrow="true"
             app:settingsText="@string/language" />
 
-        <com.algorand.android.customviews.SettingsListItem
+        <network.voi.hera.customviews.SettingsListItem
             android:id="@+id/currencyListItem"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -95,7 +95,7 @@
             app:settingsShowArrow="true"
             app:settingsText="@string/currency" />
 
-        <com.algorand.android.customviews.SettingsListItem
+        <network.voi.hera.customviews.SettingsListItem
             android:id="@+id/themeListItem"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -111,7 +111,7 @@
             android:layout_marginBottom="@dimen/spacing_xsmall"
             android:text="@string/support" />
 
-        <com.algorand.android.customviews.SettingsListItem
+        <network.voi.hera.customviews.SettingsListItem
             android:id="@+id/supportCenterListItem"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -119,7 +119,7 @@
             app:settingsShowArrow="true"
             app:settingsText="@string/send_feedback" />
 
-        <com.algorand.android.customviews.SettingsListItem
+        <network.voi.hera.customviews.SettingsListItem
             android:id="@+id/rateListItem"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -127,7 +127,7 @@
             app:settingsShowArrow="false"
             app:settingsText="@string/rate_pera_wallet" />
 
-        <com.algorand.android.customviews.SettingsListItem
+        <network.voi.hera.customviews.SettingsListItem
             android:id="@+id/termsAndServicesListItem"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -135,7 +135,7 @@
             app:settingsShowArrow="true"
             app:settingsText="@string/terms_and_services" />
 
-        <com.algorand.android.customviews.SettingsListItem
+        <network.voi.hera.customviews.SettingsListItem
             android:id="@+id/privacyPolicyListItem"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -143,7 +143,7 @@
             app:settingsShowArrow="true"
             app:settingsText="@string/privacy_policy" />
 
-        <com.algorand.android.customviews.SettingsListItem
+        <network.voi.hera.customviews.SettingsListItem
             android:id="@+id/developerListItem"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

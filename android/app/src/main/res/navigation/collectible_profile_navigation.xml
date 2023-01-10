@@ -30,7 +30,7 @@
 
     <fragment
         android:id="@+id/collectibleProfileFragment"
-        android:name="com.algorand.android.modules.collectibles.profile.ui.CollectibleProfileFragment"
+        android:name="network.voi.hera.modules.collectibles.profile.ui.CollectibleProfileFragment"
         android:label="CollectibleProfileFragment"
         tools:layout="@layout/fragment_collectible_detail">
         <argument
@@ -44,7 +44,7 @@
             app:destination="@id/nftOptOutConfirmationNavigation">
             <argument
                 android:name="assetAction"
-                app:argType="com.algorand.android.models.AssetAction" />
+                app:argType="network.voi.hera.models.AssetAction" />
         </action>
         <action
             android:id="@+id/action_collectibleProfileFragment_to_collectibleImagePreviewNavigation"
@@ -78,7 +78,7 @@
             app:destination="@id/collectibleOptInActionNavigation">
             <argument
                 android:name="assetAction"
-                app:argType="com.algorand.android.models.AssetAction" />
+                app:argType="network.voi.hera.models.AssetAction" />
         </action>
         <action
             android:id="@+id/action_collectibleProfileFragment_to_assetProfileNavigation"

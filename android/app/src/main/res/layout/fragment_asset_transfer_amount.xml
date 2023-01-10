@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <com.algorand.android.customviews.algorandamountinput.AlgorandAmountInputTextView
+        <network.voi.hera.customviews.algorandamountinput.AlgorandAmountInputTextView
             android:id="@+id/amountTextView"
             style="@style/TextAppearance.Title.Large.Mono"
             android:layout_width="0dp"
@@ -92,7 +92,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/algorandApproximateValueTextView" />
 
-        <com.algorand.android.customviews.DialPadView
+        <network.voi.hera.customviews.DialPadView
             android:id="@+id/dialpadView"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -105,7 +105,7 @@
             app:showSeparatorButton="true" />
 
         <!--  TODO missing shadow  -->
-        <com.algorand.android.customviews.accountandassetitem.assetitem.AssetItemView
+        <network.voi.hera.customviews.accountandassetitem.assetitem.AssetItemView
             android:id="@+id/assetItemView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

@@ -22,13 +22,13 @@
 
 # ---------------- BEGIN KOTLIN -------------------
 
--keep public enum com.algorand.android.**{
+-keep public enum network.voi.hera.**{
     *;
 }
--keep class com.algorand.android.models.** { *; }
--keep class com.algorand.android.**.model.** { *; }
+-keep class network.voi.hera.models.** { *; }
+-keep class network.voi.hera.**.model.** { *; }
 
--keep class com.algorand.android.ui.wctransactionrequest.WalletConnectTransactionListItem
+-keep class network.voi.hera.ui.wctransactionrequest.WalletConnectTransactionListItem
 
 -keep class androidx.core.app.CoreComponentFactory { *; }
 

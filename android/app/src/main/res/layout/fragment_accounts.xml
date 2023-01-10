@@ -11,7 +11,7 @@
   -->
 
 
-<com.algorand.android.customviews.ProgressSaverMotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<network.voi.hera.customviews.ProgressSaverMotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/accountsFragmentMotionLayout"
@@ -124,7 +124,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.algorand.android.customviews.ScreenStateView
+    <network.voi.hera.customviews.ScreenStateView
         android:id="@+id/emptyScreenStateView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -134,4 +134,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-</com.algorand.android.customviews.ProgressSaverMotionLayout>
+</network.voi.hera.customviews.ProgressSaverMotionLayout>

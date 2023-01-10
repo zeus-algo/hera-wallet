@@ -36,7 +36,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <com.algorand.android.customviews.AccountCopyQrView
+    <network.voi.hera.customviews.AccountCopyQrView
         android:id="@+id/accountCopyQrView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -58,7 +58,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.algorand.android.customviews.ScreenStateView
+    <network.voi.hera.customviews.ScreenStateView
         android:id="@+id/screenStateView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

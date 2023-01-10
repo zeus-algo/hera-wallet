@@ -7,7 +7,7 @@
 
     <dialog
         android:id="@+id/moonpayResultBottomSheet"
-        android:name="com.algorand.android.modules.dapp.moonpay.ui.result.MoonpayResultBottomSheet"
+        android:name="network.voi.hera.modules.dapp.moonpay.ui.result.MoonpayResultBottomSheet"
         android:label="MoonpayResultBottomSheet"
         tools:layout="@layout/bottom_sheet_moonpay_result">
         <argument
@@ -15,7 +15,7 @@
             app:argType="string" />
         <argument
             android:name="transactionStatus"
-            app:argType="com.algorand.android.modules.dapp.moonpay.domain.model.MoonpayTransactionStatus" />
+            app:argType="network.voi.hera.modules.dapp.moonpay.domain.model.MoonpayTransactionStatus" />
     </dialog>
 
 </navigation>

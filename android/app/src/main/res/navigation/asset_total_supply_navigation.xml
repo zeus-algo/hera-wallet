@@ -18,7 +18,7 @@
 
     <dialog
         android:id="@+id/totalSupplyBottomSheet"
-        android:name="com.algorand.android.modules.assets.profile.activity.ui.TotalSupplyBottomSheet"
+        android:name="network.voi.hera.modules.assets.profile.activity.ui.TotalSupplyBottomSheet"
         android:label="TotalSupplyBottomSheet"
         tools:layout="@layout/bottom_sheet_total_supply" />
 

@@ -29,16 +29,16 @@
         app:destination="@id/singleButtonBottomSheetNavigation">
         <argument
             android:name="titleAnnotatedString"
-            app:argType="com.algorand.android.models.AnnotatedString" />
+            app:argType="network.voi.hera.models.AnnotatedString" />
         <argument
             android:name="descriptionAnnotatedString"
             android:defaultValue="@null"
-            app:argType="com.algorand.android.models.AnnotatedString"
+            app:argType="network.voi.hera.models.AnnotatedString"
             app:nullable="true" />
         <argument
             android:name="errorAnnotatedString"
             android:defaultValue="@null"
-            app:argType="com.algorand.android.models.AnnotatedString"
+            app:argType="network.voi.hera.models.AnnotatedString"
             app:nullable="true" />
         <argument
             android:name="buttonStringResId"
@@ -60,12 +60,12 @@
 
     <fragment
         android:id="@+id/sendAlgoFragment"
-        android:name="com.algorand.android.ui.send.SendAlgoFragment"
+        android:name="network.voi.hera.ui.send.SendAlgoFragment"
         android:label="fragment_send_algo"
         tools:layout="@layout/fragment_send_algo">
         <argument
             android:name="assetTransaction"
-            app:argType="com.algorand.android.models.AssetTransaction"
+            app:argType="network.voi.hera.models.AssetTransaction"
             app:nullable="true" />
         <argument
             android:name="shouldPopulateAmountWithMax"
@@ -100,12 +100,12 @@
 
     <fragment
         android:id="@+id/senderAccountSelectionFragment"
-        android:name="com.algorand.android.ui.send.senderaccount.SenderAccountSelectionFragment"
+        android:name="network.voi.hera.ui.send.senderaccount.SenderAccountSelectionFragment"
         android:label="SenderAccountSelectionFragment">
         <argument
             android:name="assetTransaction"
             android:defaultValue="@null"
-            app:argType="com.algorand.android.models.AssetTransaction"
+            app:argType="network.voi.hera.models.AssetTransaction"
             app:nullable="true" />
         <action
             android:id="@+id/action_senderAccountSelectionFragment_to_assetSelectionFragment"
@@ -129,11 +129,11 @@
 
     <fragment
         android:id="@+id/assetSelectionFragment"
-        android:name="com.algorand.android.ui.send.assetselection.AssetSelectionFragment"
+        android:name="network.voi.hera.ui.send.assetselection.AssetSelectionFragment"
         android:label="AssetSelectionFragment">
         <argument
             android:name="assetTransaction"
-            app:argType="com.algorand.android.models.AssetTransaction" />
+            app:argType="network.voi.hera.models.AssetTransaction" />
         <action
             android:id="@+id/action_assetSelectionFragment_to_assetTransferAmountFragment"
             app:destination="@id/assetTransferAmountFragment" />
@@ -151,17 +151,17 @@
             app:destination="@id/requestOptInConfirmationNavigation">
             <argument
                 android:name="requestOptInConfirmationArgs"
-                app:argType="com.algorand.android.nft.ui.model.RequestOptInConfirmationArgs" />
+                app:argType="network.voi.hera.nft.ui.model.RequestOptInConfirmationArgs" />
         </action>
     </fragment>
 
     <fragment
         android:id="@+id/assetTransferAmountFragment"
-        android:name="com.algorand.android.ui.send.transferamount.AssetTransferAmountFragment"
+        android:name="network.voi.hera.ui.send.transferamount.AssetTransferAmountFragment"
         android:label="AssetTransferAmountFragment">
         <argument
             android:name="assetTransaction"
-            app:argType="com.algorand.android.models.AssetTransaction" />
+            app:argType="network.voi.hera.models.AssetTransaction" />
         <argument
             android:name="shouldPopulateAmountWithMax"
             android:defaultValue="false"
@@ -191,11 +191,11 @@
 
     <fragment
         android:id="@+id/receiverAccountSelectionFragment"
-        android:name="com.algorand.android.ui.send.receiveraccount.ReceiverAccountSelectionFragment"
+        android:name="network.voi.hera.ui.send.receiveraccount.ReceiverAccountSelectionFragment"
         android:label="ReceiverAccountSelectionFragment">
         <argument
             android:name="assetTransaction"
-            app:argType="com.algorand.android.models.AssetTransaction" />
+            app:argType="network.voi.hera.models.AssetTransaction" />
         <action
             android:id="@+id/action_receiverAccountSelectionFragment_to_assetTransferPreviewFragment"
             app:destination="@id/assetTransferPreviewFragment" />
@@ -210,23 +210,23 @@
             app:destination="@id/requestOptInConfirmationNavigation">
             <argument
                 android:name="requestOptInConfirmationArgs"
-                app:argType="com.algorand.android.nft.ui.model.RequestOptInConfirmationArgs" />
+                app:argType="network.voi.hera.nft.ui.model.RequestOptInConfirmationArgs" />
         </action>
     </fragment>
 
     <fragment
         android:id="@+id/receiverAccountSelectionQrScannerFragment"
-        android:name="com.algorand.android.ui.send.receiveraccount.ReceiverAccountSelectionQrScannerFragment"
+        android:name="network.voi.hera.ui.send.receiveraccount.ReceiverAccountSelectionQrScannerFragment"
         android:label="AssetTransferPreviewFragment"
         tools:layout="@layout/fragment_qr_code_scanner" />
 
     <fragment
         android:id="@+id/assetTransferPreviewFragment"
-        android:name="com.algorand.android.ui.send.transferpreview.AssetTransferPreviewFragment"
+        android:name="network.voi.hera.ui.send.transferpreview.AssetTransferPreviewFragment"
         android:label="AssetTransferPreviewFragment">
         <argument
             android:name="transactionData"
-            app:argType="com.algorand.android.models.TransactionData$Send" />
+            app:argType="network.voi.hera.models.TransactionData$Send" />
         <action
             android:id="@+id/action_assetTransferPreviewFragment_to_addNoteBottomSheet"
             app:destination="@id/addNoteBottomSheet" />
@@ -239,13 +239,13 @@
 
     <fragment
         android:id="@+id/transactionConfirmationFragment"
-        android:name="com.algorand.android.ui.send.confirmation.ui.TransactionConfirmationFragment"
+        android:name="network.voi.hera.ui.send.confirmation.ui.TransactionConfirmationFragment"
         android:label="TransactionConfirmationFragment"
         tools:layout="@layout/fragment_transaction_confirmation" />
 
     <dialog
         android:id="@+id/rekeyedMaximumBalanceWarningBottomSheet"
-        android:name="com.algorand.android.ui.common.warningconfirmation.RekeyedMaximumBalanceWarningBottomSheet"
+        android:name="network.voi.hera.ui.common.warningconfirmation.RekeyedMaximumBalanceWarningBottomSheet"
         android:label="RekeyedMaximumBalanceWarningBottomSheet"
         tools:layout="@layout/bottom_sheet_maximum_balance_warning">
         <argument
@@ -255,7 +255,7 @@
 
     <dialog
         android:id="@+id/transactionMaximumBalanceWarningBottomSheet"
-        android:name="com.algorand.android.ui.common.warningconfirmation.TransactionMaximumBalanceWarningBottomSheet"
+        android:name="network.voi.hera.ui.common.warningconfirmation.TransactionMaximumBalanceWarningBottomSheet"
         android:label="TransactionMaximumBalanceWarningBottomSheet"
         tools:layout="@layout/bottom_sheet_maximum_balance_warning">
         <argument
@@ -265,7 +265,7 @@
 
     <dialog
         android:id="@+id/addNoteBottomSheet"
-        android:name="com.algorand.android.ui.send.shared.AddNoteBottomSheet"
+        android:name="network.voi.hera.ui.send.shared.AddNoteBottomSheet"
         android:label="bottom_sheet_add_note"
         tools:layout="@layout/bottom_sheet_add_note">
         <argument
@@ -280,13 +280,13 @@
 
     <dialog
         android:id="@+id/transactionTipsBottomSheet"
-        android:name="com.algorand.android.ui.common.transactiontips.TransactionTipsBottomSheet"
+        android:name="network.voi.hera.ui.common.transactiontips.TransactionTipsBottomSheet"
         android:label="TransactionTipsBottomSheet"
         tools:layout="@layout/bottom_sheet_transaction_tips" />
 
     <dialog
         android:id="@+id/balanceWarningBottomSheet"
-        android:name="com.algorand.android.ui.send.transferamount.BalanceWarningBottomSheet"
+        android:name="network.voi.hera.ui.send.transferamount.BalanceWarningBottomSheet"
         android:label="BalanceWarningBottomSheet"
         tools:layout="@layout/bottom_sheet_balance_warning">
         <argument

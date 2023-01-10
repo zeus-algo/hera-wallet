@@ -18,7 +18,7 @@
     android:orientation="vertical"
     android:paddingHorizontal="@dimen/spacing_xlarge">
 
-    <com.algorand.android.customviews.SettingsListItem
+    <network.voi.hera.customviews.SettingsListItem
         android:id="@+id/enablePinCodeListItem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             app:useMaterialThemeColors="false" />
 
-    </com.algorand.android.customviews.SettingsListItem>
+    </network.voi.hera.customviews.SettingsListItem>
 
     <TextView
         android:id="@+id/securityPreferencesTextView"
@@ -45,7 +45,7 @@
         android:visibility="gone"
         tools:visibility="visible" />
 
-    <com.algorand.android.customviews.SettingsListItem
+    <network.voi.hera.customviews.SettingsListItem
         android:id="@+id/setChangePasswordListItem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -53,7 +53,7 @@
         app:settingsShowArrow="true"
         app:settingsText="@string/change_pin_code" />
 
-    <com.algorand.android.customviews.SettingsListItem
+    <network.voi.hera.customviews.SettingsListItem
         android:id="@+id/enableFaceIDTouchIDListItem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -67,6 +67,6 @@
             android:layout_height="wrap_content"
             app:useMaterialThemeColors="false" />
 
-    </com.algorand.android.customviews.SettingsListItem>
+    </network.voi.hera.customviews.SettingsListItem>
 
 </LinearLayout>

@@ -10,7 +10,7 @@
   ~ limitations under the License
   -->
 
-<com.algorand.android.customviews.ProgressSaverMotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<network.voi.hera.customviews.ProgressSaverMotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -19,7 +19,7 @@
     app:layoutDescription="@xml/scene_fragment_asa_profile"
     tools:context=".modules.assets.profile.asaprofile.base.BaseAsaProfileFragment">
 
-    <com.algorand.android.customviews.CustomToolbar
+    <network.voi.hera.customviews.CustomToolbar
         android:id="@+id/toolbar"
         android:layout_width="0dp"
         android:layout_height="@dimen/default_toolbar_height"
@@ -142,4 +142,4 @@
         android:id="@+id/loadingLayout"
         layout="@layout/layout_loading" />
 
-</com.algorand.android.customviews.ProgressSaverMotionLayout>
+</network.voi.hera.customviews.ProgressSaverMotionLayout>

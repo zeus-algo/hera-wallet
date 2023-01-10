@@ -17,11 +17,11 @@
 
     <dialog
         android:id="@+id/addAssetActionBottomSheet"
-        android:name="com.algorand.android.modules.assets.action.addition.AddAssetActionBottomSheet"
+        android:name="network.voi.hera.modules.assets.action.addition.AddAssetActionBottomSheet"
         android:label="AddAssetActionBottomSheet">
         <argument
             android:name="assetAction"
-            app:argType="com.algorand.android.models.AssetAction" />
+            app:argType="network.voi.hera.models.AssetAction" />
         <argument
             android:name="shouldWaitForConfirmation"
             android:defaultValue="false"

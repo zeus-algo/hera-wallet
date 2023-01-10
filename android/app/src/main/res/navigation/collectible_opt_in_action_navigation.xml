@@ -7,12 +7,12 @@
 
     <dialog
         android:id="@+id/collectibleOptInActionBottomSheet"
-        android:name="com.algorand.android.modules.collectibles.action.optin.CollectibleOptInActionBottomSheet"
+        android:name="network.voi.hera.modules.collectibles.action.optin.CollectibleOptInActionBottomSheet"
         android:label="CollectibleOptInActionBottomSheet"
         tools:layout="@layout/bottom_sheet_asset_action">
         <argument
             android:name="assetAction"
-            app:argType="com.algorand.android.models.AssetAction" />
+            app:argType="network.voi.hera.models.AssetAction" />
     </dialog>
 
 </navigation>

@@ -26,7 +26,7 @@
 
     <fragment
         android:id="@+id/collectibleSendFragment"
-        android:name="com.algorand.android.nft.ui.nftsend.CollectibleSendFragment"
+        android:name="network.voi.hera.nft.ui.nftsend.CollectibleSendFragment"
         android:label="CollectibleSendFragment"
         tools:layout="@layout/fragment_collectible_send">
         <argument
@@ -54,19 +54,19 @@
             app:destination="@id/requestOptInConfirmationNavigation">
             <argument
                 android:name="requestOptInConfirmationArgs"
-                app:argType="com.algorand.android.nft.ui.model.RequestOptInConfirmationArgs" />
+                app:argType="network.voi.hera.nft.ui.model.RequestOptInConfirmationArgs" />
         </action>
     </fragment>
 
     <fragment
         android:id="@+id/collectibleSendQrScannerFragment"
-        android:name="com.algorand.android.nft.ui.nftsend.CollectibleSendQrScannerFragment"
+        android:name="network.voi.hera.nft.ui.nftsend.CollectibleSendQrScannerFragment"
         android:label="CollectibleSendQrScannerFragment"
         tools:layout="@layout/fragment_qr_code_scanner" />
 
     <fragment
         android:id="@+id/collectibleReceiverSelectionFragment"
-        android:name="com.algorand.android.nft.ui.nftsend.CollectibleReceiverSelectionFragment"
+        android:name="network.voi.hera.nft.ui.nftsend.CollectibleReceiverSelectionFragment"
         android:label="CollectibleReceiverSelectionFragment"
         tools:layout="@layout/fragment_base_account_selection">
         <action
@@ -76,7 +76,7 @@
 
     <dialog
         android:id="@+id/collectibleTransactionApproveBottomSheet"
-        android:name="com.algorand.android.nft.ui.nftapprovetransaction.CollectibleTransactionApproveBottomSheet"
+        android:name="network.voi.hera.nft.ui.nftapprovetransaction.CollectibleTransactionApproveBottomSheet"
         android:label="CollectibleTransactionApproveBottomSheet">
         <argument
             android:name="senderPublicKey"
@@ -102,12 +102,12 @@
 
     <fragment
         android:id="@+id/collectibleTransferConfirmedFragment"
-        android:name="com.algorand.android.nft.ui.nfttransferconfirmed.CollectibleTransferConfirmedFragment"
+        android:name="network.voi.hera.nft.ui.nfttransferconfirmed.CollectibleTransferConfirmedFragment"
         android:label="CollectibleTransferConfirmedFragment" />
 
     <fragment
         android:id="@+id/collectibleReceiverSelectionQrScannerFragment"
-        android:name="com.algorand.android.nft.ui.nftsend.CollectibleReceiverSelectionQrScannerFragment"
+        android:name="network.voi.hera.nft.ui.nftsend.CollectibleReceiverSelectionQrScannerFragment"
         android:label="CollectibleReceiverSelectionQrScannerFragment"
         tools:layout="@layout/fragment_qr_code_scanner" />
 </navigation>

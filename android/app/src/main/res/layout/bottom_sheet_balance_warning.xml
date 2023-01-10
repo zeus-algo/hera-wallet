@@ -57,7 +57,7 @@
             android:gravity="center"
             tools:text="@string/this_account_doesn_t_have_the" />
 
-        <com.algorand.android.customviews.accountandassetitem.assetitem.AssetItemView
+        <network.voi.hera.customviews.accountandassetitem.assetitem.AssetItemView
             android:id="@+id/assetItemView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

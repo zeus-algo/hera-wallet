@@ -26,7 +26,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.algorand.android.customviews.CustomToolbar
+    <network.voi.hera.customviews.CustomToolbar
         android:id="@+id/customToolbar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/default_toolbar_height"
@@ -35,7 +35,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/modalityLineView" />
 
-    <com.algorand.android.customviews.WalletConnectSingleTransactionAssetInfoView
+    <network.voi.hera.customviews.WalletConnectSingleTransactionAssetInfoView
         android:id="@+id/transactionAssetInfoView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -52,7 +52,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <com.algorand.android.customviews.WalletConnectSingleTransactionShortDetailView
+    <network.voi.hera.customviews.WalletConnectSingleTransactionShortDetailView
         android:id="@+id/transactionShortDetailView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

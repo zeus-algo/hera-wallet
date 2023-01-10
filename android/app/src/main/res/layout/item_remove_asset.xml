@@ -10,7 +10,7 @@
   ~ limitations under the License
   -->
 
-<com.algorand.android.customviews.accountassetitem.StatefulButtonAccountAssetItemView xmlns:android="http://schemas.android.com/apk/res/android"
+<network.voi.hera.customviews.accountassetitem.StatefulButtonAccountAssetItemView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:id="@+id/assetItemView"
     android:layout_height="wrap_content"

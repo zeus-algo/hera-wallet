@@ -18,12 +18,12 @@
 
     <dialog
         android:id="@+id/warningConfirmationBottomSheet"
-        android:name="com.algorand.android.ui.common.warningconfirmation.WarningConfirmationBottomSheet"
+        android:name="network.voi.hera.ui.common.warningconfirmation.WarningConfirmationBottomSheet"
         android:label="WarningConfirmationBottomSheet"
         tools:layout="@layout/bottom_sheet_warning_confirmation">
         <argument
             android:name="warningConfirmation"
-            app:argType="com.algorand.android.models.WarningConfirmation" />
+            app:argType="network.voi.hera.models.WarningConfirmation" />
     </dialog>
 
 </navigation>

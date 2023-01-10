@@ -22,7 +22,7 @@
 
     <fragment
         android:id="@+id/swapIntroductionFragment"
-        android:name="com.algorand.android.modules.swap.introduction.ui.SwapIntroductionFragment"
+        android:name="network.voi.hera.modules.swap.introduction.ui.SwapIntroductionFragment"
         android:label="SwapIntroductionFragment"
         tools:layout="@layout/fragment_swap_introduction">
 

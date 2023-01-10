@@ -18,12 +18,12 @@
 
     <fragment
         android:id="@+id/discoverDetailFragment"
-        android:name="com.algorand.android.discover.detail.ui.DiscoverDetailFragment"
+        android:name="network.voi.hera.discover.detail.ui.DiscoverDetailFragment"
         android:label="DiscoverDetail"
         tools:layout="@layout/fragment_discover_detail">
         <argument
             android:name="tokenDetail"
-            app:argType="com.algorand.android.discover.home.domain.model.TokenDetailInfo" />
+            app:argType="network.voi.hera.discover.home.domain.model.TokenDetailInfo" />
         <action
             android:id="@+id/action_discoverDetailFragment_to_singleButtonBottomSheetNavigation"
             app:destination="@id/singleButtonBottomSheetNavigation"
@@ -31,11 +31,11 @@
             app:popUpToInclusive="true">
             <argument
                 android:name="titleAnnotatedString"
-                app:argType="com.algorand.android.models.AnnotatedString" />
+                app:argType="network.voi.hera.models.AnnotatedString" />
             <argument
                 android:name="descriptionAnnotatedString"
                 android:defaultValue="@null"
-                app:argType="com.algorand.android.models.AnnotatedString"
+                app:argType="network.voi.hera.models.AnnotatedString"
                 app:nullable="true" />
             <argument
                 android:name="buttonStringResId"

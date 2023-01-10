@@ -1,0 +1,142 @@
+/*
+ * Copyright 2022 Pera Wallet, LDA
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ *  limitations under the License
+ *
+ */
+
+package network.voi.hera.ui.common.walletconnect
+
+import android.content.Context
+import android.util.AttributeSet
+import androidx.constraintlayout.widget.ConstraintLayout
+import androidx.core.view.isVisible
+import androidx.core.view.setPadding
+import network.voi.hera.R
+import network.voi.hera.databinding.CustomWalletConnectTransactionSummaryViewBinding
+import network.voi.hera.models.AccountIconResource
+import network.voi.hera.models.AnnotatedString
+import network.voi.hera.models.BaseWalletConnectTransaction
+import network.voi.hera.ui.wctransactionrequest.WalletConnectTransactionListItem
+import network.voi.hera.utils.ALGO_DECIMALS
+import network.voi.hera.utils.extensions.changeTextAppearance
+import network.voi.hera.utils.extensions.setAccountIconDrawable
+import network.voi.hera.utils.extensions.setTextAndVisibility
+import network.voi.hera.utils.extensions.show
+import network.voi.hera.utils.formatAmount
+import network.voi.hera.utils.getXmlStyledString
+import network.voi.hera.utils.viewbinding.viewBinding
+import java.math.BigInteger
+
+class WalletConnectTransactionSummaryCardView(
+    context: Context,
+    attrs: AttributeSet? = null
+) : ConstraintLayout(context, attrs) {
+
+    private val binding = viewBinding(CustomWalletConnectTransactionSummaryViewBinding::inflate)
+
+    init {
+        initRootLayout()
+    }
+
+    fun initTransaction(
+        singleTransaction: WalletConnectTransactionListItem.SingleTransactionItem,
+        listener: OnShowDetailClickListener
+    ) {
+        with(singleTransaction.transactionSummary) {
+            setAccountInformationText(
+                accountName,
+                accountBalance,
+                assetDecimal,
+                assetShortName,
+                accountIconResource
+            )
+            setTitleText(transactionAmount, assetDecimal, assetShortName, summaryTitle)
+            setCurrencyText(formattedSelectedCurrencyValue)
+            setWarningInfo(showWarning)
+            with(binding.showTransactionDetailButton) {
+                setText(showMoreButtonText)
+                setOnClickListener { listener.onShowDetailClick(singleTransaction.transaction) }
+            }
+        }
+    }
+
+    private fun setWarningInfo(showWarning: Boolean) {
+        binding.warningImageView.isVisible = showWarning
+    }
+
+    fun setTitleText(
+        transactionAmount: BigInteger?,
+        assetDecimal: Int?,
+        shortName: String?,
+        summaryTitle: AnnotatedString?
+    ) {
+        when {
+            transactionAmount != null -> setTransactionAmountGroup(transactionAmount, assetDecimal, shortName)
+            summaryTitle != null -> setSummaryTitleGroup(summaryTitle)
+        }
+    }
+
+    private fun setTransactionAmountGroup(
+        transactionAmount: BigInteger,
+        assetDecimal: Int?,
+        shortName: String?
+    ) {
+        with(binding.transactionsAmountTextView) {
+            val formattedBalance = transactionAmount.formatAmount(assetDecimal ?: ALGO_DECIMALS)
+            text = context.getString(R.string.pair_value_format, formattedBalance, shortName.orEmpty())
+            changeTextAppearance(R.style.TextAppearance_Body_Large_Mono)
+        }
+    }
+
+    private fun setSummaryTitleGroup(summaryTitle: AnnotatedString) {
+        with(binding.transactionsAmountTextView) {
+            text = context?.getXmlStyledString(summaryTitle)
+            changeTextAppearance(R.style.TextAppearance_Body_Large_Sans)
+        }
+    }
+
+    private fun setAccountInformationText(
+        accountName: String?,
+        accountBalance: BigInteger?,
+        assetDecimal: Int?,
+        shortName: String?,
+        accountIconResource: AccountIconResource?
+    ) {
+        with(binding) {
+            if (accountIconResource != null) {
+                transactionAccountTypeImageView.apply {
+                    setAccountIconDrawable(accountIconResource, R.dimen.account_icon_size_small)
+                    show()
+                }
+            }
+            transactionAccountNameTextView.setTextAndVisibility(accountName)
+            if (accountBalance != null) {
+                val formattedBalance = accountBalance.formatAmount(assetDecimal ?: ALGO_DECIMALS)
+                accountBalanceTextView.setTextAndVisibility(
+                    context.getString(R.string.pair_value_format, formattedBalance, shortName.orEmpty())
+                )
+                dotImageView.show()
+            }
+        }
+    }
+
+    private fun setCurrencyText(formattedSelectedCurrencyValue: String?) {
+        binding.transactionAmountCurrencyValue.setTextAndVisibility(formattedSelectedCurrencyValue)
+    }
+
+    private fun initRootLayout() {
+        setBackgroundResource(R.drawable.bg_passphrase_group_background)
+        setPadding(resources.getDimensionPixelSize(R.dimen.spacing_large))
+    }
+
+    fun interface OnShowDetailClickListener {
+        fun onShowDetailClick(transaction: BaseWalletConnectTransaction)
+    }
+}

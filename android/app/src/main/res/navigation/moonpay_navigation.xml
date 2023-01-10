@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/moonpayIntroFragment"
-        android:name="com.algorand.android.modules.dapp.moonpay.ui.intro.MoonpayIntroFragment"
+        android:name="network.voi.hera.modules.dapp.moonpay.ui.intro.MoonpayIntroFragment"
         android:label="MoonpayIntroFragment"
         tools:layout="@layout/fragment_moonpay_intro">
         <argument
@@ -22,7 +22,7 @@
 
     <fragment
         android:id="@+id/moonpayAccountSelectionFragment"
-        android:name="com.algorand.android.modules.dapp.moonpay.ui.accountselection.MoonpayAccountSelectionFragment"
+        android:name="network.voi.hera.modules.dapp.moonpay.ui.accountselection.MoonpayAccountSelectionFragment"
         android:label="MoonpayAccountSelectionFragment"
         tools:layout="@layout/fragment_base_account_selection" />
 

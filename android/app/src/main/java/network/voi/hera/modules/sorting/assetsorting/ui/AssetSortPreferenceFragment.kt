@@ -1,0 +1,92 @@
+/*
+ * Copyright 2022 Pera Wallet, LDA
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License
+ */
+
+package network.voi.hera.modules.sorting.assetsorting.ui
+
+import android.os.Bundle
+import android.view.View
+import androidx.fragment.app.viewModels
+import network.voi.hera.R
+import network.voi.hera.core.BaseFragment
+import network.voi.hera.databinding.FragmentAssetSortPreferenceBinding
+import network.voi.hera.models.FragmentConfiguration
+import network.voi.hera.models.TextButton
+import network.voi.hera.models.ToolbarConfiguration
+import network.voi.hera.modules.sorting.assetsorting.ui.model.AssetSortPreferencePreview
+import network.voi.hera.utils.extensions.collectOnLifecycle
+import network.voi.hera.utils.viewbinding.viewBinding
+import dagger.hilt.android.AndroidEntryPoint
+
+@AndroidEntryPoint
+class AssetSortPreferenceFragment : BaseFragment(R.layout.fragment_asset_sort_preference) {
+
+    private val toolbarConfiguration = ToolbarConfiguration(
+        titleResId = R.string.sort,
+        startIconResId = R.drawable.ic_close,
+        startIconClick = ::navBack
+    )
+
+    override val fragmentConfiguration = FragmentConfiguration(toolbarConfiguration = toolbarConfiguration)
+
+    private val binding by viewBinding(FragmentAssetSortPreferenceBinding::bind)
+
+    private val assetSortPreferenceViewModel by viewModels<AssetSortPreferenceViewModel>()
+
+    private val assetSortPreferencePreviewObserver: suspend (AssetSortPreferencePreview?) -> Unit = { preview ->
+        preview?.let { initAssetSortPreferencePreview(preview) }
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        initToolbar()
+        initUi()
+        initObservers()
+    }
+
+    private fun initToolbar() {
+        getAppToolbar()?.setEndButton(button = TextButton(R.string.done, R.color.link_primary, ::onDoneClick))
+    }
+
+    private fun initUi() {
+        with(binding) {
+            with(assetSortPreferenceViewModel) {
+                alphabeticallyAscendingRadioButton.setOnClickListener { onAlphabeticallyAscendingSelected() }
+                alphabeticallyDescendingRadioButton.setOnClickListener { onAlphabeticallyDescendingSelected() }
+                balanceAscendingRadioButton.setOnClickListener { onBalanceAscendingSelected() }
+                balanceDescendingRadioButton.setOnClickListener { onBalanceDescendingSelected() }
+            }
+        }
+    }
+
+    private fun initObservers() {
+        viewLifecycleOwner.collectOnLifecycle(
+            assetSortPreferenceViewModel.assetSortPreferencePreviewFlow,
+            assetSortPreferencePreviewObserver
+        )
+    }
+
+    private fun initAssetSortPreferencePreview(preview: AssetSortPreferencePreview) {
+        with(binding) {
+            with(preview) {
+                alphabeticallyAscendingRadioButton.isChecked = isAlphabeticallyAscendingSelected
+                alphabeticallyDescendingRadioButton.isChecked = isAlphabeticallyDescendingSelected
+                balanceAscendingRadioButton.isChecked = isBalanceAscendingSelected
+                balanceDescendingRadioButton.isChecked = isBalanceDescendingSelected
+            }
+        }
+    }
+
+    private fun onDoneClick() {
+        assetSortPreferenceViewModel.savePreferenceChanges()
+        navBack()
+    }
+}

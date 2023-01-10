@@ -26,13 +26,13 @@
             style="@style/BottomSheetModalityLine"
             android:layout_marginTop="@dimen/spacing_small" />
 
-        <com.algorand.android.customviews.CustomToolbar
+        <network.voi.hera.customviews.CustomToolbar
             android:id="@+id/customToolbar"
             android:layout_width="match_parent"
             android:layout_height="@dimen/default_toolbar_height"
             android:layout_marginVertical="@dimen/spacing_small" />
 
-        <com.algorand.android.ui.common.walletconnect.WalletConnectSenderCardView
+        <network.voi.hera.ui.common.walletconnect.WalletConnectSenderCardView
             android:id="@+id/senderInfoCardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -47,7 +47,7 @@
             android:visibility="gone"
             tools:visibility="visible" />
 
-        <com.algorand.android.ui.common.walletconnect.WalletConnectTransactionInfoCardView
+        <network.voi.hera.ui.common.walletconnect.WalletConnectTransactionInfoCardView
             android:id="@+id/transactionInfoCardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -62,7 +62,7 @@
             android:visibility="gone"
             tools:visibility="visible" />
 
-        <com.algorand.android.ui.common.walletconnect.WalletConnectAmountInfoCardView
+        <network.voi.hera.ui.common.walletconnect.WalletConnectAmountInfoCardView
             android:id="@+id/amountInfoCardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -73,7 +73,7 @@
             style="@style/Divider.Horizontal"
             android:layout_marginVertical="@dimen/spacing_xxsmall" />
 
-        <com.algorand.android.ui.common.walletconnect.WalletConnectNoteCardView
+        <network.voi.hera.ui.common.walletconnect.WalletConnectNoteCardView
             android:id="@+id/noteInfoCardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -88,7 +88,7 @@
             android:visibility="gone"
             tools:visibility="visible" />
 
-        <com.algorand.android.ui.common.walletconnect.WalletConnectExtrasChipGroupView
+        <network.voi.hera.ui.common.walletconnect.WalletConnectExtrasChipGroupView
             android:id="@+id/extrasChipGroupView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

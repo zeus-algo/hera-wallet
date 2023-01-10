@@ -32,7 +32,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <com.algorand.android.customviews.RegisterTypeSelectionItem
+        <network.voi.hera.customviews.RegisterTypeSelectionItem
             android:id="@+id/recoverAnAccountSelectionItem"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -46,7 +46,7 @@
             app:typeSelectionIcon="@drawable/ic_key"
             app:typeSelectionTitleText="@string/recover_an_account" />
 
-        <com.algorand.android.customviews.RegisterTypeSelectionItem
+        <network.voi.hera.customviews.RegisterTypeSelectionItem
             android:id="@+id/pairLedgerSelectionItem"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

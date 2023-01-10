@@ -22,7 +22,7 @@
 
     <fragment
         android:id="@+id/swapAccountSelectionFragment"
-        android:name="com.algorand.android.modules.swap.accountselection.ui.SwapAccountSelectionFragment"
+        android:name="network.voi.hera.modules.swap.accountselection.ui.SwapAccountSelectionFragment"
         android:label="SwapAccountSelectionFragment"
         tools:layout="@layout/fragment_base_account_selection">
 
@@ -49,7 +49,7 @@
             app:destination="@id/assetAdditionActionNavigation">
             <argument
                 android:name="assetAction"
-                app:argType="com.algorand.android.models.AssetAction" />
+                app:argType="network.voi.hera.models.AssetAction" />
             <argument
                 android:name="shouldWaitForConfirmation"
                 app:argType="boolean" />

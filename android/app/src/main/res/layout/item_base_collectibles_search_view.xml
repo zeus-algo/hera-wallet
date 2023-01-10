@@ -20,7 +20,7 @@
     android:gravity="center_vertical"
     android:orientation="horizontal">
 
-    <com.algorand.android.customviews.AlgorandSearchView
+    <network.voi.hera.customviews.AlgorandSearchView
         android:id="@+id/collectibleSearchView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -30,7 +30,7 @@
         app:endIconTintColor="@color/secondary_icon_tint_color"
         app:startIconTintColor="@color/search_bar_view_icon_color" />
 
-    <com.algorand.android.customviews.PeraHorizontalSwitchView
+    <network.voi.hera.customviews.PeraHorizontalSwitchView
         android:id="@+id/nftListingViewTypeSwitchView"
         android:layout_width="80dp"
         android:layout_height="wrap_content"

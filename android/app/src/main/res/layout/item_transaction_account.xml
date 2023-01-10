@@ -36,7 +36,7 @@
         android:orientation="vertical"
         app:layout_constraintGuide_percent="@integer/label_percentage" />
 
-    <com.algorand.android.customviews.AlgorandUserView
+    <network.voi.hera.customviews.AlgorandUserView
         android:id="@+id/accountView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

@@ -20,7 +20,7 @@
 
     <dialog
         android:id="@+id/walletConnectTransactionFallbackBrowserSelectionBottomSheet"
-        android:name="com.algorand.android.modules.walletconnectfallbackbrowser.ui.WalletConnectTransactionFallbackBrowserSelectionBottomSheet"
+        android:name="network.voi.hera.modules.walletconnectfallbackbrowser.ui.WalletConnectTransactionFallbackBrowserSelectionBottomSheet"
         android:label="WalletConnectTransactionFallbackBrowserSelectionBottomSheet"
         tools:layout="@layout/bottom_sheet_fallback_browser_selection">
         <action
@@ -35,11 +35,11 @@
             app:popUpToInclusive="true">
             <argument
                 android:name="titleAnnotatedString"
-                app:argType="com.algorand.android.models.AnnotatedString" />
+                app:argType="network.voi.hera.models.AnnotatedString" />
             <argument
                 android:name="descriptionAnnotatedString"
                 android:defaultValue="@null"
-                app:argType="com.algorand.android.models.AnnotatedString"
+                app:argType="network.voi.hera.models.AnnotatedString"
                 app:nullable="true" />
             <argument
                 android:name="drawableResId"
@@ -60,11 +60,11 @@
 
     <dialog
         android:id="@+id/walletConnectTransactionSingleBrowserBottomSheet"
-        android:name="com.algorand.android.modules.walletconnectfallbackbrowser.ui.WalletConnectTransactionSingleBrowserFallbackBottomSheet"
+        android:name="network.voi.hera.modules.walletconnectfallbackbrowser.ui.WalletConnectTransactionSingleBrowserFallbackBottomSheet"
         android:label="WalletConnectTransactionConfirmedSingleBrowserBottomSheet">
         <argument
             android:name="browserItem"
-            app:argType="com.algorand.android.modules.walletconnectfallbackbrowser.ui.model.FallbackBrowserListItem" />
+            app:argType="network.voi.hera.modules.walletconnectfallbackbrowser.ui.model.FallbackBrowserListItem" />
         <argument
             android:name="peerMetaName"
             app:argType="string" />

@@ -28,7 +28,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:text="@string/assets" />
 
-    <com.algorand.android.customviews.TriStatesCheckBox
+    <network.voi.hera.customviews.TriStatesCheckBox
         android:id="@+id/triStateCheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

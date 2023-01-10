@@ -17,7 +17,7 @@
     android:layout_height="match_parent"
     tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
 
-    <com.algorand.android.customviews.algorandchart.LineChartView
+    <network.voi.hera.customviews.algorandchart.LineChartView
         android:id="@+id/lineChartView"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -26,7 +26,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.algorand.android.customviews.algorandchart.ChartTimeFrameView
+    <network.voi.hera.customviews.algorandchart.ChartTimeFrameView
         android:id="@+id/timeFrameView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

@@ -28,13 +28,13 @@
 
     <fragment
         android:id="@+id/walletConnectSingleTransactionFragment"
-        android:name="com.algorand.android.ui.wctransactionrequest.singletransaction.WalletConnectSingleTransactionFragment"
+        android:name="network.voi.hera.ui.wctransactionrequest.singletransaction.WalletConnectSingleTransactionFragment"
         android:label="fragment_wallet_connect_single_transaction"
         tools:layout="@layout/fragment_wallet_connect_single_transaction">
 
         <argument
             android:name="transaction"
-            app:argType="com.algorand.android.ui.wctransactionrequest.WalletConnectTransactionListItem$SingleTransactionItem" />
+            app:argType="network.voi.hera.ui.wctransactionrequest.WalletConnectTransactionListItem$SingleTransactionItem" />
         <action
             android:id="@+id/action_walletConnectSingleTransactionFragment_to_transactionRequestDetailFragment"
             app:destination="@id/transactionRequestDetailFragment" />
@@ -54,13 +54,13 @@
 
     <fragment
         android:id="@+id/walletConnectMultipleTransactionFragment"
-        android:name="com.algorand.android.ui.wctransactionrequest.multipletransaction.WalletConnectMultipleTransactionFragment"
+        android:name="network.voi.hera.ui.wctransactionrequest.multipletransaction.WalletConnectMultipleTransactionFragment"
         android:label="fragment_wallet_connect_multiple_transaction"
         tools:layout="@layout/fragment_wallet_connect_multiple_transaction">
 
         <argument
             android:name="transactions"
-            app:argType="com.algorand.android.ui.wctransactionrequest.WalletConnectTransactionListItem[]" />
+            app:argType="network.voi.hera.ui.wctransactionrequest.WalletConnectTransactionListItem[]" />
         <action
             android:id="@+id/action_walletConnectMultipleTransactionFragment_to_walletConnectAtomicTransactionsFragment"
             app:destination="@id/walletConnectAtomicTransactionsFragment" />
@@ -72,13 +72,13 @@
 
     <fragment
         android:id="@+id/walletConnectAtomicTransactionsFragment"
-        android:name="com.algorand.android.ui.wcatomictransactions.WalletConnectAtomicTransactionsFragment"
+        android:name="network.voi.hera.ui.wcatomictransactions.WalletConnectAtomicTransactionsFragment"
         android:label="WalletConnectAtomicTransactionsFragment"
         tools:layout="@layout/fragment_wallet_connect_atomic_transactions">
 
         <argument
             android:name="transactionList"
-            app:argType="com.algorand.android.models.BaseWalletConnectTransaction[]" />
+            app:argType="network.voi.hera.models.BaseWalletConnectTransaction[]" />
         <action
             android:id="@+id/action_walletConnectAtomicTransactionsFragment_to_transactionRequestDetailFragment"
             app:destination="@id/transactionRequestDetailFragment" />
@@ -87,12 +87,12 @@
 
     <fragment
         android:id="@+id/transactionRequestDetailFragment"
-        android:name="com.algorand.android.ui.wctransactiondetail.TransactionRequestDetailFragment"
+        android:name="network.voi.hera.ui.wctransactiondetail.TransactionRequestDetailFragment"
         android:label="TransactionRequestDetailFragment"
         tools:layout="@layout/fragment_transaction_request_detail">
         <argument
             android:name="transaction"
-            app:argType="com.algorand.android.models.BaseWalletConnectTransaction" />
+            app:argType="network.voi.hera.models.BaseWalletConnectTransaction" />
         <action
             android:id="@+id/action_transactionRequestDetailFragment_to_walletConnectRawTransactionBottomSheet"
             app:destination="@id/walletConnectRawTransactionBottomSheet" />
@@ -114,22 +114,22 @@
 
     <dialog
         android:id="@+id/walletConnectRawTransactionBottomSheet"
-        android:name="com.algorand.android.ui.wcrawtransaction.WalletConnectRawTransactionBottomSheet"
+        android:name="network.voi.hera.ui.wcrawtransaction.WalletConnectRawTransactionBottomSheet"
         android:label="WalletConnectRawTransactionBottomSheet"
         tools:layout="@layout/bottom_sheet_wallet_connect_raw_message">
         <argument
             android:name="wcAlgoTxnRequest"
-            app:argType="com.algorand.android.models.WCAlgoTransactionRequest" />
+            app:argType="network.voi.hera.models.WCAlgoTransactionRequest" />
     </dialog>
 
     <dialog
         android:id="@+id/walletConnectAssetMetadataBottomSheet"
-        android:name="com.algorand.android.ui.wcrawtransaction.WalletConnectAssetMetadataBottomSheet"
+        android:name="network.voi.hera.ui.wcrawtransaction.WalletConnectAssetMetadataBottomSheet"
         android:label="WalletConnectAssetMetadataBottomSheet"
         tools:layout="@layout/bottom_sheet_wallet_connect_raw_message">
         <argument
             android:name="walletConnectTransactionAssetDetail"
-            app:argType="com.algorand.android.models.WalletConnectTransactionAssetDetail"
+            app:argType="network.voi.hera.models.WalletConnectTransactionAssetDetail"
             app:nullable="true" />
     </dialog>
 </navigation>

@@ -22,7 +22,7 @@
 
     <View style="@style/BottomSheetModalityLine" />
 
-    <com.algorand.android.customviews.CustomToolbar
+    <network.voi.hera.customviews.CustomToolbar
         android:id="@+id/customToolbar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/default_toolbar_height"

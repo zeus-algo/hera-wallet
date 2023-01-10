@@ -18,7 +18,7 @@
 
     <fragment
         android:id="@+id/videoPlayerFragment"
-        android:name="com.algorand.android.nft.ui.mediaplayer.videoplayer.VideoPlayerFragment"
+        android:name="network.voi.hera.nft.ui.mediaplayer.videoplayer.VideoPlayerFragment"
         android:label="VideoPlayerFragment"
         tools:layout="@layout/fragment_media_player">
         <argument

@@ -10,7 +10,7 @@
   ~ limitations under the License
   -->
 
-<com.algorand.android.ui.common.walletconnect.WalletConnectAppPreviewCardView xmlns:android="http://schemas.android.com/apk/res/android"
+<network.voi.hera.ui.common.walletconnect.WalletConnectAppPreviewCardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/previewCardView"
     android:layout_width="match_parent"
     android:layout_height="wrap_content" />

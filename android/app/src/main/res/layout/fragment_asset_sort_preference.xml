@@ -17,25 +17,25 @@
     android:paddingHorizontal="@dimen/spacing_xlarge"
     android:paddingVertical="@dimen/spacing_large">
 
-    <com.algorand.android.customviews.PeraRadioButton
+    <network.voi.hera.customviews.PeraRadioButton
         android:id="@+id/alphabeticallyAscendingRadioButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/alphabetically_a_to_z" />
 
-    <com.algorand.android.customviews.PeraRadioButton
+    <network.voi.hera.customviews.PeraRadioButton
         android:id="@+id/alphabeticallyDescendingRadioButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/alphabetically_z_to_a" />
 
-    <com.algorand.android.customviews.PeraRadioButton
+    <network.voi.hera.customviews.PeraRadioButton
         android:id="@+id/balanceDescendingRadioButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/highest_value_to_lowest" />
 
-    <com.algorand.android.customviews.PeraRadioButton
+    <network.voi.hera.customviews.PeraRadioButton
         android:id="@+id/balanceAscendingRadioButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

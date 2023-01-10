@@ -32,7 +32,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:text="1" />
 
-    <com.algorand.android.customviews.PasteAwareEditText
+    <network.voi.hera.customviews.PasteAwareEditText
         android:id="@+id/passphraseInputEditText"
         style="@style/TextAppearance.Body.Sans"
         android:layout_width="0dp"

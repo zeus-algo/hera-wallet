@@ -38,7 +38,7 @@
 
     <fragment
         android:id="@+id/assetDetailFragment"
-        android:name="com.algorand.android.modules.assets.profile.detail.ui.AssetDetailFragment"
+        android:name="network.voi.hera.modules.assets.profile.detail.ui.AssetDetailFragment"
         android:label="AssetDetailFragment"
         tools:layout="@layout/fragment_asset_detail">
         <argument
@@ -63,7 +63,7 @@
             app:destination="@id/sendAlgoNavigation">
             <argument
                 android:name="assetTransaction"
-                app:argType="com.algorand.android.models.AssetTransaction"
+                app:argType="network.voi.hera.models.AssetTransaction"
                 app:nullable="true" />
         </action>
         <action
@@ -93,7 +93,7 @@
             app:destination="@id/dateFilterNavigation">
             <argument
                 android:name="selectedDateFilter"
-                app:argType="com.algorand.android.models.DateFilter" />
+                app:argType="network.voi.hera.models.DateFilter" />
         </action>
         <action
             android:id="@+id/action_assetDetailFragment_to_transactionDetailNavigation"
@@ -106,7 +106,7 @@
                 app:argType="string" />
             <argument
                 android:name="entryPoint"
-                app:argType="com.algorand.android.modules.transaction.detail.ui.model.TransactionDetailEntryPoint" />
+                app:argType="network.voi.hera.modules.transaction.detail.ui.model.TransactionDetailEntryPoint" />
         </action>
         <action
             android:id="@+id/action_assetDetailFragment_to_assetTotalSupplyNavigation"
@@ -116,11 +116,11 @@
             app:destination="@id/singleButtonBottomSheetNavigation">
             <argument
                 android:name="titleAnnotatedString"
-                app:argType="com.algorand.android.models.AnnotatedString" />
+                app:argType="network.voi.hera.models.AnnotatedString" />
             <argument
                 android:name="descriptionAnnotatedString"
                 android:defaultValue="@null"
-                app:argType="com.algorand.android.models.AnnotatedString"
+                app:argType="network.voi.hera.models.AnnotatedString"
                 app:nullable="true" />
             <argument
                 android:name="buttonStringResId"
@@ -159,7 +159,7 @@
             app:destination="@id/discoverDetailNavigation">
             <argument
                 android:name="tokenDetail"
-                app:argType="com.algorand.android.discover.home.domain.model.TokenDetailInfo" />
+                app:argType="network.voi.hera.discover.home.domain.model.TokenDetailInfo" />
         </action>
     </fragment>
 

@@ -18,7 +18,7 @@
 
     <fragment
         android:id="@+id/discoverHomeFragment"
-        android:name="com.algorand.android.discover.home.ui.DiscoverHomeFragment"
+        android:name="network.voi.hera.discover.home.ui.DiscoverHomeFragment"
         android:label="DiscoverHome"
         tools:layout="@layout/fragment_discover_home">
         <action
@@ -36,7 +36,7 @@
             app:destination="@id/discoverDetailNavigation">
             <argument
                 android:name="tokenDetail"
-                app:argType="com.algorand.android.discover.home.domain.model.TokenDetailInfo" />
+                app:argType="network.voi.hera.discover.home.domain.model.TokenDetailInfo" />
         </action>
         <action
             android:id="@+id/action_discoverHomeFragment_to_singleButtonBottomSheetNavigation"
@@ -45,11 +45,11 @@
             app:popUpToInclusive="true">
             <argument
                 android:name="titleAnnotatedString"
-                app:argType="com.algorand.android.models.AnnotatedString" />
+                app:argType="network.voi.hera.models.AnnotatedString" />
             <argument
                 android:name="descriptionAnnotatedString"
                 android:defaultValue="@null"
-                app:argType="com.algorand.android.models.AnnotatedString"
+                app:argType="network.voi.hera.models.AnnotatedString"
                 app:nullable="true" />
             <argument
                 android:name="buttonStringResId"
@@ -72,7 +72,7 @@
 
     <fragment
         android:id="@+id/discoverDappFragment"
-        android:name="com.algorand.android.discover.dapp.ui.DiscoverDappFragment"
+        android:name="network.voi.hera.discover.dapp.ui.DiscoverDappFragment"
         android:label="DiscoverDapp"
         tools:layout="@layout/fragment_discover_dapp">
         <argument
@@ -88,11 +88,11 @@
             app:popUpToInclusive="true">
             <argument
                 android:name="titleAnnotatedString"
-                app:argType="com.algorand.android.models.AnnotatedString" />
+                app:argType="network.voi.hera.models.AnnotatedString" />
             <argument
                 android:name="descriptionAnnotatedString"
                 android:defaultValue="@null"
-                app:argType="com.algorand.android.models.AnnotatedString"
+                app:argType="network.voi.hera.models.AnnotatedString"
                 app:nullable="true" />
             <argument
                 android:name="buttonStringResId"

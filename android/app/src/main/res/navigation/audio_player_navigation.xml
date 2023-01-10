@@ -18,7 +18,7 @@
 
     <fragment
         android:id="@+id/audioPlayerFragment"
-        android:name="com.algorand.android.nft.ui.mediaplayer.audioplayer.AudioPlayerFragment"
+        android:name="network.voi.hera.nft.ui.mediaplayer.audioplayer.AudioPlayerFragment"
         android:label="AudioPlayerFragment"
         tools:layout="@layout/fragment_media_player">
         <argument

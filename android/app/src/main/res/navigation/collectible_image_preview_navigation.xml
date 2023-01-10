@@ -18,7 +18,7 @@
 
     <fragment
         android:id="@+id/collectibleImagePreviewFragment"
-        android:name="com.algorand.android.nft.ui.nftimagepreview.CollectibleImagePreviewFragment"
+        android:name="network.voi.hera.nft.ui.nftimagepreview.CollectibleImagePreviewFragment"
         android:label="CollectibleImagePreview"
         tools:layout="@layout/fragment_collectible_image_preview">
         <argument

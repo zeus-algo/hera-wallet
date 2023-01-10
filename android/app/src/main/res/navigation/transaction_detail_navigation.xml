@@ -25,7 +25,7 @@
 
     <fragment
         android:id="@+id/navigationDetailEntryFragment"
-        android:name="com.algorand.android.modules.transaction.detail.ui.NavigationDetailEntryFragment"
+        android:name="network.voi.hera.modules.transaction.detail.ui.NavigationDetailEntryFragment"
         android:label="NavigationDetailEntryFragment">
         <argument
             android:name="transactionId"
@@ -45,12 +45,12 @@
             app:popUpToInclusive="true" />
         <argument
             android:name="entryPoint"
-            app:argType="com.algorand.android.modules.transaction.detail.ui.model.TransactionDetailEntryPoint" />
+            app:argType="network.voi.hera.modules.transaction.detail.ui.model.TransactionDetailEntryPoint" />
     </fragment>
 
     <fragment
         android:id="@+id/standardTransactionDetailFragment"
-        android:name="com.algorand.android.modules.transaction.detail.ui.standardtransaction.StandardTransactionDetailFragment"
+        android:name="network.voi.hera.modules.transaction.detail.ui.standardtransaction.StandardTransactionDetailFragment"
         android:label="StandardTransactionDetailFragment"
         tools:layout="@layout/fragment_transaction_detail">
         <argument
@@ -66,7 +66,7 @@
         <argument
             android:name="transaction"
             android:defaultValue="@null"
-            app:argType="com.algorand.android.modules.transaction.detail.domain.model.BaseTransactionDetail"
+            app:argType="network.voi.hera.modules.transaction.detail.domain.model.BaseTransactionDetail"
             app:nullable="true" />
         <action
             android:id="@+id/action_standardTransactionDetailFragment_to_contactAdditionNavigation"
@@ -90,7 +90,7 @@
 
     <fragment
         android:id="@+id/innerTransactionDetailFragment"
-        android:name="com.algorand.android.modules.transaction.detail.ui.innertransaction.InnerTransactionDetailFragment"
+        android:name="network.voi.hera.modules.transaction.detail.ui.innertransaction.InnerTransactionDetailFragment"
         android:label="InnerTransactionDetailFragment"
         tools:layout="@layout/fragment_transaction_detail">
         <argument
@@ -109,7 +109,7 @@
 
     <fragment
         android:id="@+id/applicationCallTransactionDetailFragment"
-        android:name="com.algorand.android.modules.transaction.detail.ui.applicationcalltransaction.ApplicationCallTransactionDetailFragment"
+        android:name="network.voi.hera.modules.transaction.detail.ui.applicationcalltransaction.ApplicationCallTransactionDetailFragment"
         android:label="ApplicationCallTransactionDetailFragment"
         tools:layout="@layout/fragment_transaction_detail">
         <argument
@@ -125,7 +125,7 @@
         <argument
             android:name="transaction"
             android:defaultValue="@null"
-            app:argType="com.algorand.android.modules.transaction.detail.domain.model.BaseTransactionDetail$ApplicationCallTransaction"
+            app:argType="network.voi.hera.modules.transaction.detail.domain.model.BaseTransactionDetail$ApplicationCallTransaction"
             app:nullable="true" />
         <action
             android:id="@+id/action_applicationCallTransactionDetailFragment_to_innerTransactionDetailFragment"
@@ -137,12 +137,12 @@
 
     <dialog
         android:id="@+id/applicationCallAssetsBottomSheet"
-        android:name="com.algorand.android.modules.transaction.detail.ui.applicationcallassets.ApplicationCallAssetsBottomSheet"
+        android:name="network.voi.hera.modules.transaction.detail.ui.applicationcallassets.ApplicationCallAssetsBottomSheet"
         android:label="ApplicationCallAssetsBottomSheet"
         tools:layout="@layout/bottom_sheet_application_call_assets">
         <argument
             android:name="assetInformationList"
-            app:argType="com.algorand.android.modules.transaction.detail.ui.model.ApplicationCallAssetInformation[]" />
+            app:argType="network.voi.hera.modules.transaction.detail.ui.model.ApplicationCallAssetInformation[]" />
     </dialog>
 
 </navigation>

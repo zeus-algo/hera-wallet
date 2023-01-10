@@ -100,7 +100,7 @@
                 tools:text="0.000000000000000012"
                 tools:visibility="visible" />
 
-            <com.algorand.android.customviews.CollectibleMediaPager
+            <network.voi.hera.customviews.CollectibleMediaPager
                 android:id="@+id/nftMediaPager"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -179,7 +179,7 @@
                 app:layout_constraintStart_toStartOf="@id/startGuideLine"
                 app:layout_constraintTop_toBottomOf="@id/nftOptOutButton" />
 
-            <com.algorand.android.customviews.CollectibleTraitsFlexboxLayout
+            <network.voi.hera.customviews.CollectibleTraitsFlexboxLayout
                 android:id="@+id/collectibleTraitsLayout"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"

@@ -81,7 +81,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/descriptionTextView" />
 
-    <com.algorand.android.customviews.ScreenStateView
+    <network.voi.hera.customviews.ScreenStateView
         android:id="@+id/screenStateView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

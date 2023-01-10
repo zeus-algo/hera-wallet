@@ -36,7 +36,7 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
-    <com.algorand.android.customviews.InputLayoutTrailingIconContainerView
+    <network.voi.hera.customviews.InputLayoutTrailingIconContainerView
         android:id="@+id/iconContainerView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

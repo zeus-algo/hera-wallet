@@ -74,7 +74,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/resultDescriptionTextView" />
 
-        <com.algorand.android.customviews.AlgorandUserView
+        <network.voi.hera.customviews.AlgorandUserView
             android:id="@+id/algorandUserView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

@@ -17,11 +17,11 @@
 
     <dialog
         android:id="@+id/collectibleOptOutConfirmationBottomSheet"
-        android:name="com.algorand.android.modules.collectibles.action.optout.CollectibleOptOutConfirmationBottomSheet"
+        android:name="network.voi.hera.modules.collectibles.action.optout.CollectibleOptOutConfirmationBottomSheet"
         android:label="CollectibleOptOutConfirmationBottomSheet">
         <argument
             android:name="assetAction"
-            app:argType="com.algorand.android.models.AssetAction" />
+            app:argType="network.voi.hera.models.AssetAction" />
     </dialog>
 
 </navigation>

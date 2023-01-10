@@ -18,7 +18,7 @@
 
     <fragment
         android:id="@+id/assetFilterFragment"
-        android:name="com.algorand.android.modules.assets.filter.ui.AssetFilterFragment"
+        android:name="network.voi.hera.modules.assets.filter.ui.AssetFilterFragment"
         android:label="AssetFilterFragment"
         tools:layout="@layout/fragment_asset_filter" />
 

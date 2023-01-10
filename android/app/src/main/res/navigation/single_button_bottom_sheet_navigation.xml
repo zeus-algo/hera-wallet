@@ -18,21 +18,21 @@
 
     <dialog
         android:id="@+id/singleButtonBottomSheet"
-        android:name="com.algorand.android.utils.SingleButtonBottomSheet"
+        android:name="network.voi.hera.utils.SingleButtonBottomSheet"
         android:label="SingleButtonBottomSheet"
         tools:layout="@layout/bottom_sheet_single_button">
         <argument
             android:name="titleAnnotatedString"
-            app:argType="com.algorand.android.models.AnnotatedString" />
+            app:argType="network.voi.hera.models.AnnotatedString" />
         <argument
             android:name="descriptionAnnotatedString"
             android:defaultValue="@null"
-            app:argType="com.algorand.android.models.AnnotatedString"
+            app:argType="network.voi.hera.models.AnnotatedString"
             app:nullable="true" />
         <argument
             android:name="errorAnnotatedString"
             android:defaultValue="@null"
-            app:argType="com.algorand.android.models.AnnotatedString"
+            app:argType="network.voi.hera.models.AnnotatedString"
             app:nullable="true" />
         <argument
             android:name="buttonStringResId"

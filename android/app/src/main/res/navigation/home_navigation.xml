@@ -113,7 +113,7 @@
         app:destination="@id/sendAlgoNavigation">
         <argument
             android:name="assetTransaction"
-            app:argType="com.algorand.android.models.AssetTransaction"
+            app:argType="network.voi.hera.models.AssetTransaction"
             app:nullable="true" />
         <argument
             android:name="shouldPopulateAmountWithMax"
@@ -126,7 +126,7 @@
         app:destination="@id/walletConnectConnectionNavigation">
         <argument
             android:name="sessionRequest"
-            app:argType="com.algorand.android.models.WalletConnectSession" />
+            app:argType="network.voi.hera.models.WalletConnectSession" />
     </action>
 
     <action
@@ -226,7 +226,7 @@
             app:argType="string" />
         <argument
             android:name="transactionStatus"
-            app:argType="com.algorand.android.modules.dapp.moonpay.domain.model.MoonpayTransactionStatus" />
+            app:argType="network.voi.hera.modules.dapp.moonpay.domain.model.MoonpayTransactionStatus" />
     </action>
 
     <action
@@ -246,10 +246,10 @@
         app:destination="@id/singleButtonBottomSheetNavigation">
         <argument
             android:name="titleAnnotatedString"
-            app:argType="com.algorand.android.models.AnnotatedString" />
+            app:argType="network.voi.hera.models.AnnotatedString" />
         <argument
             android:name="descriptionAnnotatedString"
-            app:argType="com.algorand.android.models.AnnotatedString" />
+            app:argType="network.voi.hera.models.AnnotatedString" />
         <argument
             android:name="drawableResId"
             android:defaultValue="0"
@@ -277,7 +277,7 @@
 
     <fragment
         android:id="@+id/collectiblesFragment"
-        android:name="com.algorand.android.nft.ui.nftlisting.collectibles.CollectiblesFragment"
+        android:name="network.voi.hera.nft.ui.nftlisting.collectibles.CollectiblesFragment"
         android:label="fragment_collectibles"
         tools:layout="@layout/fragment_base_collectibles_listing">
         <action
@@ -297,7 +297,7 @@
 
     <fragment
         android:id="@+id/collectibleDetailFragment"
-        android:name="com.algorand.android.modules.collectibles.detail.ui.CollectibleDetailFragment"
+        android:name="network.voi.hera.modules.collectibles.detail.ui.CollectibleDetailFragment"
         android:label="CollectibleDetail"
         tools:layout="@layout/fragment_collectible_detail">
         <argument
@@ -325,7 +325,7 @@
             app:destination="@id/nftOptOutConfirmationNavigation">
             <argument
                 android:name="assetAction"
-                app:argType="com.algorand.android.models.AssetAction" />
+                app:argType="network.voi.hera.models.AssetAction" />
         </action>
         <action
             android:id="@+id/action_collectibleDetailFragment_to_assetProfileNavigation"
@@ -358,7 +358,7 @@
 
     <fragment
         android:id="@+id/contactsFragment"
-        android:name="com.algorand.android.ui.contacts.ContactsFragment"
+        android:name="network.voi.hera.ui.contacts.ContactsFragment"
         android:label="fragment_contacts"
         tools:layout="@layout/fragment_contacts">
         <action
@@ -389,7 +389,7 @@
 
     <fragment
         android:id="@+id/accountsFragment"
-        android:name="com.algorand.android.modules.accounts.ui.AccountsFragment"
+        android:name="network.voi.hera.modules.accounts.ui.AccountsFragment"
         android:label="fragment_accounts"
         tools:layout="@layout/fragment_accounts">
         <action
@@ -443,7 +443,7 @@
 
     <fragment
         android:id="@+id/bannerFragment"
-        android:name="com.algorand.android.modules.banner.ui.BannerFragment"
+        android:name="network.voi.hera.modules.banner.ui.BannerFragment"
         android:label="BannerFragment"
         tools:layout="@layout/fragment_banner">
         <argument
@@ -453,7 +453,7 @@
 
     <fragment
         android:id="@+id/removeAssetsFragment"
-        android:name="com.algorand.android.modules.assets.remove.ui.RemoveAssetsFragment"
+        android:name="network.voi.hera.modules.assets.remove.ui.RemoveAssetsFragment"
         android:label="fragment_remove_assets"
         tools:layout="@layout/fragment_remove_assets">
         <argument
@@ -468,14 +468,14 @@
             app:destination="@id/assetRemovalActionNavigation">
             <argument
                 android:name="assetAction"
-                app:argType="com.algorand.android.models.AssetAction" />
+                app:argType="network.voi.hera.models.AssetAction" />
         </action>
         <action
             android:id="@+id/action_removeAssetsFragment_to_assetTransferBalanceActionNavigation"
             app:destination="@id/assetTransferBalanceActionNavigation">
             <argument
                 android:name="assetAction"
-                app:argType="com.algorand.android.models.AssetAction" />
+                app:argType="network.voi.hera.models.AssetAction" />
         </action>
         <action
             android:id="@+id/action_removeAssetsFragment_to_asaProfileNavigation"
@@ -503,18 +503,18 @@
             app:destination="@id/nftOptOutConfirmationNavigation">
             <argument
                 android:name="assetAction"
-                app:argType="com.algorand.android.models.AssetAction" />
+                app:argType="network.voi.hera.models.AssetAction" />
         </action>
     </fragment>
 
     <fragment
         android:id="@+id/contactInfoFragment"
-        android:name="com.algorand.android.ui.contacts.ContactInfoFragment"
+        android:name="network.voi.hera.ui.contacts.ContactInfoFragment"
         android:label="ContactInfoFragment"
         tools:layout="@layout/fragment_contact_info">
         <argument
             android:name="contact"
-            app:argType="com.algorand.android.models.User" />
+            app:argType="network.voi.hera.models.User" />
         <action
             android:id="@+id/action_contactInfoFragment_to_editContactFragment"
             app:destination="@id/editContactFragment"
@@ -530,13 +530,13 @@
 
     <fragment
         android:id="@+id/changePasswordFragment"
-        android:name="com.algorand.android.ui.settings.ChangePasswordFragment"
+        android:name="network.voi.hera.ui.settings.ChangePasswordFragment"
         android:label="fragment_settings_change_password"
         tools:layout="@layout/fragment_base_password" />
 
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="com.algorand.android.ui.settings.SettingsFragment"
+        android:name="network.voi.hera.ui.settings.SettingsFragment"
         android:label="fragment_settings"
         tools:layout="@layout/fragment_settings">
         <action
@@ -544,7 +544,7 @@
             app:destination="@id/warningConfirmationNavigation">
             <argument
                 android:name="warningConfirmation"
-                app:argType="com.algorand.android.models.WarningConfirmation" />
+                app:argType="network.voi.hera.models.WarningConfirmation" />
         </action>
         <action
             android:id="@+id/action_settingsFragment_to_rateExperienceBottomSheet"
@@ -577,7 +577,7 @@
 
     <fragment
         android:id="@+id/securityFragment"
-        android:name="com.algorand.android.ui.settings.security.SecurityFragment"
+        android:name="network.voi.hera.ui.settings.security.SecurityFragment"
         android:label="SecurityFragment"
         tools:layout="@layout/fragment_security">
         <action
@@ -596,7 +596,7 @@
 
     <fragment
         android:id="@+id/notificationCenterFragment"
-        android:name="com.algorand.android.ui.notificationcenter.NotificationCenterFragment"
+        android:name="network.voi.hera.ui.notificationcenter.NotificationCenterFragment"
         android:label="NotificationCenterFragment"
         tools:layout="@layout/fragment_notification_center">
         <action
@@ -633,7 +633,7 @@
 
     <fragment
         android:id="@+id/developerSettingsFragment"
-        android:name="com.algorand.android.ui.settings.developersettings.DeveloperSettingsFragment"
+        android:name="network.voi.hera.ui.settings.developersettings.DeveloperSettingsFragment"
         android:label="DeveloperSettingsFragment"
         tools:layout="@layout/fragment_developer_settings">
         <action
@@ -643,31 +643,31 @@
 
     <fragment
         android:id="@+id/nodeSettingsFragment"
-        android:name="com.algorand.android.ui.settings.node.NodeSettingsFragment"
+        android:name="network.voi.hera.ui.settings.node.NodeSettingsFragment"
         android:label="NodeSettingsFragment"
         tools:layout="@layout/fragment_node_settings" />
 
     <fragment
         android:id="@+id/currencySelectionFragment"
-        android:name="com.algorand.android.modules.currency.ui.CurrencySelectionFragment"
+        android:name="network.voi.hera.modules.currency.ui.CurrencySelectionFragment"
         android:label="CurrencySelectionFragment"
         tools:layout="@layout/fragment_currency_selection" />
 
     <fragment
         android:id="@+id/languageSelectionFragment"
-        android:name="com.algorand.android.ui.settings.selection.languageselection.LanguageSelectionFragment"
+        android:name="network.voi.hera.ui.settings.selection.languageselection.LanguageSelectionFragment"
         android:label="LanguageSelectionFragment"
         tools:layout="@layout/fragment_selection_list" />
 
     <fragment
         android:id="@+id/themeSelectionFragment"
-        android:name="com.algorand.android.ui.settings.selection.themeselection.ThemeSelectionFragment"
+        android:name="network.voi.hera.ui.settings.selection.themeselection.ThemeSelectionFragment"
         android:label="ThemeSelectionFragment"
         tools:layout="@layout/fragment_selection_list" />
 
     <fragment
         android:id="@+id/notificationFilterFragment"
-        android:name="com.algorand.android.ui.notificationfilter.NotificationFilterFragment"
+        android:name="network.voi.hera.ui.notificationfilter.NotificationFilterFragment"
         android:label="NotificationFilterFragment">
         <argument
             android:name="showDoneButton"
@@ -676,7 +676,7 @@
 
     <fragment
         android:id="@+id/notificationSettingsFragment"
-        android:name="com.algorand.android.ui.notificationfilter.NotificationSettingsFragment"
+        android:name="network.voi.hera.ui.notificationfilter.NotificationSettingsFragment"
         android:label="NotificationSettingsFragment">
         <argument
             android:name="showDoneButton"
@@ -685,7 +685,7 @@
 
     <fragment
         android:id="@+id/walletConnectSessionsFragment"
-        android:name="com.algorand.android.modules.walletconnect.sessions.ui.WalletConnectSessionsFragment"
+        android:name="network.voi.hera.modules.walletconnect.sessions.ui.WalletConnectSessionsFragment"
         android:label="WalletConnectSessionsFragment"
         tools:layout="@layout/fragment_wallet_connect_sessions">
         <action
@@ -697,20 +697,20 @@
             app:popUpTo="@id/walletConnectSessionsFragment">
             <argument
                 android:name="warningConfirmation"
-                app:argType="com.algorand.android.models.WarningConfirmation" />
+                app:argType="network.voi.hera.models.WarningConfirmation" />
         </action>
 
     </fragment>
 
     <fragment
         android:id="@+id/walletConnectSessionsQrScannerFragment"
-        android:name="com.algorand.android.modules.walletconnect.sessions.ui.WalletConnectSessionsQrScannerFragment"
+        android:name="network.voi.hera.modules.walletconnect.sessions.ui.WalletConnectSessionsQrScannerFragment"
         android:label="WalletConnectSessionsQrScannerFragment"
         tools:layout="@layout/fragment_qr_code_scanner" />
 
     <fragment
         android:id="@+id/accountDetailFragment"
-        android:name="com.algorand.android.modules.accountdetail.ui.AccountDetailFragment"
+        android:name="network.voi.hera.modules.accountdetail.ui.AccountDetailFragment"
         android:label="AccountDetailFragment">
         <argument
             android:name="publicKey"
@@ -718,7 +718,7 @@
         <argument
             android:name="accountDetailTab"
             android:defaultValue="@null"
-            app:argType="com.algorand.android.models.AccountDetailTab"
+            app:argType="network.voi.hera.models.AccountDetailTab"
             app:nullable="true" />
         <action
             android:id="@+id/action_accountDetailFragment_to_assetAdditionNavigation"
@@ -732,7 +732,7 @@
             app:destination="@id/dateFilterNavigation">
             <argument
                 android:name="selectedDateFilter"
-                app:argType="com.algorand.android.models.DateFilter" />
+                app:argType="network.voi.hera.models.DateFilter" />
         </action>
         <action
             android:id="@+id/action_accountDetailFragment_to_dateFilterPickerBottomSheet"
@@ -767,7 +767,7 @@
                 app:argType="string" />
             <argument
                 android:name="entryPoint"
-                app:argType="com.algorand.android.modules.transaction.detail.ui.model.TransactionDetailEntryPoint" />
+                app:argType="network.voi.hera.modules.transaction.detail.ui.model.TransactionDetailEntryPoint" />
         </action>
         <action
             android:id="@+id/action_accountDetailFragment_to_assetProfileNavigation"
@@ -820,13 +820,13 @@
 
     <fragment
         android:id="@+id/assetSortPreferenceFragment"
-        android:name="com.algorand.android.modules.sorting.assetsorting.ui.AssetSortPreferenceFragment"
+        android:name="network.voi.hera.modules.sorting.assetsorting.ui.AssetSortPreferenceFragment"
         android:label="AssetSortPreferenceFragment"
         tools:layout="@layout/fragment_asset_sort_preference" />
 
     <fragment
         android:id="@+id/addAssetAccountSelectionFragment"
-        android:name="com.algorand.android.modules.accountselection.ui.AddAssetAccountSelectionFragment"
+        android:name="network.voi.hera.modules.accountselection.ui.AddAssetAccountSelectionFragment"
         android:label="AddAssetAccountSelectionFragment">
         <argument
             android:name="assetId"
@@ -839,19 +839,19 @@
             app:popUpToInclusive="true">
             <argument
                 android:name="assetAction"
-                app:argType="com.algorand.android.models.AssetAction" />
+                app:argType="network.voi.hera.models.AssetAction" />
         </action>
     </fragment>
 
     <dialog
         android:id="@+id/rateExperienceBottomSheet"
-        android:name="com.algorand.android.ui.settings.RateExperienceBottomSheet"
+        android:name="network.voi.hera.ui.settings.RateExperienceBottomSheet"
         android:label="RateExperienceBottomSheet"
         tools:layout="@layout/bottom_sheet_rate_experience" />
 
     <dialog
         android:id="@+id/accountSelectionBottomSheet"
-        android:name="com.algorand.android.ui.common.accountselector.AccountSelectionBottomSheet"
+        android:name="network.voi.hera.ui.common.accountselector.AccountSelectionBottomSheet"
         android:label="AccountSelectionBottomSheet"
         tools:layout="@layout/bottom_sheet_account_selection">
         <argument
@@ -877,7 +877,7 @@
 
     <dialog
         android:id="@+id/viewPassphraseBottomSheet"
-        android:name="com.algorand.android.ui.accounts.ViewPassphraseBottomSheet"
+        android:name="network.voi.hera.ui.accounts.ViewPassphraseBottomSheet"
         android:label="ViewPassphraseBottomSheet"
         tools:layout="@layout/dialog_view_passphrase">
         <argument
@@ -887,7 +887,7 @@
 
     <dialog
         android:id="@+id/renameAccountBottomSheet"
-        android:name="com.algorand.android.ui.accounts.RenameAccountBottomSheet"
+        android:name="network.voi.hera.ui.accounts.RenameAccountBottomSheet"
         android:label="RenameAccountBottomSheet"
         tools:layout="@layout/bottom_sheet_rename_account">
         <argument
@@ -900,25 +900,25 @@
 
     <dialog
         android:id="@+id/transactionTipsBottomSheet"
-        android:name="com.algorand.android.ui.common.transactiontips.TransactionTipsBottomSheet"
+        android:name="network.voi.hera.ui.common.transactiontips.TransactionTipsBottomSheet"
         android:label="TransactionTipsBottomSheet"
         tools:layout="@layout/bottom_sheet_transaction_tips" />
 
     <fragment
         android:id="@+id/algoPriceFragment"
-        android:name="com.algorand.android.ui.analyticsdetail.AlgoPriceFragment"
+        android:name="network.voi.hera.ui.analyticsdetail.AlgoPriceFragment"
         android:label="AnalyticsDetailBottomSheet"
         tools:layout="@layout/fragment_algo_price" />
 
     <dialog
         android:id="@+id/ledgerConnectionIssueBottomSheet"
-        android:name="com.algorand.android.utils.LedgerConnectionIssueBottomSheet"
+        android:name="network.voi.hera.utils.LedgerConnectionIssueBottomSheet"
         android:label="LedgerConnectionIssueBottomSheet"
         tools:layout="@layout/bottom_sheet_single_button" />
 
     <fragment
         android:id="@+id/editContactFragment"
-        android:name="com.algorand.android.ui.contacts.editcontact.EditContactFragment"
+        android:name="network.voi.hera.ui.contacts.editcontact.EditContactFragment"
         android:label="EditContactFragment">
         <argument
             android:name="contactName"
@@ -947,19 +947,19 @@
             app:destination="@id/warningConfirmationNavigation">
             <argument
                 android:name="warningConfirmation"
-                app:argType="com.algorand.android.models.WarningConfirmation" />
+                app:argType="network.voi.hera.models.WarningConfirmation" />
         </action>
     </fragment>
 
     <fragment
         android:id="@+id/editContactQrScannerFragment"
-        android:name="com.algorand.android.ui.contacts.editcontact.EditContactQrScannerFragment"
+        android:name="network.voi.hera.ui.contacts.editcontact.EditContactQrScannerFragment"
         android:label="EditContactQrScannerFragment"
         tools:layout="@layout/fragment_qr_code_scanner" />
 
     <fragment
         android:id="@+id/accountsQrScannerFragment"
-        android:name="com.algorand.android.ui.accounts.AccountsQrScannerFragment"
+        android:name="network.voi.hera.ui.accounts.AccountsQrScannerFragment"
         android:label="AccountsQrScannerFragment"
         tools:layout="@layout/fragment_qr_code_scanner">
         <action
@@ -974,7 +974,7 @@
             app:popUpToInclusive="true">
             <argument
                 android:name="assetTransaction"
-                app:argType="com.algorand.android.models.AssetTransaction"
+                app:argType="network.voi.hera.models.AssetTransaction"
                 app:nullable="true" />
         </action>
         <action
@@ -1012,25 +1012,25 @@
 
     <dialog
         android:id="@+id/walletConnectSessionsBottomSheet"
-        android:name="com.algorand.android.modules.walletconnect.connectedapps.ui.WalletConnectConnectedAppsBottomSheet"
+        android:name="network.voi.hera.modules.walletconnect.connectedapps.ui.WalletConnectConnectedAppsBottomSheet"
         android:label="WalletConnectSessionsBottomSheet" />
 
     <fragment
         android:id="@+id/receiveAccountSelectionFragment"
-        android:name="com.algorand.android.ui.accountselection.receive.ReceiveAccountSelectionFragment"
+        android:name="network.voi.hera.ui.accountselection.receive.ReceiveAccountSelectionFragment"
         android:label="ReceiveAccountSelectionFragment"
         tools:layout="@layout/fragment_base_account_selection" />
 
     <fragment
         android:id="@+id/receiveCollectibleFragment"
-        android:name="com.algorand.android.nft.ui.receivenftasset.ReceiveCollectibleFragment"
+        android:name="network.voi.hera.nft.ui.receivenftasset.ReceiveCollectibleFragment"
         android:label="ReceiveCollectibleFragment">
         <action
             android:id="@+id/action_receiveCollectibleFragment_to_assetAdditionActionNavigation"
             app:destination="@id/assetAdditionActionNavigation">
             <argument
                 android:name="assetAction"
-                app:argType="com.algorand.android.models.AssetAction" />
+                app:argType="network.voi.hera.models.AssetAction" />
         </action>
         <action
             android:id="@+id/action_receiveCollectibleFragment_to_collectibleProfileNavigation"
@@ -1049,7 +1049,7 @@
 
     <fragment
         android:id="@+id/collectibleReceiverAccountSelectionFragment"
-        android:name="com.algorand.android.nft.ui.nftreceiveaccountselection.CollectibleReceiverAccountSelectionFragment"
+        android:name="network.voi.hera.nft.ui.nftreceiveaccountselection.CollectibleReceiverAccountSelectionFragment"
         android:label="CollectibleReceiverAccountSelectionFragment">
 
         <action
@@ -1060,51 +1060,51 @@
 
     <fragment
         android:id="@+id/collectibleFiltersFragment"
-        android:name="com.algorand.android.nft.ui.nftfilters.CollectibleFiltersFragment"
+        android:name="network.voi.hera.nft.ui.nftfilters.CollectibleFiltersFragment"
         android:label="CollectibleFiltersFragment"
         tools:layout="@layout/fragment_collectible_filters" />
 
     <fragment
         android:id="@+id/assetVerificationInfoFragment"
-        android:name="com.algorand.android.modules.assets.profile.activity.ui.AssetVerificationInfoFragment"
+        android:name="network.voi.hera.modules.assets.profile.activity.ui.AssetVerificationInfoFragment"
         android:label="AssetVerificationInfoFragment"
         tools:layout="@layout/fragment_asset_verification_info" />
 
     <dialog
         android:id="@+id/unsupportedAssetInfoActionBottomSheet"
-        android:name="com.algorand.android.modules.assets.action.unsupportedasset.UnsupportedAssetInfoActionBottomSheet"
+        android:name="network.voi.hera.modules.assets.action.unsupportedasset.UnsupportedAssetInfoActionBottomSheet"
         android:label="UnsupportedAssetInfoActionBottomSheet">
         <argument
             android:name="assetAction"
-            app:argType="com.algorand.android.models.AssetAction" />
+            app:argType="network.voi.hera.models.AssetAction" />
     </dialog>
 
     <dialog
         android:id="@+id/unsupportedAssetNotificationRequestActionBottomSheet"
-        android:name="com.algorand.android.modules.assets.action.optin.UnsupportedAssetNotificationRequestActionBottomSheet"
+        android:name="network.voi.hera.modules.assets.action.optin.UnsupportedAssetNotificationRequestActionBottomSheet"
         android:label="UnsupportedAssetNotificationRequestActionBottomSheet">
         <argument
             android:name="assetAction"
-            app:argType="com.algorand.android.models.AssetAction" />
+            app:argType="network.voi.hera.models.AssetAction" />
     </dialog>
 
     <dialog
         android:id="@+id/unsupportedAddAssetTryLaterBottomSheet"
-        android:name="com.algorand.android.modules.assets.action.trylater.UnsupportedAddAssetTryLaterBottomSheet"
+        android:name="network.voi.hera.modules.assets.action.trylater.UnsupportedAddAssetTryLaterBottomSheet"
         android:label="UnsupportedAddAssetTryLaterBottomSheet">
         <argument
             android:name="assetAction"
-            app:argType="com.algorand.android.models.AssetAction" />
+            app:argType="network.voi.hera.models.AssetAction" />
     </dialog>
 
     <fragment
         android:id="@+id/standardAccountOrderFragment"
-        android:name="com.algorand.android.modules.sorting.accountsorting.ui.AccountSortFragment"
+        android:name="network.voi.hera.modules.sorting.accountsorting.ui.AccountSortFragment"
         android:label="StandardAccountOrderFragment" />
 
     <dialog
         android:id="@+id/accountErrorOptionsBottomSheet"
-        android:name="com.algorand.android.ui.accountoptions.AccountErrorOptionsBottomSheet"
+        android:name="network.voi.hera.ui.accountoptions.AccountErrorOptionsBottomSheet"
         android:label="AccountErrorOptionsBottomSheet"
         tools:layout="@layout/bottom_sheet_accounts_options">
         <argument
@@ -1124,23 +1124,23 @@
             app:destination="@id/warningConfirmationNavigation">
             <argument
                 android:name="warningConfirmation"
-                app:argType="com.algorand.android.models.WarningConfirmation" />
+                app:argType="network.voi.hera.models.WarningConfirmation" />
         </action>
     </dialog>
 
     <fragment
         android:id="@+id/disablePasswordVerificationFragment"
-        android:name="com.algorand.android.ui.lock.DisablePasswordVerificationFragment"
+        android:name="network.voi.hera.ui.lock.DisablePasswordVerificationFragment"
         android:label="DisablePasswordVerificationFragment" />
 
     <fragment
         android:id="@+id/changePasswordVerificationFragment"
-        android:name="com.algorand.android.ui.lock.ChangePasswordVerificationFragment"
+        android:name="network.voi.hera.ui.lock.ChangePasswordVerificationFragment"
         android:label="ChangePasswordVerificationFragment" />
 
     <dialog
         android:id="@+id/collectibleTransactionApproveBottomSheet"
-        android:name="com.algorand.android.nft.ui.nftapprovetransaction.CollectibleTransactionApproveBottomSheet"
+        android:name="network.voi.hera.nft.ui.nftapprovetransaction.CollectibleTransactionApproveBottomSheet"
         android:label="CollectibleTransactionApproveBottomSheet">
         <argument
             android:name="senderPublicKey"
@@ -1168,12 +1168,12 @@
 
     <fragment
         android:id="@+id/disableBiometricAuthPasswordVerificationFragment"
-        android:name="com.algorand.android.ui.lock.DisableBiometricAuthPasswordVerificationFragment"
+        android:name="network.voi.hera.ui.lock.DisableBiometricAuthPasswordVerificationFragment"
         android:label="DisableBiometricAuthPasswordVerificationFragment"
         tools:layout="@layout/fragment_base_password" />
     <dialog
         android:id="@+id/manageAssetsBottomSheet"
-        android:name="com.algorand.android.modules.assets.manage.ManageAssetsBottomSheet"
+        android:name="network.voi.hera.modules.assets.manage.ManageAssetsBottomSheet"
         android:label="ManageAssetsBottomSheet"
         tools:layout="@layout/bottom_sheet_manage_assets">
 
@@ -1196,7 +1196,7 @@
 
     <dialog
         android:id="@+id/accountsAddressScanActionBottomSheet"
-        android:name="com.algorand.android.ui.accounts.AccountsAddressScanActionBottomSheet"
+        android:name="network.voi.hera.ui.accounts.AccountsAddressScanActionBottomSheet"
         android:label="AccountsAddressScanActionBottomSheet"
         tools:layout="@layout/bottom_sheet_accounts_address_scan_action">
         <argument
@@ -1222,7 +1222,7 @@
 
     <dialog
         android:id="@+id/accountQuickActionsBottomSheet"
-        android:name="com.algorand.android.modules.accountdetail.ui.AccountQuickActionsBottomSheet"
+        android:name="network.voi.hera.modules.accountdetail.ui.AccountQuickActionsBottomSheet"
         android:label="AccountQuickActionsBottomSheet"
         tools:layout="@layout/bottom_sheet_account_quick_actions">
         <action
@@ -1265,7 +1265,7 @@
 
     <dialog
         android:id="@+id/manageCollectiblesBottomSheet"
-        android:name="com.algorand.android.nft.ui.nftlisting.ManageNFTsBottomSheet"
+        android:name="network.voi.hera.nft.ui.nftlisting.ManageNFTsBottomSheet"
         android:label="ManageCollectiblesBottomSheet"
         tools:layout="@layout/bottom_sheet_manage_nfts">
         <action
@@ -1278,25 +1278,25 @@
 
     <fragment
         android:id="@+id/collectibleSortPreferenceFragment"
-        android:name="com.algorand.android.modules.sorting.nftsorting.ui.CollectiblesSortPreferenceFragment"
+        android:name="network.voi.hera.modules.sorting.nftsorting.ui.CollectiblesSortPreferenceFragment"
         android:label="CollectiblesSortPreferenceFragment"
         tools:layout="@layout/fragment_collectible_sort_preference" />
 
     <dialog
         android:id="@+id/requiredMinimumBalanceInformationBottomSheet"
-        android:name="com.algorand.android.modules.accountdetail.requiredminimumbalance.RequiredMinimumBalanceInformationBottomSheet"
+        android:name="network.voi.hera.modules.accountdetail.requiredminimumbalance.RequiredMinimumBalanceInformationBottomSheet"
         android:label="RequiredMinimumBalanceInformationBottomSheet"
         tools:layout="@layout/bottom_sheet_base_information" />
 
     <fragment
         android:id="@+id/accountNFTFilterFragment"
-        android:name="com.algorand.android.modules.accountdetail.nftfilter.ui.AccountNFTFilterFragment"
+        android:name="network.voi.hera.modules.accountdetail.nftfilter.ui.AccountNFTFilterFragment"
         android:label="AccountNFTFilterFragment"
         tools:layout="@layout/fragment_account_nft_filter" />
 
     <dialog
         android:id="@+id/manageAccountNFTsBottomSheet"
-        android:name="com.algorand.android.modules.accountdetail.manageaccountnft.ManageAccountNFTsBottomSheet"
+        android:name="network.voi.hera.modules.accountdetail.manageaccountnft.ManageAccountNFTsBottomSheet"
         android:label="ManageAccountNFTsBottomSheet"
         tools:layout="@layout/bottom_sheet_manage_nfts">
         <action

@@ -43,7 +43,7 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_height="wrap_content">
 
-        <com.algorand.android.customviews.ListMenuItemView
+        <network.voi.hera.customviews.ListMenuItemView
             android:id="@+id/buyAlgoButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -53,7 +53,7 @@
             app:icon="@drawable/ic_algo_helper_button"
             app:title="@string/buy_algo" />
 
-        <com.algorand.android.customviews.ListMenuItemView
+        <network.voi.hera.customviews.ListMenuItemView
             android:id="@+id/swapButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -62,7 +62,7 @@
             app:icon="@drawable/ic_swap_helper_button_bg_gray"
             app:title="@string/swap" />
 
-        <com.algorand.android.customviews.ListMenuItemView
+        <network.voi.hera.customviews.ListMenuItemView
             android:id="@+id/sendButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -71,7 +71,7 @@
             app:icon="@drawable/ic_send_helper_button_bg_gray"
             app:title="@string/send" />
 
-        <com.algorand.android.customviews.ListMenuItemView
+        <network.voi.hera.customviews.ListMenuItemView
             android:id="@+id/receiveButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -80,7 +80,7 @@
             app:icon="@drawable/ic_receive_helper_button"
             app:title="@string/receive" />
 
-        <com.algorand.android.customviews.ListMenuItemView
+        <network.voi.hera.customviews.ListMenuItemView
             android:id="@+id/scanQrButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

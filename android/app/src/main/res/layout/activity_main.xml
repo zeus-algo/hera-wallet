@@ -16,7 +16,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.algorand.android.customviews.CustomToolbar
+    <network.voi.hera.customviews.CustomToolbar
         android:id="@+id/toolbar"
         android:layout_width="0dp"
         android:layout_height="@dimen/default_toolbar_height"
@@ -57,7 +57,7 @@
         app:menu="@menu/bottom_navigation_menu"
         tools:visibility="visible" />
 
-    <com.algorand.android.customviews.CoreActionsTabBarView
+    <network.voi.hera.customviews.CoreActionsTabBarView
         android:id="@+id/coreActionsTabBarView"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -70,7 +70,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:visibility="visible" />
 
-    <com.algorand.android.customviews.AlertView
+    <network.voi.hera.customviews.AlertView
         android:id="@+id/alertView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

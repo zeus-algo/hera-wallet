@@ -18,7 +18,7 @@
 
     <fragment
         android:id="@+id/showQrFragment"
-        android:name="com.algorand.android.utils.ShowQrFragment"
+        android:name="network.voi.hera.utils.ShowQrFragment"
         android:label="ShowQrFragment"
         tools:layout="@layout/fragment_show_qr">
         <argument

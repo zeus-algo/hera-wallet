@@ -10,7 +10,7 @@
   ~  limitations under the License
   ~
   -->
-<com.algorand.android.customviews.NonScrollableNestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<network.voi.hera.customviews.NonScrollableNestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/rootScrollView"
@@ -71,7 +71,7 @@
             app:layout_goneMarginStart="@dimen/spacing_xlarge"
             tools:text="May 10, 08:30 AM" />
 
-        <com.algorand.android.customviews.algorandchart.CompactChartView
+        <network.voi.hera.customviews.algorandchart.CompactChartView
             android:id="@+id/assetPriceChartView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -206,4 +206,4 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-</com.algorand.android.customviews.NonScrollableNestedScrollView>
+</network.voi.hera.customviews.NonScrollableNestedScrollView>

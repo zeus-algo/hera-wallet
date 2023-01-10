@@ -23,7 +23,7 @@
 
     <fragment
         android:id="@+id/rekeyInstructionFragment"
-        android:name="com.algorand.android.ui.rekey.RekeyInstructionFragment"
+        android:name="network.voi.hera.ui.rekey.RekeyInstructionFragment"
         android:label="RekeyInstructionFragment"
         tools:layout="@layout/fragment_rekey_instruction">
         <argument
@@ -36,7 +36,7 @@
 
     <fragment
         android:id="@+id/rekeyLedgerSearchFragment"
-        android:name="com.algorand.android.ui.rekey.RekeyLedgerSearchFragment"
+        android:name="network.voi.hera.ui.rekey.RekeyLedgerSearchFragment"
         android:label="RekeyLedgerSearchFragment"
         tools:layout="@layout/fragment_ledger_search">
         <argument
@@ -52,7 +52,7 @@
 
     <fragment
         android:id="@+id/rekeyLedgerAccountSelectionFragment"
-        android:name="com.algorand.android.ui.rekey.RekeyLedgerAccountSelectionFragment"
+        android:name="network.voi.hera.ui.rekey.RekeyLedgerAccountSelectionFragment"
         android:label="RekeyLedgerAccountSelectionFragment"
         tools:layout="@layout/fragment_ledger_account_selection">
         <argument
@@ -64,7 +64,7 @@
             app:argType="string" />
         <argument
             android:name="ledgerAccountsInformation"
-            app:argType="com.algorand.android.models.AccountInformation[]" />
+            app:argType="network.voi.hera.models.AccountInformation[]" />
         <argument
             android:name="rekeyAddress"
             app:argType="string" />
@@ -75,7 +75,7 @@
 
     <dialog
         android:id="@+id/ledgerPairInstructionsBottomSheet"
-        android:name="com.algorand.android.ui.ledgersearch.LedgerPairInstructionsBottomSheet"
+        android:name="network.voi.hera.ui.ledgersearch.LedgerPairInstructionsBottomSheet"
         android:label="LedgerPairInstructionsBottomSheet"
         tools:layout="@layout/bottom_sheet_ledger_pair_instructions">
         <argument
@@ -85,7 +85,7 @@
 
     <fragment
         android:id="@+id/rekeyConfirmationFragment"
-        android:name="com.algorand.android.ui.rekey.RekeyConfirmationFragment"
+        android:name="network.voi.hera.ui.rekey.RekeyConfirmationFragment"
         android:label="RekeyConfirmationFragment"
         tools:layout="@layout/fragment_rekey_confirmation">
         <argument
@@ -101,7 +101,7 @@
             app:popUpToInclusive="true" />
         <argument
             android:name="ledgerDetail"
-            app:argType="com.algorand.android.models.Account$Detail$Ledger" />
+            app:argType="network.voi.hera.models.Account$Detail$Ledger" />
         <action
             android:id="@+id/action_rekeyConfirmationFragment_to_verifyRekeyInfoFragment"
             app:destination="@id/verifyRekeyInfoFragment" />
@@ -109,7 +109,7 @@
 
     <fragment
         android:id="@+id/verifyRekeyInfoFragment"
-        android:name="com.algorand.android.ui.rekey.VerifyRekeyInfoFragment"
+        android:name="network.voi.hera.ui.rekey.VerifyRekeyInfoFragment"
         android:label="VerifyRekeyInfoFragment">
         <argument
             android:name="publicKey"

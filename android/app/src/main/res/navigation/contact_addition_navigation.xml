@@ -18,7 +18,7 @@
 
     <fragment
         android:id="@+id/addContactFragment"
-        android:name="com.algorand.android.ui.contacts.addcontact.AddContactFragment"
+        android:name="network.voi.hera.ui.contacts.addcontact.AddContactFragment"
         android:label="AddContactFragment">
         <argument
             android:name="contactName"
@@ -41,7 +41,7 @@
 
     <fragment
         android:id="@+id/addContactQrScannerFragment"
-        android:name="com.algorand.android.ui.contacts.addcontact.AddContactQrScannerFragment"
+        android:name="network.voi.hera.ui.contacts.addcontact.AddContactQrScannerFragment"
         android:label="AddContactQrScannerFragment"
         tools:layout="@layout/fragment_qr_code_scanner" />
 

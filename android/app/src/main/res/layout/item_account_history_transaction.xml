@@ -69,7 +69,7 @@
         app:layout_goneMarginStart="0dp"
         tools:text="@tools:sample/lorem[1]" />
 
-    <com.algorand.android.customviews.AlgorandAmountView
+    <network.voi.hera.customviews.AlgorandAmountView
         android:id="@+id/amountTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

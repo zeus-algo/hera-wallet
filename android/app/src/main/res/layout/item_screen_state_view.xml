@@ -11,7 +11,7 @@
   ~
   -->
 
-<com.algorand.android.customviews.ScreenStateView xmlns:android="http://schemas.android.com/apk/res/android"
+<network.voi.hera.customviews.ScreenStateView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/screenStateView"
     android:layout_width="match_parent"

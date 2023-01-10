@@ -18,12 +18,12 @@
 
     <dialog
         android:id="@+id/dateFilterPickerBottomSheet"
-        android:name="com.algorand.android.ui.datepicker.DateFilterListBottomSheet"
+        android:name="network.voi.hera.ui.datepicker.DateFilterListBottomSheet"
         android:label="DateFilterPickerBottomSheet"
         tools:layout="@layout/bottom_sheet_date_filter_list">
         <argument
             android:name="selectedDateFilter"
-            app:argType="com.algorand.android.models.DateFilter" />
+            app:argType="network.voi.hera.models.DateFilter" />
         <action
             android:id="@+id/action_dateFilterPickerBottomSheet_to_customDateRangeBottomSheet"
             app:destination="@id/customDateRangeBottomSheet" />
@@ -31,12 +31,12 @@
 
     <dialog
         android:id="@+id/customDateRangeBottomSheet"
-        android:name="com.algorand.android.ui.datepicker.CustomDateRangeBottomSheet"
+        android:name="network.voi.hera.ui.datepicker.CustomDateRangeBottomSheet"
         android:label="CustomDateRangeBottomSheet">
         <argument
             android:name="customRange"
             android:defaultValue="@null"
-            app:argType="com.algorand.android.models.DateFilter$CustomRange"
+            app:argType="network.voi.hera.models.DateFilter$CustomRange"
             app:nullable="true" />
     </dialog>
 

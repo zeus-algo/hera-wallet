@@ -16,7 +16,7 @@
     android:layout_height="match_parent"
     android:animateLayoutChanges="true">
 
-    <com.algorand.android.customviews.collectibleimageview.ZoomableCollectibleImageView
+    <network.voi.hera.customviews.collectibleimageview.ZoomableCollectibleImageView
         android:id="@+id/collectibleImageView"
         android:layout_width="0dp"
         android:layout_height="0dp"

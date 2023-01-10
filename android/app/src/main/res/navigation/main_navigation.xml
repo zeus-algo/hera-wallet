@@ -97,16 +97,16 @@
         app:destination="@id/singleButtonBottomSheetNavigation">
         <argument
             android:name="titleAnnotatedString"
-            app:argType="com.algorand.android.models.AnnotatedString" />
+            app:argType="network.voi.hera.models.AnnotatedString" />
         <argument
             android:name="errorAnnotatedString"
             android:defaultValue="@null"
-            app:argType="com.algorand.android.models.AnnotatedString"
+            app:argType="network.voi.hera.models.AnnotatedString"
             app:nullable="true" />
         <argument
             android:name="descriptionAnnotatedString"
             android:defaultValue="@null"
-            app:argType="com.algorand.android.models.AnnotatedString"
+            app:argType="network.voi.hera.models.AnnotatedString"
             app:nullable="true" />
         <argument
             android:name="drawableResId"
@@ -128,7 +128,7 @@
 
     <fragment
         android:id="@+id/lockFragment"
-        android:name="com.algorand.android.ui.lock.LockFragment"
+        android:name="network.voi.hera.ui.lock.LockFragment"
         android:label="LockFragment"
         tools:layout="@layout/fragment_lock">
         <action
@@ -141,13 +141,13 @@
             app:destination="@id/warningConfirmationNavigation">
             <argument
                 android:name="warningConfirmation"
-                app:argType="com.algorand.android.models.WarningConfirmation" />
+                app:argType="network.voi.hera.models.WarningConfirmation" />
         </action>
     </fragment>
 
     <fragment
         android:id="@+id/howDoesLedgerWorkFragment"
-        android:name="com.algorand.android.ui.ledgersearch.instructions.HowDoesLedgerWorkFragment"
+        android:name="network.voi.hera.ui.ledgersearch.instructions.HowDoesLedgerWorkFragment"
         android:label="HowDoesLedgerWorkFragment"
         tools:layout="@layout/layout_ledger_instructions">
         <action
@@ -163,7 +163,7 @@
 
     <fragment
         android:id="@+id/ledgerTroubleshootFragment"
-        android:name="com.algorand.android.ui.ledgersearch.instructions.LedgerTroubleshootFragment"
+        android:name="network.voi.hera.ui.ledgersearch.instructions.LedgerTroubleshootFragment"
         android:label="LedgerTroubleshootFragment"
         tools:layout="@layout/layout_ledger_instructions">
         <action
@@ -178,47 +178,47 @@
     </fragment>
     <dialog
         android:id="@+id/ledgerInformationBottomSheet"
-        android:name="com.algorand.android.ui.ledgersearch.ledgerinformation.LedgerInformationBottomSheet"
+        android:name="network.voi.hera.ui.ledgersearch.ledgerinformation.LedgerInformationBottomSheet"
         android:label="LedgerInformationFragment"
         tools:layout="@layout/bottom_sheet_ledger_information">
         <argument
             android:name="selectedLedgerAccountSelectionListItem"
-            app:argType="com.algorand.android.models.AccountSelectionListItem$AccountItem" />
+            app:argType="network.voi.hera.models.AccountSelectionListItem$AccountItem" />
         <argument
             android:name="authLedgerAccountSelectionListItem"
-            app:argType="com.algorand.android.models.AccountSelectionListItem$AccountItem"
+            app:argType="network.voi.hera.models.AccountSelectionListItem$AccountItem"
             app:nullable="true" />
         <argument
             android:name="rekeyedAccountSelectionListItem"
-            app:argType="com.algorand.android.models.AccountSelectionListItem$AccountItem[]"
+            app:argType="network.voi.hera.models.AccountSelectionListItem$AccountItem[]"
             app:nullable="true" />
     </dialog>
 
     <dialog
         android:id="@+id/enableLedgerBluetoothBottomSheet"
-        android:name="com.algorand.android.ui.ledgersearch.pairinginfo.EnableLedgerBluetoothBottomSheet"
+        android:name="network.voi.hera.ui.ledgersearch.pairinginfo.EnableLedgerBluetoothBottomSheet"
         android:label="EnableLedgerBluetoothInfoBottomSheet"
         tools:layout="@layout/bottom_sheet_ledger_pair_info" />
 
     <dialog
         android:id="@+id/installAlgorandOntoLedgerBottomSheet"
-        android:name="com.algorand.android.ui.ledgersearch.pairinginfo.InstallAlgorandOntoLedgerBottomSheet"
+        android:name="network.voi.hera.ui.ledgersearch.pairinginfo.InstallAlgorandOntoLedgerBottomSheet"
         android:label="InstallAlgorandOntoLedgerInfoBottomSheet"
         tools:layout="@layout/bottom_sheet_ledger_pair_info" />
 
     <dialog
         android:id="@+id/openAppOnLedgerBottomSheet"
-        android:name="com.algorand.android.ui.ledgersearch.pairinginfo.OpenAppOnLedgerBottomSheet"
+        android:name="network.voi.hera.ui.ledgersearch.pairinginfo.OpenAppOnLedgerBottomSheet"
         android:label="OpenAppOnLedgerInfoBottomSheet"
         tools:layout="@layout/bottom_sheet_ledger_pair_info" />
     <dialog
         android:id="@+id/confirmationBottomSheet"
-        android:name="com.algorand.android.ui.confirmation.ConfirmationBottomSheet"
+        android:name="network.voi.hera.ui.confirmation.ConfirmationBottomSheet"
         android:label="ConfirmationBottomSheet"
         tools:layout="@layout/bottom_sheet_double_button">
         <argument
             android:name="parameters"
-            app:argType="com.algorand.android.models.ConfirmationBottomSheetParameters" />
+            app:argType="network.voi.hera.models.ConfirmationBottomSheetParameters" />
     </dialog>
 
 </navigation>

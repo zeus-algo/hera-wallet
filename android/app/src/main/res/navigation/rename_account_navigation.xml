@@ -18,7 +18,7 @@
 
     <dialog
         android:id="@+id/renameAccountBottomSheet"
-        android:name="com.algorand.android.ui.accounts.RenameAccountBottomSheet"
+        android:name="network.voi.hera.ui.accounts.RenameAccountBottomSheet"
         android:label="RenameAccountBottomSheet"
         tools:layout="@layout/bottom_sheet_rename_account">
         <argument

@@ -48,7 +48,7 @@
         tools:text="@tools:sample/lorem[12]"
         tools:visibility="visible" />
 
-    <com.algorand.android.customviews.AlgorandSearchView
+    <network.voi.hera.customviews.AlgorandSearchView
         android:id="@+id/searchView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -79,7 +79,7 @@
         app:layout_goneMarginTop="28dp"
         tools:listitem="@layout/item_sender_account" />
 
-    <com.algorand.android.customviews.ScreenStateView
+    <network.voi.hera.customviews.ScreenStateView
         android:id="@+id/screenStateView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

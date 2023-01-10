@@ -36,7 +36,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@id/assetAmountTextView" />
 
-        <com.algorand.android.customviews.AlgorandAmountView
+        <network.voi.hera.customviews.AlgorandAmountView
             android:id="@+id/assetAmountTextView"
             style="@style/TextAppearance.Body.Large"
             android:layout_width="0dp"
@@ -83,7 +83,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@id/accountUserView" />
 
-        <com.algorand.android.customviews.AlgorandUserView
+        <network.voi.hera.customviews.AlgorandUserView
             android:id="@+id/accountUserView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -104,7 +104,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@id/toUserView" />
 
-        <com.algorand.android.customviews.AlgorandUserView
+        <network.voi.hera.customviews.AlgorandUserView
             android:id="@+id/toUserView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -125,7 +125,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@id/feeAmountView" />
 
-        <com.algorand.android.customviews.AlgorandAmountView
+        <network.voi.hera.customviews.AlgorandAmountView
             android:id="@+id/feeAmountView"
             style="@style/TextAppearance.Body.Mono"
             android:layout_width="0dp"
@@ -175,7 +175,7 @@
             tools:text="$191.00"
             tools:visibility="visible" />
 
-        <com.algorand.android.customviews.AlgorandAmountView
+        <network.voi.hera.customviews.AlgorandAmountView
             android:id="@+id/assetBalanceTextView"
             style="@style/TextAppearance.Footnote.Mono"
             android:layout_width="0dp"

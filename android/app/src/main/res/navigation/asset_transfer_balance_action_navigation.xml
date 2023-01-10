@@ -17,11 +17,11 @@
 
     <dialog
         android:id="@+id/transferBalanceActionBottomSheet"
-        android:name="com.algorand.android.modules.assets.action.transferbalance.TransferBalanceActionBottomSheet"
+        android:name="network.voi.hera.modules.assets.action.transferbalance.TransferBalanceActionBottomSheet"
         android:label="TransferBalanceActionBottomSheet">
         <argument
             android:name="assetAction"
-            app:argType="com.algorand.android.models.AssetAction" />
+            app:argType="network.voi.hera.models.AssetAction" />
     </dialog>
 
 </navigation>

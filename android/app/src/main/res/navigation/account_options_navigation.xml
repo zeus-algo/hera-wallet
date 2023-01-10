@@ -28,7 +28,7 @@
 
     <dialog
         android:id="@+id/accountOptionsBottomSheet"
-        android:name="com.algorand.android.ui.accountoptions.AccountOptionsBottomSheet"
+        android:name="network.voi.hera.ui.accountoptions.AccountOptionsBottomSheet"
         android:label="AccountOptionsBottomSheet"
         tools:layout="@layout/bottom_sheet_accounts_options">
         <argument
@@ -83,7 +83,7 @@
             app:popUpToInclusive="true">
             <argument
                 android:name="warningConfirmation"
-                app:argType="com.algorand.android.models.WarningConfirmation" />
+                app:argType="network.voi.hera.models.WarningConfirmation" />
         </action>
     </dialog>
 

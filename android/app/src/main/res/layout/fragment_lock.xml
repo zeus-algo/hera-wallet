@@ -33,7 +33,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <com.algorand.android.customviews.DialPadView
+        <network.voi.hera.customviews.DialPadView
             android:id="@+id/dialPad"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -45,7 +45,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
-        <com.algorand.android.customviews.SixDigitPasswordView
+        <network.voi.hera.customviews.SixDigitPasswordView
             android:id="@+id/passwordView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
